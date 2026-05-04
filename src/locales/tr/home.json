@@ -1,1 +1,64 @@
-{}
+{
+  "hero": {
+    "eyebrow": "OP. DR. KAAN IŞIK · KARDİYAK CERRAHİ",
+    "title": ["Modern kalp", " cerrahisi,", " ", "güvenli", " eller."],
+    "sub": "Almanya'da yetişmiş, minimal invaziv kardiyak cerrahi alanında uzmanlaşmış. Antalya Konyaaltı'ndaki kliniğinde 8 yıldır hastalarına hizmet veriyor.",
+    "meta": ["ANTALYA · KONYAALTI", "TR · EN · DE"],
+    "scroll": "Aşağı kaydır",
+    "placeholder": "hero video · clinic walk-in loop · 1080p mp4 placeholder"
+  },
+  "doctor": {
+    "eyebrow": "Hekim Hakkında",
+    "heading": ["Bir hayatın", " ritmi", " — kalp."],
+    "credentials": "MD · ADULT CARDIAC SURGERY · EACTS MEMBER",
+    "bioShort": [
+      "Op. Dr. Kaan Işık, koroner bypass, kalp kapak ve aort cerrahisinde uzmanlaşmış bir kardiyak cerrahıdır. Almanya'daki iki yıllık fellowship döneminde minimal invaziv tekniklere odaklanmış; bugün hem kendi kliniğinde hasta görür hem de Antalya'daki anlaşmalı özel hastanelerde ameliyat yapar.",
+      "Tedavinin yalnızca ameliyat masasında değil; karşılıklı anlayış, açık iletişim ve kişiye özel bir bakım planıyla başladığına inanır."
+    ],
+    "expand": "Tam özgeçmiş",
+    "collapse": "Daralt",
+    "timelineTitle": "Eğitim & Kariyer",
+    "memberships": "Üyelikler",
+    "tags": ["TKDCD", "EACTS", "Almanya Eğitimli", "TR · EN · DE"],
+    "timeline": [
+      {
+        "period": "2002 — 2008",
+        "title": "Koç Üniversitesi Tıp Fakültesi",
+        "detail": "Tıp doktoru (MD)"
+      },
+      {
+        "period": "2008 — 2014",
+        "title": "İstanbul Üniversitesi Cerrahpaşa",
+        "detail": "Erişkin Kalp Cerrahisi uzmanlık eğitimi"
+      },
+      {
+        "period": "2014 — 2016",
+        "title": "Almanya — Fellowship",
+        "detail": "Minimal invaziv kardiyak cerrahi (2 yıl)"
+      },
+      {
+        "period": "2016 — 2018",
+        "title": "Özel Hastane Pratiği",
+        "detail": "Türkiye'de özel hastanelerde kıdemli kardiyak cerrah"
+      },
+      {
+        "period": "2018 — bugün",
+        "title": "Kendi Kliniği — Konyaaltı",
+        "detail": "Konsültasyon merkezi + anlaşmalı hastanelerde ameliyat"
+      }
+    ],
+    "photoLabel": "portrait · 4:5 placeholder",
+    "photoCaption": "drop in: studio portrait, soft side light, neutral bg",
+    "badgeLabel": "est."
+  },
+  "stats": {
+    "eyebrow": "Bir bakışta",
+    "heading": ["Sayılarla", " Op. Dr. Kaan Işık."],
+    "items": [
+      { "num": 2000, "suffix": "+", "label": "Açık kalp ameliyatı" },
+      { "num": 8, "suffix": " yıl", "label": "Kendi kliniğinde hizmet" },
+      { "num": 95, "suffix": "%+", "label": "Hasta memnuniyeti" },
+      { "num": 3, "suffix": " dil", "label": "TR · EN · DE hizmet" }
+    ]
+  }
+}

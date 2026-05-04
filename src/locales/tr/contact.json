@@ -1,1 +1,26 @@
-{}
+{
+  "eyebrow": "İletişim",
+  "heading": ["Bir görüşme,", " bir başlangıç."],
+  "lead": "Sorularınız, ikinci görüş talepleri ve randevu için bize ulaşın.",
+  "labels": {
+    "phone": "Telefon",
+    "email": "E-posta",
+    "address": "Adres",
+    "addressLine": "Mah. Liman, Konyaaltı / Antalya, Türkiye",
+    "addressSub": "Pazartesi — Cumartesi · 09:00 — 18:00",
+    "social": "Sosyal medya"
+  },
+  "form": {
+    "title": "Mesaj bırakın",
+    "lead": "Genellikle 24 saat içinde dönüş yapıyoruz.",
+    "name": "Adınız",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "message": "Mesajınız",
+    "switchPhone": "Telefon",
+    "switchEmail": "E-posta",
+    "submit": "Mesajı gönder",
+    "success": "Mesajınız iletildi. (Bu site bir portfolyo örneğidir, gerçek gönderim yapılmaz.)"
+  },
+  "maps": { "open": "Yol Tarifi", "label": "KONYAALTI · ANTALYA" }
+}

@@ -1,1 +1,22 @@
-{}
+{
+  "eyebrow": "International patients",
+  "heading": ["A complete journey", " in three", " languages."],
+  "lead": "An end-to-end programme for patients arriving from abroad — from pre-op consultation to post-op follow-up.",
+  "items": [
+    {
+      "icon": "video",
+      "title": "Video pre-op consultation",
+      "desc": "Plan the procedure, review imaging and discuss risk before you travel."
+    },
+    {
+      "icon": "shield",
+      "title": "Welcome & coordination",
+      "desc": "Airport transfer, accommodation and clinic visits handled by one team."
+    },
+    {
+      "icon": "globe",
+      "title": "On-site interpreter",
+      "desc": "English- and German-speaking interpreters accompany every consultation."
+    }
+  ]
+}

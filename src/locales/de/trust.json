@@ -1,1 +1,22 @@
-{}
+{
+  "eyebrow": "Internationale Patienten",
+  "heading": ["Eine vollständige", " Reise in drei", " Sprachen."],
+  "lead": "Ein Programm vom Erstgespräch bis zur Nachsorge — durchdacht für Patienten aus dem Ausland.",
+  "items": [
+    {
+      "icon": "video",
+      "title": "Video-Voruntersuchung",
+      "desc": "Planung, Bildbeurteilung und Risikogespräch noch bevor Sie reisen."
+    },
+    {
+      "icon": "shield",
+      "title": "Empfang & Koordination",
+      "desc": "Flughafentransfer, Unterkunft und Klinikbesuche aus einer Hand."
+    },
+    {
+      "icon": "globe",
+      "title": "Dolmetscher vor Ort",
+      "desc": "Englisch- und deutschsprachige Dolmetscher begleiten jede Sprechstunde."
+    }
+  ]
+}

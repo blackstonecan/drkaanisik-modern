@@ -1,1 +1,27 @@
-{}
+{
+  "eyebrow": "Häufige Fragen",
+  "heading": ["Was Sie wissen sollten,", " bevor Sie sich entscheiden."],
+  "lead": "Die häufigsten Fragen — kurz und klar beantwortet.",
+  "items": [
+    {
+      "q": "Wo finden die Operationen statt?",
+      "a": "Die Praxis in Konyaaltı ist ein Beratungs- und Nachsorgezentrum. Die Operationen selbst werden in voll ausgestatteten Partnerkliniken in Antalya durchgeführt. Alle Vor- und Nachgespräche finden in der Praxis statt."
+    },
+    {
+      "q": "Worin unterscheidet sich MIDCAB vom klassischen Bypass?",
+      "a": "Bei MIDCAB wird das Brustbein nicht geöffnet. Über einen kleinen Schnitt unter der linken Brust operieren wir gezielt — das bedeutet weniger Schmerzen, kürzeren Klinikaufenthalt und schnellere Rückkehr in den Alltag."
+    },
+    {
+      "q": "Ich komme aus dem Ausland — wie läuft das ab?",
+      "a": "Wir beginnen mit einer Video-Sprechstunde. Bei Eignung wird ein Termin in einer unserer Partnerkliniken geplant; Transfer und Unterkunft werden organisiert. Ein Dolmetscher begleitet Sie, und wir bleiben über Telemedizin in Kontakt."
+    },
+    {
+      "q": "Für wen ist TAVI geeignet?",
+      "a": "TAVI ist für Patienten mit Aortenstenose gedacht, bei denen eine offene Operation ein hohes Risiko bedeutet — meist ältere oder mehrfach erkrankte Patienten. Die Entscheidung fällt im Heart-Team nach Echo und CT."
+    },
+    {
+      "q": "Welche Versicherungen und Sprachen?",
+      "a": "Wir arbeiten auf Türkisch, Englisch und Deutsch. Viele private und internationale Versicherungen werden über unsere Partnerkliniken akzeptiert — fragen Sie uns gerne über das Formular."
+    }
+  ]
+}

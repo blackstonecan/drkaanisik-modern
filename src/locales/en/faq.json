@@ -1,1 +1,27 @@
-{}
+{
+  "eyebrow": "Frequently asked",
+  "heading": ["The things you'd ask", " before deciding."],
+  "lead": "The questions patients and families bring up most often, with concise answers.",
+  "items": [
+    {
+      "q": "Where do the operations take place?",
+      "a": "The clinic in Konyaaltı is a consultation and follow-up centre. Operations themselves are performed at fully-equipped contracted private hospitals across Antalya. All pre-op planning and post-op visits happen at the clinic."
+    },
+    {
+      "q": "How is MIDCAB different from a classic bypass?",
+      "a": "MIDCAB avoids opening the sternum. Surgery is done through a small incision under the left breast, which means less pain, a shorter hospital stay and faster return to daily life — for patients whose anatomy and vessels make them suitable candidates."
+    },
+    {
+      "q": "I'm coming from abroad — how does it work?",
+      "a": "We start with a video consultation. If you're a candidate, a date is set at one of our partner hospitals; transfer and accommodation are coordinated for you. An English- or German-speaking interpreter joins your visits, and we follow up via telemedicine after you return home."
+    },
+    {
+      "q": "Who is TAVI suitable for?",
+      "a": "TAVI is designed for patients with aortic stenosis who would face high risk in open surgery — typically older patients or those with comorbidities. Eligibility is decided case-by-case after echo, CT imaging and a full heart-team review."
+    },
+    {
+      "q": "Which insurance and languages do you accept?",
+      "a": "We work in Turkish, English and German. Many private and international insurance plans are accepted via our partner hospitals — reach out through the form for specific cover."
+    }
+  ]
+}

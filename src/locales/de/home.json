@@ -1,1 +1,64 @@
-{}
+{
+  "hero": {
+    "eyebrow": "OP. DR. KAAN IŞIK · HERZCHIRURGIE",
+    "title": ["Moderne", " Herzchirurgie,", " ", "in sicheren", " Händen."],
+    "sub": "In Deutschland ausgebildet, spezialisiert auf minimalinvasive Herzchirurgie. Seit acht Jahren in eigener Praxis in Konyaaltı, Antalya.",
+    "meta": ["ANTALYA · KONYAALTI", "TR · EN · DE"],
+    "scroll": "Nach unten scrollen",
+    "placeholder": "hero video · clinic walk-in loop · 1080p mp4 placeholder"
+  },
+  "doctor": {
+    "eyebrow": "Über den Chirurgen",
+    "heading": ["Der Rhythmus", " eines Lebens", " — das Herz."],
+    "credentials": "MD · ERWACHSENEN-HERZCHIRURGIE · EACTS MITGLIED",
+    "bioShort": [
+      "Op. Dr. Kaan Işık ist Herzchirurg mit Schwerpunkt auf koronarer Bypass-, Klappen- und Aortenchirurgie. Nach einem zweijährigen Fellowship in Deutschland hat er seine Praxis konsequent auf minimalinvasive Verfahren ausgerichtet.",
+      "Jede Behandlung beginnt für ihn mit einem Gespräch — zuhören, planen, dann ruhig und präzise operieren."
+    ],
+    "expand": "Vollständiger Lebenslauf",
+    "collapse": "Einklappen",
+    "timelineTitle": "Ausbildung & Karriere",
+    "memberships": "Mitgliedschaften",
+    "tags": ["TKDCD", "EACTS", "In Deutschland ausgebildet", "TR · EN · DE"],
+    "timeline": [
+      {
+        "period": "2002 — 2008",
+        "title": "Koç Universität, Med. Fakultät",
+        "detail": "Doktor der Medizin (MD)"
+      },
+      {
+        "period": "2008 — 2014",
+        "title": "Istanbul Üniversitesi Cerrahpaşa",
+        "detail": "Facharztausbildung Erwachsenen-Herzchirurgie"
+      },
+      {
+        "period": "2014 — 2016",
+        "title": "Deutschland — Fellowship",
+        "detail": "Minimalinvasive Herzchirurgie (2 Jahre)"
+      },
+      {
+        "period": "2016 — 2018",
+        "title": "Privatklinik-Praxis",
+        "detail": "Senior-Herzchirurg an privaten Kliniken in der Türkei"
+      },
+      {
+        "period": "2018 — heute",
+        "title": "Eigene Praxis — Konyaaltı",
+        "detail": "Sprechstunde + Operationen an Partnerkliniken"
+      }
+    ],
+    "photoLabel": "portrait · 4:5 placeholder",
+    "photoCaption": "drop in: studio portrait, soft side light, neutral bg",
+    "badgeLabel": "est."
+  },
+  "stats": {
+    "eyebrow": "Auf einen Blick",
+    "heading": ["Op. Dr. Kaan Işık,", " in Zahlen."],
+    "items": [
+      { "num": 2000, "suffix": "+", "label": "Offene Herzoperationen" },
+      { "num": 8, "suffix": " J.", "label": "Eigene Praxis" },
+      { "num": 95, "suffix": "%+", "label": "Patientenzufriedenheit" },
+      { "num": 3, "suffix": " Sprachen", "label": "TR · EN · DE" }
+    ]
+  }
+}

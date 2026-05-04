@@ -1,1 +1,26 @@
-{}
+{
+  "eyebrow": "Kontakt",
+  "heading": ["Ein Gespräch,", " ein Anfang."],
+  "lead": "Schreiben Sie uns für Fragen, Zweitmeinungen oder einen Termin.",
+  "labels": {
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "addressLine": "Liman Mah., Konyaaltı / Antalya, Türkei",
+    "addressSub": "Montag — Samstag · 09:00 — 18:00",
+    "social": "Social"
+  },
+  "form": {
+    "title": "Nachricht senden",
+    "lead": "Wir antworten in der Regel innerhalb von 24 Stunden.",
+    "name": "Ihr Name",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "message": "Ihre Nachricht",
+    "switchPhone": "Telefon",
+    "switchEmail": "E-Mail",
+    "submit": "Nachricht senden",
+    "success": "Nachricht gesendet. (Diese Seite ist ein Portfolio-Projekt — kein echter Versand.)"
+  },
+  "maps": { "open": "Route", "label": "KONYAALTI · ANTALYA" }
+}

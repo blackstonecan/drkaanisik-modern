@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { HashLink } from '@/components/ui/HashLink'
 import { useLocaleRoute } from '@/lib/hooks/useLocaleRoute'
 
 export function Footer() {
@@ -30,10 +31,10 @@ export function Footer() {
           </div>
           <div className="footer__col">
             <h5>{t('footer.cols.nav')}</h5>
-            <Link to={`${link()}#services`}>{t('nav.services')}</Link>
+            <HashLink to="#services">{t('nav.services')}</HashLink>
             <Link to={link('clinic-tour')}>{t('nav.tour')}</Link>
-            <Link to={`${link()}#faq`}>{t('nav.faq')}</Link>
-            <Link to={`${link()}#contact`}>{t('nav.contact')}</Link>
+            <HashLink to="#faq">{t('nav.faq')}</HashLink>
+            <HashLink to="#contact">{t('nav.contact')}</HashLink>
           </div>
           <div className="footer__col">
             <h5>{t('footer.cols.legal')}</h5>

@@ -1,1 +1,26 @@
-{}
+{
+  "eyebrow": "Contact",
+  "heading": ["One conversation,", " one beginning."],
+  "lead": "Get in touch for questions, second opinions or to book a consultation.",
+  "labels": {
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "addressLine": "Liman Mah., Konyaaltı / Antalya, Türkiye",
+    "addressSub": "Monday — Saturday · 09:00 — 18:00",
+    "social": "Social"
+  },
+  "form": {
+    "title": "Send a message",
+    "lead": "We usually reply within 24 hours.",
+    "name": "Your name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Your message",
+    "switchPhone": "Phone",
+    "switchEmail": "Email",
+    "submit": "Send message",
+    "success": "Message sent. (This site is a portfolio project — no real submission is made.)"
+  },
+  "maps": { "open": "Open in Maps", "label": "KONYAALTI · ANTALYA" }
+}

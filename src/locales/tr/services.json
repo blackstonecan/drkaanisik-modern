@@ -1,1 +1,58 @@
-{}
+{
+  "eyebrow": "Hizmetler",
+  "heading": ["Erişkin kalp", " cerrahisinde", " ", "uzmanlık alanları."],
+  "lead": "Tedaviler her zaman anlaşmalı, tam donanımlı özel hastane ortamında uygulanır. Klinik konsültasyon, planlama ve takip için kullanılır.",
+  "cards": [
+    {
+      "num": "01",
+      "icon": "pulse",
+      "title": "Koroner Arter Cerrahisi",
+      "desc": "Koroner damarlardaki tıkanıklıkların açılması — klasik, off-pump ve minimal invaziv tekniklerle.",
+      "procedures": [
+        { "name": "MIDCAB — Sol meme altı küçük kesi", "featured": true, "badge": "İmza" },
+        { "name": "Off-pump (atan kalpte) bypass" },
+        { "name": "Klasik açık bypass (CABG)" }
+      ]
+    },
+    {
+      "num": "02",
+      "icon": "valve",
+      "title": "Kalp Kapak Cerrahisi",
+      "desc": "Aort ve mitral kapak hastalıklarında, hastaya özel açık veya transkateter yaklaşımlar.",
+      "procedures": [
+        { "name": "TAVI — Transkateter aort kapak" },
+        { "name": "Sutureless aort kapak değişimi" },
+        { "name": "Mitral kapak tamiri / değişimi (mini torakotomi)" },
+        { "name": "Triküspit kapak cerrahisi" }
+      ]
+    },
+    {
+      "num": "03",
+      "icon": "aorta",
+      "title": "Aort Cerrahisi",
+      "desc": "Aort kökü, asendan ve diseksiyon vakalarında elektif ve acil prosedürler.",
+      "procedures": [
+        { "name": "Asendan aort anevrizması" },
+        { "name": "Aort diseksiyonu (acil)" },
+        { "name": "Bentall prosedürü" },
+        { "name": "David prosedürü (kök koruyucu)" }
+      ]
+    },
+    {
+      "num": "04",
+      "icon": "heart",
+      "title": "Diğer Erişkin Kalp Cerrahisi",
+      "desc": "Kalp tümörleri, ritim cerrahisi ve perikard hastalıklarında bütüncül yaklaşım.",
+      "procedures": [
+        { "name": "Atriyal miksoma eksizyonu" },
+        { "name": "Perikardiyektomi" },
+        { "name": "MAZE — Atriyal fibrilasyon cerrahisi" }
+      ]
+    }
+  ],
+  "signature": {
+    "title": "MIDCAB — Doktorun imza prosedürü",
+    "sub": "Sol meme altından küçük bir kesiyle, sternumu açmadan yapılan koroner bypass.",
+    "note": "ALMANYA EĞİTİMLİ"
+  }
+}

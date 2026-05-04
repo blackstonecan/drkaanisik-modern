@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Icon } from '@/components/ui/Icon'
+import { HashLink } from '@/components/ui/HashLink'
 import { LanguageSwitcher } from '@/components/layout/LanguageSwitcher'
 import { useLocaleRoute } from '@/lib/hooks/useLocaleRoute'
 import { cn } from '@/lib/utils'
 
 type HeaderProps = {
   solid: boolean
-  /** When true, the header forces the dark/transparent over-image styling regardless of scroll. */
+  /** When true, force the dark/transparent over-image styling regardless of scroll. */
   forceTransparent?: boolean
 }
 
@@ -27,17 +28,17 @@ export function Header({ solid, forceTransparent = false }: HeaderProps) {
           </span>
         </Link>
         <nav className="nav" aria-label="Main">
-          <Link to={`${link()}#services`}>{t('nav.services')}</Link>
+          <HashLink to="#services">{t('nav.services')}</HashLink>
           <Link to={link('clinic-tour')}>{t('nav.tour')}</Link>
           <Link to={link('blog')}>{t('nav.blog')}</Link>
-          <Link to={`${link()}#faq`}>{t('nav.faq')}</Link>
-          <Link to={`${link()}#contact`}>{t('nav.contact')}</Link>
+          <HashLink to="#faq">{t('nav.faq')}</HashLink>
+          <HashLink to="#contact">{t('nav.contact')}</HashLink>
         </nav>
         <LanguageSwitcher />
-        <Link to={`${link()}#contact`} className="cta-btn">
+        <HashLink to="#contact" className="cta-btn">
           {t('cta.contact')}
           <Icon name="arrow-right" size={14} />
-        </Link>
+        </HashLink>
         <button className="hamburger" aria-label="Menu">
           <span />
           <span />

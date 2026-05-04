@@ -1,1 +1,64 @@
-{}
+{
+  "hero": {
+    "eyebrow": "OP. DR. KAAN IŞIK · CARDIAC SURGERY",
+    "title": ["Modern cardiac", " surgery,", " ", "in trusted", " hands."],
+    "sub": "German-trained, specialised in minimally invasive cardiac surgery. Eight years of independent practice from a Konyaaltı, Antalya clinic.",
+    "meta": ["ANTALYA · KONYAALTI", "TR · EN · DE"],
+    "scroll": "Scroll down",
+    "placeholder": "hero video · clinic walk-in loop · 1080p mp4 placeholder"
+  },
+  "doctor": {
+    "eyebrow": "About the surgeon",
+    "heading": ["The rhythm of", " a life", " — the heart."],
+    "credentials": "MD · ADULT CARDIAC SURGERY · EACTS MEMBER",
+    "bioShort": [
+      "Op. Dr. Kaan Işık is a cardiac surgeon focused on coronary bypass, valve and aortic surgery. After a two-year fellowship in Germany he has built a practice around minimally invasive techniques, dividing his time between his Konyaaltı clinic and contracted hospitals across Antalya.",
+      "He treats every case as a conversation first — listening, planning, then operating with calm precision."
+    ],
+    "expand": "Full résumé",
+    "collapse": "Collapse",
+    "timelineTitle": "Education & career",
+    "memberships": "Memberships",
+    "tags": ["TKDCD", "EACTS", "German-trained", "TR · EN · DE"],
+    "timeline": [
+      {
+        "period": "2002 — 2008",
+        "title": "Koç University, School of Medicine",
+        "detail": "Doctor of Medicine (MD)"
+      },
+      {
+        "period": "2008 — 2014",
+        "title": "Istanbul University, Cerrahpaşa",
+        "detail": "Residency in Adult Cardiac Surgery"
+      },
+      {
+        "period": "2014 — 2016",
+        "title": "Germany — Fellowship",
+        "detail": "Minimally invasive cardiac surgery (2 years)"
+      },
+      {
+        "period": "2016 — 2018",
+        "title": "Private hospital practice",
+        "detail": "Senior cardiac surgeon at private hospitals in Turkey"
+      },
+      {
+        "period": "2018 — present",
+        "title": "Own clinic — Konyaaltı",
+        "detail": "Outpatient consultations + operations at contracted hospitals"
+      }
+    ],
+    "photoLabel": "portrait · 4:5 placeholder",
+    "photoCaption": "drop in: studio portrait, soft side light, neutral bg",
+    "badgeLabel": "est."
+  },
+  "stats": {
+    "eyebrow": "At a glance",
+    "heading": ["Op. Dr. Kaan Işık,", " in numbers."],
+    "items": [
+      { "num": 2000, "suffix": "+", "label": "Open-heart procedures" },
+      { "num": 8, "suffix": " yrs", "label": "In private practice" },
+      { "num": 95, "suffix": "%+", "label": "Patient satisfaction" },
+      { "num": 3, "suffix": " langs", "label": "TR · EN · DE service" }
+    ]
+  }
+}

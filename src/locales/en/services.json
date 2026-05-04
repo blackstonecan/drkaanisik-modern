@@ -1,1 +1,58 @@
-{}
+{
+  "eyebrow": "Services",
+  "heading": ["Specialty areas in", " adult cardiac", " ", "surgery."],
+  "lead": "All operations take place at fully equipped contracted hospitals. The clinic itself is used for consultation, planning and follow-up.",
+  "cards": [
+    {
+      "num": "01",
+      "icon": "pulse",
+      "title": "Coronary artery surgery",
+      "desc": "Restoring blood flow through occluded coronaries — classic, off-pump and minimally invasive approaches.",
+      "procedures": [
+        { "name": "MIDCAB — Small left-chest incision", "featured": true, "badge": "Signature" },
+        { "name": "Off-pump (beating-heart) bypass" },
+        { "name": "Classic open bypass (CABG)" }
+      ]
+    },
+    {
+      "num": "02",
+      "icon": "valve",
+      "title": "Heart valve surgery",
+      "desc": "Tailored open and transcatheter approaches for aortic and mitral valve disease.",
+      "procedures": [
+        { "name": "TAVI — Transcatheter aortic valve" },
+        { "name": "Sutureless aortic valve replacement" },
+        { "name": "Mitral repair / replacement (mini-thoracotomy)" },
+        { "name": "Tricuspid valve surgery" }
+      ]
+    },
+    {
+      "num": "03",
+      "icon": "aorta",
+      "title": "Aortic surgery",
+      "desc": "Elective and emergency procedures for the aortic root, ascending aorta and dissection.",
+      "procedures": [
+        { "name": "Ascending aortic aneurysm" },
+        { "name": "Aortic dissection (emergency)" },
+        { "name": "Bentall procedure" },
+        { "name": "David procedure (root-sparing)" }
+      ]
+    },
+    {
+      "num": "04",
+      "icon": "heart",
+      "title": "Other adult cardiac surgery",
+      "desc": "Cardiac tumours, rhythm surgery and pericardial disease — handled with the same care.",
+      "procedures": [
+        { "name": "Atrial myxoma excision" },
+        { "name": "Pericardiectomy" },
+        { "name": "MAZE — atrial fibrillation surgery" }
+      ]
+    }
+  ],
+  "signature": {
+    "title": "MIDCAB — the surgeon's signature procedure",
+    "sub": "Coronary bypass through a small incision under the left breast — no sternotomy.",
+    "note": "GERMAN-TRAINED"
+  }
+}

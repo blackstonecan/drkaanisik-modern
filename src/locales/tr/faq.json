@@ -1,1 +1,27 @@
-{}
+{
+  "eyebrow": "Sıkça Sorulan Sorular",
+  "heading": ["Kararını vermeden önce", " bilmek istediklerin."],
+  "lead": "Hasta ve yakınlarının en sık yönelttiği sorular ve özet cevaplar.",
+  "items": [
+    {
+      "q": "Ameliyatlar nerede yapılıyor?",
+      "a": "Klinik, Konyaaltı'ndaki konsültasyon ve takip merkezimizdir. Ameliyatlar Antalya'da anlaşmalı, tam donanımlı özel hastanelerde yapılır. Ameliyat öncesi tüm görüşmeler, planlama ve sonrası kontroller burada gerçekleştirilir."
+    },
+    {
+      "q": "MIDCAB klasik bypastan farklı mı?",
+      "a": "Evet. MIDCAB'de sternumu açmak yerine sol meme altından küçük bir kesiyle çalışılır. Bu sayede ağrı daha az olur, hastanede kalış süresi kısalır ve hastalar günlük yaşamlarına çok daha hızlı dönerler — uygun anatomi ve damar yapısına sahip hastalarda."
+    },
+    {
+      "q": "Yurt dışından geliyorum, süreç nasıl işliyor?",
+      "a": "Önce video konsültasyon ile değerlendirme yaparız. Uygunsa anlaşmalı hastanede tarih belirlenir, transfer ve konaklama koordinasyonu organize edilir. Muayene ve ameliyat sürecinde İngilizce/Almanca tercüman sizinle birlikte olur, ülkenize döndükten sonra da telekonsültasyonla takip ederiz."
+    },
+    {
+      "q": "TAVI hangi hastalar için uygundur?",
+      "a": "TAVI özellikle açık ameliyat riski yüksek, ileri yaştaki ya da ek hastalıkları olan aort darlığı hastaları için tasarlanmış bir yöntemdir. Karar; eko, BT ve kapsamlı bir kalp ekibi değerlendirmesinin ardından kişiye özel verilir."
+    },
+    {
+      "q": "Hangi sigorta ve dilleri kabul ediyorsunuz?",
+      "a": "Türkçe, İngilizce ve Almanca hizmet veriyoruz. Pek çok özel sigorta ve uluslararası sigorta paketi anlaşmalı hastanelerimiz üzerinden geçerlidir; net bilgi için iletişim formundan ulaşmanız yeterli."
+    }
+  ]
+}

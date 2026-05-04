@@ -1,1 +1,22 @@
-{}
+{
+  "eyebrow": "Sağlık Turizmi",
+  "heading": ["Üç dilde,", " kapsamlı bir", " bakım yolculuğu."],
+  "lead": "Yurt dışından gelen hastalar için ön konsültasyondan ameliyat sonrası takibe kadar bütünleşik bir program.",
+  "items": [
+    {
+      "icon": "video",
+      "title": "Video ön konsültasyon",
+      "desc": "Ameliyat öncesi planlama, görüntü değerlendirmesi ve risk konuşmasını uzaktan yapın."
+    },
+    {
+      "icon": "shield",
+      "title": "Karşılama & koordinasyon",
+      "desc": "Havalimanı transferi, konaklama ve klinik ziyaretleri tek elden organize edilir."
+    },
+    {
+      "icon": "globe",
+      "title": "Sahada tercüman",
+      "desc": "İngilizce ve Almanca konuşan tercümanlar muayene boyunca size eşlik eder."
+    }
+  ]
+}

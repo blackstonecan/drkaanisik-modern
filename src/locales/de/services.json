@@ -1,1 +1,58 @@
-{}
+{
+  "eyebrow": "Leistungen",
+  "heading": ["Schwerpunkte in der", " Erwachsenen-", " ", "Herzchirurgie."],
+  "lead": "Alle Operationen finden in voll ausgestatteten Partnerkliniken statt. Die Praxis dient der Beratung, Planung und Nachsorge.",
+  "cards": [
+    {
+      "num": "01",
+      "icon": "pulse",
+      "title": "Koronare Bypass-Chirurgie",
+      "desc": "Wiederherstellung der Durchblutung verschlossener Herzkranzgefäße — klassisch, off-pump und minimalinvasiv.",
+      "procedures": [
+        { "name": "MIDCAB — Kleiner Zugang unter der linken Brust", "featured": true, "badge": "Signature" },
+        { "name": "Off-pump (am schlagenden Herzen)" },
+        { "name": "Klassischer offener Bypass (CABG)" }
+      ]
+    },
+    {
+      "num": "02",
+      "icon": "valve",
+      "title": "Herzklappen-Chirurgie",
+      "desc": "Individuelle offene und Katheter-Verfahren bei Aorten- und Mitralklappenerkrankungen.",
+      "procedures": [
+        { "name": "TAVI — Katheter-Aortenklappe" },
+        { "name": "Nahtloser Aortenklappenersatz" },
+        { "name": "Mitralrekonstruktion / -ersatz (Mini-Thorakotomie)" },
+        { "name": "Trikuspidalklappen-Chirurgie" }
+      ]
+    },
+    {
+      "num": "03",
+      "icon": "aorta",
+      "title": "Aorten-Chirurgie",
+      "desc": "Geplante und Notfall-Eingriffe an Aortenwurzel, Aorta ascendens und Dissektionen.",
+      "procedures": [
+        { "name": "Aneurysma der Aorta ascendens" },
+        { "name": "Aortendissektion (Notfall)" },
+        { "name": "Bentall-Operation" },
+        { "name": "David-Operation (klappenerhaltend)" }
+      ]
+    },
+    {
+      "num": "04",
+      "icon": "heart",
+      "title": "Weitere Eingriffe",
+      "desc": "Herztumoren, Rhythmuschirurgie und Perikarderkrankungen — mit derselben Sorgfalt.",
+      "procedures": [
+        { "name": "Vorhofmyxom-Exzision" },
+        { "name": "Perikardektomie" },
+        { "name": "MAZE — Vorhofflimmern-Chirurgie" }
+      ]
+    }
+  ],
+  "signature": {
+    "title": "MIDCAB — die Signature-Methode",
+    "sub": "Bypass über einen kleinen Schnitt unter der linken Brust — ohne Sternotomie.",
+    "note": "IN DEUTSCHLAND AUSGEBILDET"
+  }
+}
