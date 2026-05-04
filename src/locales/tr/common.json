@@ -1,5 +1,9 @@
 {
   "loading": "Yükleniyor…",
+  "brand": {
+    "name": "Op. Dr. Kaan Işık",
+    "role": "Kalp Cerrahisi"
+  },
   "meta": {
     "home": {
       "title": "Op. Dr. Kaan Işık — Modern kalp cerrahisi, güvenli eller",

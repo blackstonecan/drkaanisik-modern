@@ -20,8 +20,7 @@ export function DoctorSection() {
       <div className="container">
         <div className="doctor">
           <div className="doctor__photo reveal">
-            <span className="doctor__photo-label">{t('doctor.photoLabel')}</span>
-            <span className="doctor__photo-caption">{t('doctor.photoCaption')}</span>
+            <img src="/images/home/doctor.jpg" alt="" loading="lazy" />
             <div className="doctor__badge">
               <span>{t('doctor.badgeLabel')}</span>
               <b>2018</b>

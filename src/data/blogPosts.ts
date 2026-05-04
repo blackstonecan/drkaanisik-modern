@@ -13,8 +13,10 @@ export type BlogPost = {
   date: string
   /** Estimated reading time in minutes. */
   read: number
-  /** [from, to] gradient stops for the placeholder hero. */
+  /** [from, to] gradient stops used as a fallback behind the cover image. */
   palette: [string, string]
+  /** Public path to the cover image. */
+  cover: string
   /** Per-locale URL slugs (mirrors classic; modern routing currently uses canonical slug). */
   slugByLocale: { tr: string; en: string; de: string }
 }
@@ -26,7 +28,9 @@ const PALETTE: Record<BlogCategorySlug, [string, string]> = {
   'other-cardiac-surgery': ['#1c2438', '#2a3a5a'],
 }
 
-export const BLOG_POSTS: BlogPost[] = [
+type BlogPostInput = Omit<BlogPost, 'cover'>
+
+const POSTS: BlogPostInput[] = [
   {
     slug: 'midcab',
     cats: ['coronary-artery-surgery'],
@@ -240,3 +244,8 @@ export const BLOG_POSTS: BlogPost[] = [
     },
   },
 ]
+
+export const BLOG_POSTS: BlogPost[] = POSTS.map((p) => ({
+  ...p,
+  cover: `/images/blog/${p.slug}.jpg`,
+}))

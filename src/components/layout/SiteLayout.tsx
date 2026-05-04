@@ -1,6 +1,7 @@
 import { Outlet, useLocation } from 'react-router-dom'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
+import { ScrollToHash } from '@/components/layout/ScrollToHash'
 import { WhatsAppFloat } from '@/components/layout/WhatsAppFloat'
 import { useScrollPastHero } from '@/lib/hooks/useScrollPastHero'
 import { isLocale } from '@/lib/i18n'
@@ -26,11 +27,17 @@ export function SiteLayout() {
   const solid = mode === 'page' ? true : scrolled
 
   if (mode === 'tour') {
-    return <Outlet />
+    return (
+      <>
+        <ScrollToHash />
+        <Outlet />
+      </>
+    )
   }
 
   return (
     <>
+      <ScrollToHash />
       <Header solid={solid} />
       <Outlet />
       <Footer />

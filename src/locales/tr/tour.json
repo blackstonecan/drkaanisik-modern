@@ -5,7 +5,6 @@
   "stepLabel": "Durak",
   "progressLabel": "İlerleme",
   "travelingTo": "Geçiş yapılıyor",
-  "placeholder": "VIDEO YERİ · 360 derece veya kısa walk-in mp4",
   "transitionTag": "GEÇİŞ VİDEOSU",
   "points": {
     "entrance": {
@@ -16,17 +15,9 @@
       "title": "Bekleme Alanı",
       "desc": "Az kişiyle, yumuşak ışık ve sessizlikte bir hazırlık alanı. Çay servisi, dijital olmayan dergiler ve sakin bir oturma planıyla tasarlandı."
     },
-    "consultation-room": {
-      "title": "Konsültasyon Odası",
-      "desc": "Bilgi paylaşımının yapıldığı oda. Dr. Işık burada görüntülerinizi inceler, planı sizinle birlikte adım adım gözden geçirir."
-    },
     "examination-room": {
       "title": "Muayene Odası",
       "desc": "Steril ve modern bir ortamda fizik muayene. Hasta-hekim diyalogunu zedelemeden, klinik gereklilikleri eksiksiz karşılar."
-    },
-    "ekg-room": {
-      "title": "EKG / USG Odası",
-      "desc": "Kardiyak değerlendirme için ileri seviye ekipman. EKG, ekokardiyografi ve USG hepsi tek bir odada, kısa sürede tamamlanır."
     }
   }
 }

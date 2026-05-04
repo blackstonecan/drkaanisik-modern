@@ -80,7 +80,11 @@ export default function BlogPost() {
 
   const likeCount = post.likes + (liked ? 1 : 0)
   const heroStyle: React.CSSProperties = {
-    ...({ '--ph-a': post.palette[0], '--ph-b': post.palette[1] } as React.CSSProperties),
+    ...({
+      '--ph-a': post.palette[0],
+      '--ph-b': post.palette[1],
+      '--ph-img': `url(${post.cover})`,
+    } as React.CSSProperties),
   }
 
   return (

@@ -1,5 +1,9 @@
 {
   "loading": "Lädt…",
+  "brand": {
+    "name": "Op. Dr. Kaan Işık",
+    "role": "Herzchirurgie"
+  },
   "meta": {
     "home": {
       "title": "Op. Dr. Kaan Işık — Moderne Herzchirurgie, in sicheren Händen",

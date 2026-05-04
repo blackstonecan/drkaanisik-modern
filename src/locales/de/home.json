@@ -4,8 +4,7 @@
     "title": ["Moderne", " Herzchirurgie,", " ", "in sicheren", " Händen."],
     "sub": "In Deutschland ausgebildet, spezialisiert auf minimalinvasive Herzchirurgie. Seit acht Jahren in eigener Praxis in Konyaaltı, Antalya.",
     "meta": ["ANTALYA · KONYAALTI", "TR · EN · DE"],
-    "scroll": "Nach unten scrollen",
-    "placeholder": "hero video · clinic walk-in loop · 1080p mp4 placeholder"
+    "scroll": "Nach unten scrollen"
   },
   "doctor": {
     "eyebrow": "Über den Chirurgen",
@@ -47,8 +46,6 @@
         "detail": "Sprechstunde + Operationen an Partnerkliniken"
       }
     ],
-    "photoLabel": "portrait · 4:5 placeholder",
-    "photoCaption": "drop in: studio portrait, soft side light, neutral bg",
     "badgeLabel": "est."
   },
   "stats": {

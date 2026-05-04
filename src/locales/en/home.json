@@ -4,8 +4,7 @@
     "title": ["Modern cardiac", " surgery,", " ", "in trusted", " hands."],
     "sub": "German-trained, specialised in minimally invasive cardiac surgery. Eight years of independent practice from a Konyaaltı, Antalya clinic.",
     "meta": ["ANTALYA · KONYAALTI", "TR · EN · DE"],
-    "scroll": "Scroll down",
-    "placeholder": "hero video · clinic walk-in loop · 1080p mp4 placeholder"
+    "scroll": "Scroll down"
   },
   "doctor": {
     "eyebrow": "About the surgeon",
@@ -47,8 +46,6 @@
         "detail": "Outpatient consultations + operations at contracted hospitals"
       }
     ],
-    "photoLabel": "portrait · 4:5 placeholder",
-    "photoCaption": "drop in: studio portrait, soft side light, neutral bg",
     "badgeLabel": "est."
   },
   "stats": {

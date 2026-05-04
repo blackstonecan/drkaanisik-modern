@@ -5,7 +5,7 @@ type TourIconProps = {
   className?: string
 }
 
-/** Tour-specific icons (door, armchair, speech, stetho, wave, arrows). */
+/** Tour-specific icons (door, armchair, stetho, arrows). */
 export function TourIcon({ name, size = 24, stroke = 1.6, className }: TourIconProps) {
   const c = {
     width: size,
@@ -35,15 +35,6 @@ export function TourIcon({ name, size = 24, stroke = 1.6, className }: TourIconP
           <path d="M5 19v2M19 19v2" />
         </svg>
       )
-    case 'speech':
-      return (
-        <svg {...c}>
-          <path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-          <circle cx="9" cy="10" r="1" fill="currentColor" />
-          <circle cx="13" cy="10" r="1" fill="currentColor" />
-          <circle cx="17" cy="10" r="1" fill="currentColor" />
-        </svg>
-      )
     case 'stetho':
       return (
         <svg {...c}>
@@ -51,12 +42,6 @@ export function TourIcon({ name, size = 24, stroke = 1.6, className }: TourIconP
           <path d="M4 4h2M10 4h2" />
           <path d="M8 13v2a5 5 0 0 0 10 0v-1" />
           <circle cx="18" cy="11" r="2.5" />
-        </svg>
-      )
-    case 'wave':
-      return (
-        <svg {...c}>
-          <path d="M3 12h3l2-6 4 12 2-8 2 4h5" />
         </svg>
       )
     case 'arrow-right':

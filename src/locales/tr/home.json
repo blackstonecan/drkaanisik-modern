@@ -4,8 +4,7 @@
     "title": ["Modern kalp", " cerrahisi,", " ", "güvenli", " eller."],
     "sub": "Almanya'da yetişmiş, minimal invaziv kardiyak cerrahi alanında uzmanlaşmış. Antalya Konyaaltı'ndaki kliniğinde 8 yıldır hastalarına hizmet veriyor.",
     "meta": ["ANTALYA · KONYAALTI", "TR · EN · DE"],
-    "scroll": "Aşağı kaydır",
-    "placeholder": "hero video · clinic walk-in loop · 1080p mp4 placeholder"
+    "scroll": "Aşağı kaydır"
   },
   "doctor": {
     "eyebrow": "Hekim Hakkında",
@@ -47,8 +46,6 @@
         "detail": "Konsültasyon merkezi + anlaşmalı hastanelerde ameliyat"
       }
     ],
-    "photoLabel": "portrait · 4:5 placeholder",
-    "photoCaption": "drop in: studio portrait, soft side light, neutral bg",
     "badgeLabel": "est."
   },
   "stats": {

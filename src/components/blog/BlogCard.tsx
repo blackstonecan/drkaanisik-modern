@@ -25,8 +25,8 @@ export function BlogCard({ post }: BlogCardProps) {
   return (
     <Link to={link(`blog/${post.slug}`)} className="blog-card">
       <div className="blog-card__image" style={style}>
+        <img src={post.cover} alt="" loading="lazy" />
         <span className="blog-card__cat">{cats[cat]}</span>
-        <span className="blog-card__image-tag">image · {post.slug}.jpg</span>
       </div>
       <div className="blog-card__body">
         <div className="blog-card__meta">

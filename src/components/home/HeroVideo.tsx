@@ -1,6 +1,8 @@
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import { HashLink } from '@/components/ui/HashLink'
 import { Icon } from '@/components/ui/Icon'
+import { useLocaleRoute } from '@/lib/hooks/useLocaleRoute'
 
 type HeroLocale = {
   hero: {
@@ -9,22 +11,28 @@ type HeroLocale = {
     sub: string
     meta: string[]
     scroll: string
-    placeholder: string
   }
 }
 
 export function HeroVideo() {
   const { t } = useTranslation('home')
   const { t: tc } = useTranslation('common')
+  const { link } = useLocaleRoute()
   const hero = t('hero', { returnObjects: true }) as HeroLocale['hero']
 
   return (
     <section className="hero" id="top">
       <div className="hero__bg" />
-      <div className="hero__placeholder" />
-      <div className="hero__placeholder-label">
-        <span className="dot" /> {hero.placeholder}
-      </div>
+      <video
+        className="hero__video"
+        src="/videos/home/hero.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        aria-hidden="true"
+      />
       <div className="container hero__content">
         <div className="hero__eyebrow">{hero.eyebrow}</div>
         <h1>
@@ -38,9 +46,9 @@ export function HeroVideo() {
             {tc('cta.contact')}
             <Icon name="arrow-right" size={14} />
           </HashLink>
-          <HashLink to="#services" className="cta-btn cta-btn--ghost">
-            {tc('nav.services')}
-          </HashLink>
+          <Link to={link('clinic-tour')} className="cta-btn cta-btn--ghost">
+            {tc('nav.tour')}
+          </Link>
         </div>
       </div>
       <div className="hero__meta">

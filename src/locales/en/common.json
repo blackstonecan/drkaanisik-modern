@@ -1,5 +1,9 @@
 {
   "loading": "Loading…",
+  "brand": {
+    "name": "Op. Dr. Kaan Işık",
+    "role": "Cardiac Surgery"
+  },
   "meta": {
     "home": {
       "title": "Op. Dr. Kaan Işık — Modern cardiac surgery, in trusted hands",

@@ -15,8 +15,8 @@ export function Footer() {
             <div className="brand" style={{ marginBottom: 16 }}>
               <span className="brand__mark">K</span>
               <span className="brand__name">
-                <b>Op. Dr. Kaan Işık</b>
-                <span>Cardiac Surgery</span>
+                <b>{t('brand.name')}</b>
+                <span>{t('brand.role')}</span>
               </span>
             </div>
             <p style={{ color: 'var(--muted)', fontSize: 14, maxWidth: '32ch' }}>
