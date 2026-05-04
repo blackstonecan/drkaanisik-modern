@@ -20,9 +20,10 @@
 /* Static "image" placeholder for each point */
 .tour-scene {
   position: absolute; inset: 0;
-  transition: opacity 0.6s ease;
 }
-.tour-scene.is-leaving { opacity: 0; }
+/* The transition video covers the scene during a leaving state, so we don't
+   need to fade the scene out — it would only show as a gap (gradient bg)
+   once the video unmounts. */
 
 .tour-scene__bg {
   position: absolute; inset: 0;
@@ -34,9 +35,12 @@
   object-fit: cover;
   animation: tourScenePhoto 0.8s ease both;
 }
+/* Photo starts fully opaque so there's no dark/gradient flash between the
+   video unmounting and the destination image appearing — only a subtle
+   Ken-Burns-style scale-in. */
 @keyframes tourScenePhoto {
-  from { opacity: 0; transform: scale(1.04); }
-  to { opacity: 1; transform: scale(1); }
+  from { transform: scale(1.04); }
+  to { transform: scale(1); }
 }
 .tour-scene__vignette {
   position: absolute; inset: 0;
