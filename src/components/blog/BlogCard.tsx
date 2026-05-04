@@ -17,10 +17,8 @@ export function BlogCard({ post }: BlogCardProps) {
   >
   const c = postsContent[post.slug] ?? { title: post.slug, excerpt: '' }
   const cat = post.cats[0]
-  const popular = t('popular') // "Popular categories" — first word seeds the featured pill.
 
   const style: React.CSSProperties = {
-    // Use CSS custom properties set inline so the gradient palette tracks the post.
     ...({ '--bg-a': post.palette[0], '--bg-b': post.palette[1] } as React.CSSProperties),
   }
 
@@ -28,9 +26,6 @@ export function BlogCard({ post }: BlogCardProps) {
     <Link to={link(`blog/${post.slug}`)} className="blog-card">
       <div className="blog-card__image" style={style}>
         <span className="blog-card__cat">{cats[cat]}</span>
-        {post.featured && (
-          <span className="blog-card__featured">★ {popular.split(' ')[0]}</span>
-        )}
         <span className="blog-card__image-tag">image · {post.slug}.jpg</span>
       </div>
       <div className="blog-card__body">

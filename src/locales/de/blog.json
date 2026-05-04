@@ -9,7 +9,7 @@
   "sort": "Sortieren",
   "sortRecent": "Neueste",
   "sortPopular": "Beliebt",
-  "sortLikes": "Most liked",
+  "sortLikes": "Am häufigsten geliked",
   "showing": "Angezeigt",
   "of": "von",
   "posts": "Artikel",
@@ -28,79 +28,1021 @@
   "likedBtn": "Geliked",
   "share": "Teilen",
   "cats": {
-    "coronary-artery-surgery": "Koronarer Bypass",
-    "heart-valve-surgery": "Herzklappe",
-    "aortic-surgery": "Aorten-Chirurgie",
-    "other": "Weitere Eingriffe",
-    "international": "Gesundheitstourismus",
-    "lifestyle": "Nach OP"
+    "coronary-artery-surgery": "Koronararterienchirurgie",
+    "heart-valve-surgery": "Herzklappenchirurgie",
+    "aortic-surgery": "Aortenchirurgie",
+    "other-cardiac-surgery": "Weitere Erwachsenen-Herzchirurgie"
   },
   "posts_content": {
-    "midcab-explained": {
-      "title": "Was ist MIDCAB? Bypass ohne Sternotomie",
-      "excerpt": "Bypass durch einen kleinen Schnitt unter der linken Brust — wie es funktioniert und wer geeignet ist.",
+    "midcab": {
+      "title": "Was ist MIDCAB? Ein Leitfaden zum minimalinvasiven Koronarbypass",
+      "excerpt": "Wie ein 5–8 cm langer Schnitt unter der linken Brust die klassische Sternotomie ersetzt — und welche Patientinnen und Patienten geeignet sind.",
       "body": [
-        { "p": "Beim klassischen Bypass denken die meisten an einen langen Schnitt in der Mitte des Brustkorbs. MIDCAB überspringt diesen Schritt. Operiert wird durch einen 6–8 cm kleinen Zugang unter der linken Brust; das Brustbein bleibt unversehrt." },
+        { "h2": "Koronarbypass ohne Sternotomie" },
+        { "p": "Beim klassischen Koronarbypass wird das Brustbein in der Mittellinie durchtrennt. MIDCAB — Minimalinvasiver direkter Koronarbypass — überspringt diesen Schritt. Ein 5–8 cm langer Schnitt an der linken Brustwand, direkt unter der Brust, reicht aus." },
+        { "p": "Die linke Brustwandarterie (LIMA) wird direkt an die linke vordere absteigende Koronararterie (LAD) genäht und stellt so den Blutfluss hinter der Engstelle wieder her. In den meisten Fällen wird die Herz-Lungen-Maschine nicht benötigt; der Eingriff erfolgt am schlagenden Herzen." },
+        { "h2": "Für wen ist MIDCAB geeignet?" },
+        { "p": "MIDCAB ist nicht für jeden Bypass-Patienten die richtige Wahl. Die besten Ergebnisse sehen wir typischerweise bei diesen Profilen:" },
+        { "ul": [
+          "Eingefäßerkrankung: Eine relevante Engstelle ausschließlich der LAD.",
+          "Hybrid-Kandidaten: Mehrgefäßerkrankung, bei der MIDCAB an der LAD mit Stenting (PCI) der übrigen Gefäße kombiniert wird.",
+          "Hohes OP-Risiko: Ältere Patientinnen und Patienten, Lungenerkrankungen oder vorausgegangene Brusteingriffe."
+        ]},
+        { "p": "Jede Anatomie ist anders. Die Entscheidung treffen wir gemeinsam mit Ihnen anhand von Koronarangiographie, Echokardiographie und Thorax-CT." },
+        { "h2": "Vorteile gegenüber dem klassischen Bypass" },
+        { "ul": [
+          "Schnellere Erholung: Ohne Sternotomie sind die Schmerzen in den ersten Wochen deutlich geringer. Die meisten Patienten sind nach 4–6 Wochen wieder voll aktiv; klassischer Bypass dauert 8–12 Wochen.",
+          "Geringerer Blutverlust: Die kleinere Wundfläche reduziert den Bedarf an Transfusionen.",
+          "Kürzerer Krankenhausaufenthalt: Üblich 3–4 Tage statt 5–7.",
+          "Kleinere Narbe: Liegt diskret unter Kleidung."
+        ]},
+        { "h2": "Grenzen" },
+        { "p": "Die größte Einschränkung von MIDCAB ist der Zugang. Der linke Brustkorbschnitt erlaubt direkten Zugriff auf die LAD-Region; Bypässe an Circumflexus oder rechte Koronararterie erfordern andere Techniken. Hier kommt der hybride chirurgisch-interventionelle Ansatz zum Einsatz." },
+        { "p": "Erfahrung ist entscheidend: Das Operieren durch einen kleinen Schnitt ist technisch anspruchsvoller. Daher sollte MIDCAB nur in spezialisierten, erfahrenen Zentren durchgeführt werden." },
+        { "h2": "Operationstag und danach" },
+        { "p": "Die Operation dauert üblicherweise 2–3 Stunden. Ein kurzer Aufenthalt auf der Intensivstation, anschließend Verlegung auf eine Normalstation. Drainagen entfernt man nach 1–2 Tagen; Entlassung in der Regel an Tag 3 oder 4." },
+        { "p": "In der ersten Woche zu Hause meiden Sie schweres Heben, Autofahren und längere Reisen. Schreibtischarbeit ab Woche 6, körperliche Arbeit und Sport schrittweise zwischen Woche 8 und 12." },
+        { "h2": "Wann sollte ich einen Spezialisten aufsuchen?" },
+        { "p": "Wenn Ihnen eine Bypass-Operation empfohlen wurde oder die Angiographie eine relevante Engstelle zeigt, lohnt es sich, die Optionen ruhig zu prüfen. Ist MIDCAB für Sie geeignet? Bringen Sie Ihre Bildgebung in einen Beratungstermin mit — wir besprechen gemeinsam, welcher Ansatz in Ihrem Fall am besten passt." }
+      ]
+    },
+    "off-pump-vs-on-pump": {
+      "title": "Off-Pump vs. On-Pump-Bypass: Welcher Ansatz wann?",
+      "excerpt": "Wir vergleichen die Vor- und Nachteile von Eingriffen mit und ohne Herz-Lungen-Maschine.",
+      "body": [
+        { "h2": "Zwei Ansätze, ein Ziel" },
+        { "p": "In der Bypass-Chirurgie gibt es ein klares Ziel: einen neuen Blutweg jenseits der Engstelle schaffen. Es gibt zwei Wege dorthin." },
+        { "p": "Beim On-Pump-Bypass wird das Herz vorübergehend stillgelegt und eine Herz-Lungen-Maschine übernimmt den Kreislauf. Die Chirurgin oder der Chirurg näht in ein ruhiges, bewegungsloses Herz." },
+        { "p": "Beim Off-Pump-Bypass (Operation am schlagenden Herzen) bleibt das Herz aktiv. Spezielle Stabilisatoren fixieren nur den jeweiligen Nahtbereich. Der körpereigene Kreislauf bleibt erhalten." },
+        { "h2": "Warum zwei Methoden?" },
+        { "p": "Beide haben evidenzbasierte Indikationen. Die Wahl hängt von Anatomie, Begleiterkrankungen und der Erfahrung des Operateurs ab." },
+        { "h3": "Stärken von On-Pump" },
+        { "ul": [
+          "Kontrollierte Bedingungen: Naht am ruhigen Herzen, höchste Präzision.",
+          "Komplexe Anatomie: Mehrgefäßerkrankungen profitieren vom uneingeschränkten Zugriff.",
+          "Langzeitdaten: Jahrzehntelange Nachbeobachtung stützt die Ergebnisse."
+        ]},
+        { "h3": "Stärken von Off-Pump" },
+        { "ul": [
+          "Pumpen-freie Physiologie: Vermeidet die Entzündungs- und Embolielast der Herz-Lungen-Maschine.",
+          "Nierenschutz: Geringeres Risiko für Dialysebedarf bei grenzwertiger Nierenfunktion.",
+          "Neurologisch: Studien zeigen einen kleinen, aber relevanten Rückgang der Schlaganfallrate.",
+          "Weniger Transfusionen: Ohne extrakorporales System ist der Blutverlust geringer."
+        ]},
+        { "h2": "Welche Methode für wen?" },
+        { "p": "Grob:" },
+        { "ul": [
+          "Hochrisiko, mehrere Komorbiditäten: Häufig Off-Pump.",
+          "Mehrgefäß, komplexe Anatomie: Häufig On-Pump.",
+          "Jünger, niedriges Risiko: Beide Methoden funktionieren gut; Erfahrung des Operateurs ist entscheidend.",
+          "Verkalkte Aorta: \"No-Touch\"-Off-Pump vermeidet aortale Manipulationen."
+        ]},
+        { "h2": "Häufige Mythen" },
+        { "quote": "Off-Pump ist weniger invasiv." },
+        { "p": "Nein. Beide Methoden nutzen dieselbe Sternotomie. \"Minimalinvasiv\" beschreibt Verfahren wie MIDCAB, bei denen das Brustbein erhalten bleibt." },
+        { "quote": "Off-Pump ist schneller." },
+        { "p": "Hängt vom Operateur ab. Eingefäß-Bypässe sind ähnlich; mehrgefäßige Off-Pump-Eingriffe können länger dauern." },
+        { "quote": "Die Pumpe ist immer schlecht." },
+        { "p": "Moderne Herz-Lungen-Maschinen sind nicht die der 1990er-Jahre. Bei richtiger Patientenwahl verschlechtert On-Pump die Ergebnisse nicht." },
+        { "h2": "Wie wird entschieden?" },
+        { "p": "In der Sprechstunde besprechen wir Angiographie, Echo und Laborwerte gemeinsam. Folgende Faktoren leiten die Entscheidung:" },
+        { "ul": [
+          "Anzahl betroffener Gefäße und Qualität der Zielgefäße",
+          "Linksventrikuläre Funktion",
+          "Nierenfunktion",
+          "Aortenverkalkung",
+          "Voroperationen am Brustkorb"
+        ]},
+        { "p": "Nichts ist \"immer besser.\" Wichtig ist die für Sie richtige, evidenzbasierte Wahl." },
+        { "h2": "Wann sollte ich einen Spezialisten aufsuchen?" },
+        { "p": "Wenn eine Bypass-Operation ansteht und Sie unsicher sind, welcher Ansatz passt: vereinbaren Sie einen Beratungstermin. Mit Ihren Bildern vor uns gehen wir in Ruhe durch, warum eine Methode in Ihrem Fall die bessere ist." }
+      ]
+    },
+    "bypass-recovery": {
+      "title": "Erholung nach Bypass: die ersten 12 Wochen",
+      "excerpt": "Was zu tun ist, was zu vermeiden ist, und wann Sie zu Beruf und Sozialleben zurückkehren können.",
+      "body": [
+        { "h2": "Tag 1: Intensivstation" },
+        { "p": "Die ersten 12–24 Stunden nach einer Bypass-Operation verbringen Sie in der Regel auf der Intensivstation. In dieser Zeit:" },
+        { "ul": [
+          "Die Atmung wird zunächst über ein Beatmungsgerät unterstützt; bei den meisten Patienten wird der Tubus innerhalb weniger Stunden entfernt.",
+          "Der Herzrhythmus wird kontinuierlich überwacht.",
+          "Brustdrainagen verhindern Flüssigkeitsansammlungen; sie werden nach 1–2 Tagen gezogen.",
+          "Schmerzen werden aktiv behandelt — moderne Protokolle machen diesen Abschnitt komfortabler, als viele erwarten."
+        ]},
+        { "h2": "Tage 2–5: Station und Mobilisation" },
+        { "p": "Mit der Verlegung auf die Normalstation beginnt die Mobilisation. Erstes Ziel: am Bettrand sitzen, dann kurze Spaziergänge im Flur. Atemübungen (Incentive Spirometry) sind zentral — sie reduzieren Lungenkomplikationen deutlich." },
+        { "p": "Die Ernährung beginnt mit Flüssigkeiten und steigert sich auf normale Kost. Der Krankenhausaufenthalt beträgt durchschnittlich 5–7 Tage; bei minimalinvasiven Verfahren (MIDCAB, sutureless TAVI) sind 3–4 Tage möglich." },
+        { "h2": "Erste zwei Wochen zu Hause" },
+        { "p": "Nach der Entlassung fühlt sich noch nicht alles \"normal\" an — und das ist erwartbar:" },
+        { "ul": [
+          "Müdigkeit: Die häufigste Beschwerde. Energie wird zur Heilung gebraucht. Kurze Mittagsschläfchen sind in Ordnung.",
+          "Sternumempfinden: Nach klassischem Bypass bleiben Spannung und Empfindlichkeit am Brustbein 6–8 Wochen bestehen. Bei MIDCAB ist das deutlich milder.",
+          "Schlafstörungen: Das Verlassen des Klinikrhythmus dauert ein paar Tage.",
+          "Stimmung: Leichte Niedergeschlagenheit oder Ängste in den ersten 4–6 Wochen sind häufig. Wenn sie nicht abklingen, sagen Sie uns Bescheid."
+        ]},
+        { "h2": "Wochen 3–6: Aktivität steigern" },
+        { "p": "Jetzt ist die Phase, in der Sie Spaziergänge schrittweise verlängern. Faustregel: in einem Tempo gehen, in dem Sie noch problemlos sprechen können." },
+        { "ul": [
+          "Autofahren: Nach klassischem Bypass 4–6 Wochen warten; nach MIDCAB 2–3 Wochen.",
+          "Sexualität: In der Regel sicher, sobald Sie eine Treppe ohne Atemnot gehen können (etwa Woche 4).",
+          "Heben: In den ersten sechs Wochen unter 5 kg bleiben. Die Regel ist wichtig, damit das Brustbein vollständig heilt."
+        ]},
+        { "h2": "Wochen 6–12: zurück in Beruf und Alltag" },
+        { "ul": [
+          "Schreibtischarbeit: Ab Woche 6 sicher.",
+          "Körperliche Arbeit: Wird in Woche 10–12 mit Ihrem Arzt besprochen.",
+          "Sport: Beginnt mit Gehen und niedriger Intensität, bis Monat drei wieder normal.",
+          "Kardiologische Reha: Wenn angeboten, nutzen Sie sie. Strukturiertes Training, Schulung und psychologische Unterstützung verbessern Ein-Jahres-Ergebnisse messbar."
+        ]},
+        { "h2": "Langfristig: Lebensstil" },
+        { "p": "Der Bypass behebt die Engstelle, heilt aber die zugrunde liegende Gefäßerkrankung nicht. Damit Ihre Bypässe langfristig offen bleiben:" },
+        { "ul": [
+          "Statine: Fast immer lebenslang.",
+          "Plättchenhemmung: Aspirin als Basis; alle Erweiterungen entscheidet Ihr Operationsteam.",
+          "Rauchen: Strikt aufhören. Stärkster Einzelfaktor für Bypass-Versagen.",
+          "Blutdruck und Blutzucker: Zielwerte gemeinsam mit Ihrer Kardiologin halten.",
+          "Ernährung und Bewegung: Mediterrane Kost und 150 Minuten moderater Bewegung pro Woche."
+        ]},
+        { "h2": "Wann ist sofortige ärztliche Hilfe nötig?" },
+        { "p": "Nicht warten — sofort in die Notaufnahme bei:" },
+        { "ul": [
+          "Neuen Brustschmerzen",
+          "Starker Atemnot",
+          "Wundausfluss, Rötung, Fieber",
+          "Plötzlicher einseitiger Schwellung (insbesondere am Bein)",
+          "Herzklopfen oder Ohnmachtsneigung"
+        ]},
+        { "h2": "Fragen?" },
+        { "p": "Jede Erholung verläuft individuell. Wenn Sie etwas beunruhigt, warten Sie nicht — kontaktieren Sie uns. Buchen Sie einen Folgetermin oder schreiben Sie uns kurz per WhatsApp." }
+      ]
+    },
+    "classic-vs-minimal-bypass": {
+      "title": "Klassischer Bypass vs. minimalinvasiver Bypass: Wer profitiert wovon?",
+      "excerpt": "Evidenzbasierte Ergebnisse, Anatomie und Patientenprofil — wie die Entscheidung tatsächlich getroffen wird.",
+      "body": [
+        { "h2": "Gleiches Problem, andere Tür" },
+        { "p": "In der Koronarbypass-Chirurgie ist das Ziel klar: den Blutfluss hinter einer Engstelle wiederherzustellen. Klassischer Bypass und minimalinvasiver Bypass (MIDCAB und ähnliche Varianten) erreichen dieses Ziel auf unterschiedlichen Wegen." },
+        { "h2": "Klassischer Bypass: der bewährte Standard" },
+        { "p": "Beim klassischen Bypass mit Sternotomie wird das Brustbein in der Mittellinie durchtrennt. Dieser Zugang:" },
+        { "ul": [
+          "Erreicht jede Koronararterie direkt.",
+          "Ist bei Mehrgefäßerkrankungen das sicherste Vorgehen.",
+          "Bietet im Notfall sofortigen Zugriff auf alle Instrumente.",
+          "Ist durch Jahrzehnte an Langzeitdaten gestützt."
+        ]},
+        { "p": "Wenn Aorta, Klappen und mehrere Gefäße in einer Sitzung versorgt werden müssen, bleibt der klassische Bypass der Goldstandard." },
+        { "h2": "Minimalinvasiv: überlegen bei richtiger Auswahl" },
+        { "p": "MIDCAB und verwandte Verfahren arbeiten über 5–8 cm-Schnitte. Das Brustbein bleibt erhalten; man arbeitet zwischen den Brustwandmuskeln." },
+        { "ul": [
+          "Schnellere Erholung: Die meisten Patientinnen und Patienten sind nach 4–6 Wochen wieder voll aktiv.",
+          "Weniger Schmerzen: Erhaltenes Brustbein bedeutet drastisch weniger Beschwerden in den ersten Wochen.",
+          "Kosmetik: Die Narbe liegt unter BH- oder T-Shirt-Linie.",
+          "Kürzerer Aufenthalt: 3–4 Tage statt 5–7 beim klassischen Bypass."
+        ]},
+        { "p": "Aber minimalinvasiv ist nicht für jeden geeignet." },
+        { "h2": "Welcher Ansatz für welchen Patienten?" },
+        { "ul": [
+          "Eingefäßerkrankung (LAD) — MIDCAB",
+          "Mehrgefäß, komplexe Anatomie — Klassisch",
+          "Begleitende Klappen- oder Aortenchirurgie — Klassisch",
+          "Höheres Alter, mehrere Begleiterkrankungen, hohes OP-Risiko — Hybrid (MIDCAB + Stent) oder Heart-Team",
+          "Re-Operation (Vorbypass) — Einzelfallentscheidung; minimalinvasiv kann vorteilhaft sein"
+        ]},
+        { "h2": "Sind die Langzeitergebnisse unterschiedlich?" },
+        { "p": "In erfahrenen Händen sind die Langzeitergebnisse beider Verfahren sehr ähnlich. Bei richtiger Patientenwahl gibt es bei der 5-Jahres-Bypass-Offenheit und Überlebensrate keine klinisch relevanten Unterschiede." },
+        { "p": "Die deutlichen Unterschiede liegen im frühen Komfort und in der Erholungsgeschwindigkeit. Für aktive, berufstätige Personen oder bei Eingefäßerkrankung sind die minimalinvasiven Vorteile schwer zu übersehen." },
+        { "h2": "Wie wird entschieden?" },
+        { "p": "In unserer Praxis in Antalya wird jeder Fall, soweit möglich, in einer Heart-Team-Besprechung (Chirurg, Kardiologe, Anästhesist) diskutiert. Bildgebung, Labor und die persönlichen Prioritäten der Patientin werden gemeinsam betrachtet." },
+        { "p": "Leitfragen:" },
+        { "ul": [
+          "Was lässt die Anatomie zu?",
+          "Wird ein begleitender Eingriff nötig?",
+          "Welche persönlichen Erholungsziele hat die Patientin?",
+          "Schränken Begleiterkrankungen die minimalinvasive Option ein?"
+        ]},
+        { "h2": "Die falsche Frage: \"Welches ist besser?\"" },
+        { "p": "Die richtige Frage lautet: \"Welches ist besser für mich?\" — und die Antwort ist individuell." },
+        { "p": "Bringen Sie Ihren Angiographie-Befund zu einem Beratungstermin mit; wir besprechen alle Optionen klar und ohne Druck. Die Entscheidung treffen Sie — wir legen die Möglichkeiten ehrlich auf den Tisch." }
+      ]
+    },
+    "tavi": {
+      "title": "Was ist TAVI? Aortenklappenersatz ohne offene Operation",
+      "excerpt": "Eine Aortenklappe der neuen Generation, eingebracht über die Leistenarterie — vor allem für ältere oder hochrisikobehaftete Patienten.",
+      "body": [
+        { "h2": "Eine Alternative zur offenen OP bei Aortenstenose" },
+        { "p": "TAVI — Transkatheter-Aortenklappenimplantation — ist ein katheterbasierter Klappenersatz bei schwerer Aortenstenose, ohne offene Herzoperation. Erstmals 2002 durchgeführt, ist sie in den letzten zwei Jahrzehnten zum Standardverfahren bei vielen älteren Patienten geworden." },
+        { "p": "Während des Eingriffs wird eine neue biologische Klappe in einem dünnen Kathetersystem komprimiert über die Leistenarterie eingeführt. Sie wird durch die Aorta vorgeschoben, in der erkrankten Klappe positioniert und entfaltet. Die alte Klappe wird nicht entfernt — die neue arbeitet aus ihrem Inneren heraus." },
+        { "h2": "Für wen ist TAVI geeignet?" },
+        { "p": "In den Anfangsjahren wurde TAVI nur bei sehr hohem OP-Risiko angeboten. Die Indikationen haben sich erweitert:" },
+        { "ul": [
+          "Patienten über 75 mit schwerer Aortenstenose (Routine-Indikation)",
+          "Hohes OP-Risiko (Lungenerkrankung, Niereninsuffizienz, Frailty)",
+          "Voroperationen am Brustkorb",
+          "Ausgewählte jüngere Intermediate-risk-Patienten mit günstiger Anatomie (Einzelfall)"
+        ]},
+        { "p": "Die Entscheidung trifft immer ein Heart-Team (Chirurg, Kardiologe, Anästhesist, Bildgebungs-Spezialist). Anatomie der Aortenklappe, Verkalkungsmuster, Abstand der Koronarostien und Qualität der Zugangsgefäße werden mittels CT-Angiographie detailliert beurteilt." },
+        { "h2": "TAVI vs. offene AVR" },
+        { "ul": [
+          "Schnitt — TAVI: kleine Punktion in der Leiste · Offene AVR: Sternotomie",
+          "Anästhesie — TAVI: häufig Sedierung · Offene AVR: Vollnarkose erforderlich",
+          "Krankenhausaufenthalt — TAVI: 2–4 Tage · Offene AVR: 5–7 Tage",
+          "Erholung — TAVI: 1–2 Wochen · Offene AVR: 6–8 Wochen",
+          "Klappenhaltbarkeit (jünger) — TAVI: 8–12+ Jahre · Offene AVR: 15–20 Jahre (Bioprothese)"
+        ]},
+        { "h2": "Eingriffstag" },
+        { "p": "Die meisten Patientinnen erhalten leichte Sedierung; Vollnarkose bleibt möglich. Der Eingriff dauert 60–90 Minuten und erfolgt im Herzkatheterlabor unter Durchleuchtung." },
+        { "p": "Die erste Nacht verbringen Sie auf der Intensivstation. Die meisten Patientinnen stehen am Folgetag auf und werden innerhalb von 2–4 Tagen entlassen." },
+        { "h2": "Risiken und Grenzen" },
+        { "p": "TAVI ist sehr erfolgreich, aber nicht risikofrei:" },
+        { "ul": [
+          "Schrittmacher-Bedarf: Häufigste Komplikation (5–15%). Manche Patienten benötigen einen permanenten Schrittmacher.",
+          "Gefäßverletzung: Der Leistenzugang kann eine chirurgische Reparatur erfordern.",
+          "Schlaganfall: Niedrig (2–4%), aber relevant.",
+          "Paravalvuläres Leck: Kleine Lecks zwischen Klappe und Aortenwand — meist selbstlimitierend oder gut tolerierbar."
+        ]},
+        { "h2": "Leben danach" },
+        { "p": "Sechs Monate Plättchenhemmung. Antibiotika-Prophylaxe vor zahnärztlichen Eingriffen kann nötig sein. Jährliche Echokardiographie kontrolliert die Klappenfunktion." },
+        { "p": "Die meisten Patientinnen erleben eine deutliche Linderung von Atemnot und Brustschmerzen — die Lebensqualität steigt spürbar." },
+        { "h2": "Wann sollte ich einen Spezialisten aufsuchen?" },
+        { "p": "Wenn Sie neue Atemnot, belastungsabhängigen Druck im Brustkorb oder Synkopen erleben und das Echo eine schwere Aortenstenose zeigt, sollten Sie die Entscheidung nicht überstürzen. Bringen Sie Ihre Bildgebung in einen Beratungstermin mit — wir besprechen gemeinsam, ob TAVI für Sie geeignet ist." }
+      ]
+    },
+    "sutureless-aortic": {
+      "title": "Nahtlose Aortenklappen: schnellere, nahtfreie biologische Klappen",
+      "excerpt": "Ohne Naht-Setzen verkürzt sich die Klemmzeit deutlich — eine Alternative für chirurgisch riskante Patientinnen und Patienten.",
+      "body": [
+        { "h2": "Eine Aortenklappe der nächsten Generation — ohne Nähte" },
+        { "p": "Beim klassischen Aortenklappenersatz verankert die Chirurgin die neue biologische oder mechanische Klappe nach Entfernung der erkrankten mit 12–15 einzelnen Nähten. Dieser Schritt ist technisch anspruchsvoll und kostet Zeit." },
+        { "p": "Sutureless- (nahtlose) Aortenklappen entfernen diesen Schritt. Die Klappe sitzt in einem speziellen Stentrahmen; nach korrekter Positionierung verankert der elastische Stent die Klappe automatisch im Aortenring. Nur drei Führungsnähte sind nötig." },
+        { "h2": "Warum ist das relevant?" },
+        { "p": "Was nach einem kleinen Schritt klingt, verkürzt die OP-Zeit deutlich:" },
+        { "ul": [
+          "Aortenklemmzeit: 30–40% kürzer als beim klassischen AVR.",
+          "Herz-Lungen-Maschine-Zeit: Reduziert sich entsprechend.",
+          "Gesamt-OP-Zeit: Etwa 30–45 Minuten kürzer."
+        ]},
+        { "p": "Kürzere Pumpzeit reduziert Lungen- und Nierenkomplikationen — besonders bei älteren oder komorbiden Patienten." },
         { "h2": "Für wen geeignet?" },
-        { "p": "Ideal bei Eingefäß-Erkrankung der LAD. Bei Mehrgefäß-Befall kommt ein hybrider Ansatz mit Stent in Betracht." },
+        { "p": "Sutureless-Klappen kommen in drei Szenarien zum Tragen:" },
+        { "ul": [
+          "Hohes OP-Risiko: Patienten an der Grenze zur offenen AVR, die für TAVI nicht ideal sind.",
+          "Begleiteingriffe: Bypass + Klappe oder Mehrklappen-Operationen, bei denen die Pumpzeit besonders zählt.",
+          "Minimalinvasive Zugänge: Rechte obere Mini-Thorakotomie, in der das Nähen im engen Feld schwierig ist — sutureless macht den Eingriff praktikabel."
+        ]},
+        { "h2": "Worin unterscheidet sich Sutureless von TAVI?" },
+        { "p": "Häufig verwechselt:" },
+        { "ul": [
+          "Zugang — Sutureless AVR: offene OP (Mini- oder volle Sternotomie) · TAVI: Katheter (femoral)",
+          "Erkrankte Klappe — Sutureless AVR: wird entfernt · TAVI: wird komprimiert, bleibt im Sitz",
+          "Klemmzeit — Sutureless AVR: ja (kurz) · TAVI: nein",
+          "Geschätzte Klappenhaltbarkeit — Sutureless AVR: 15–20 Jahre · TAVI: 10–12 Jahre (Daten begrenzter)",
+          "Verkalkungstoleranz — Sutureless AVR: flexibler · TAVI: in bestimmten Mustern eingeschränkt"
+        ]},
+        { "p": "Denken Sie an Sutureless als \"die OP, die TAVI am nächsten kommt.\" Beide ersetzen sich nicht; jede hat ihren Platz." },
+        { "h2": "Ergebnisse" },
+        { "p": "In erfahrenen Multi-Center-Studien:" },
+        { "ul": [
+          "30-Tage-Mortalität: 1–2% (vergleichbar mit klassischem AVR)",
+          "Permanenter Schrittmacherbedarf: 8–10% (geringer als TAVI)",
+          "Krankenhausaufenthalt: 4–6 Tage",
+          "5-Jahres-Klappenfehlfunktion: sehr gering"
+        ]},
+        { "h2": "Grenzen" },
+        { "p": "Kein Verfahren ist perfekt:" },
+        { "ul": [
+          "Etwas höhere Schrittmacherrate als bei konventionellen Klappen.",
+          "Anatomische Einschränkungen: weiter Aortenring oder spezielle Verkalkungsmuster können ein Ausschlusskriterium sein.",
+          "Kosten: höher als bei einer konventionellen Bioprothese."
+        ]},
+        { "h2": "Wie wird entschieden?" },
+        { "p": "In der Sprechstunde besprechen wir Echo, Koronarangiographie und ggf. CT-Angiographie gemeinsam. Operatives Risikoprofil, Anatomie und mögliche Begleiteingriffe gehen in die Entscheidung ein." },
+        { "h2": "Nächster Schritt" },
+        { "p": "Wenn Sie eine Diagnose der Aortenklappenerkrankung haben und die Frage \"klassisch offen oder TAVI?\" keine klare Antwort gefunden hat, kann Sutureless eine dritte Tür sein. Bringen Sie Ihre Bildgebung mit, und wir besprechen die Optionen gemeinsam." }
+      ]
+    },
+    "mitral-repair-vs-replacement": {
+      "title": "Mitralklappe: rekonstruieren oder ersetzen?",
+      "excerpt": "Die langfristigen Vorteile, Ihre eigene Klappe zu erhalten — und wann ein Ersatz dennoch die richtige Wahl ist.",
+      "body": [
+        { "h2": "Mitralklappe: rekonstruieren oder ersetzen?" },
+        { "p": "Die Mitralklappe ist eine Einbahn-Klappe zwischen dem linken Vorhof und der linken Herzkammer. Schließt sie nicht richtig, fließt Blut zurück (Mitralinsuffizienz); ist sie verengt, wird der Vorwärtsfluss behindert (Mitralstenose)." },
+        { "p": "Die Behandlung teilt sich in zwei Wege: vorhandene Klappe rekonstruieren oder durch eine neue ersetzen. Das Grundprinzip moderner Herzchirurgie: wenn möglich, immer rekonstruieren." },
+        { "h2": "Warum zuerst rekonstruieren?" },
+        { "p": "Den Erhalt der eigenen Klappe haben gemessene Langzeitvorteile:" },
+        { "ul": [
+          "Bessere linksventrikuläre Funktion: Die natürliche Klappenmechanik bleibt erhalten.",
+          "Keine Antikoagulation: Eine mechanische Klappe erfordert lebenslanges Marcumar/Warfarin; Rekonstruktion meist nicht.",
+          "Geringeres Endokarditis- (Infektions-)Risiko.",
+          "Längere Lebenserwartung: Studien zeigen konstant ein längeres Überleben nach erfolgreicher Rekonstruktion als nach Ersatz."
+        ]},
+        { "h2": "Wann ist eine Rekonstruktion möglich?" },
+        { "p": "Der Erfolg hängt vom Klappenfehler ab:" },
+        { "ul": [
+          "Degenerative MI (Barlow / FED): Rekonstruktionsrate über 95%. Moderne Techniken (Neochordae, Anuloplastiering, dreieckige Resektion) sind hocheffektiv.",
+          "Funktionelle MI (herzinsuffizienzbedingt): Möglich, aber mit variablen Langzeitergebnissen.",
+          "Rheumatische Mitralstenose: Dauerhafte Rekonstruktion selten; Kommissurotomie in Einzelfällen.",
+          "Endokarditis: Kleine Vegetationen — Rekonstruktion; ausgedehnte Zerstörung — Ersatz."
+        ]},
+        { "h2": "Rekonstruktionstechniken" },
+        { "p": "Wichtigste chirurgische Werkzeuge:" },
+        { "ul": [
+          "Anuloplastiering: Bringt den dilatierten Anulus in seine anatomische Form zurück.",
+          "Neochordae (künstliche Sehnenfäden): ePTFE-Fäden ersetzen rupturierte oder gedehnte native Chordae.",
+          "Segelresektion / Reshaping: Überschüssiges Gewebe am posterioren Segel wird entfernt.",
+          "Edge-to-Edge-Reparatur: In ausgewählten Fällen werden beide Segel verbunden."
+        ]},
+        { "h2": "Wann ist Ersatz nötig?" },
+        { "p": "Ersatz ist die richtige Wahl bei:" },
+        { "ul": [
+          "Schwerer Verkalkung der Segel",
+          "Ausgedehntem rheumatischem Schaden",
+          "Großem Gewebsverlust nach Endokarditis",
+          "Unbefriedigendem Ergebnis intraoperativ (TEE bestätigt — Konversion zum Ersatz)"
+        ]},
+        { "p": "Zwei Klappenoptionen:" },
+        { "ul": [
+          "Mechanisch: Sehr haltbar (40+ Jahre), aber lebenslange Antikoagulation.",
+          "Biologisch (Gewebe): Keine Antikoagulation nötig, aber Ersatz nach 10–15 Jahren möglich. Bevorzugt bei älteren Patienten."
+        ]},
+        { "h2": "Minimalinvasiver Zugang" },
+        { "p": "Mitralchirurgie wird heute häufig über eine rechte Mini-Thorakotomie durchgeführt — ohne Sternotomie. Ein 5–6 cm Schnitt unter der rechten Brust reicht aus. Die Vorteile:" },
+        { "ul": [
+          "Weniger Schmerzen",
+          "4–5 Tage Krankenhausaufenthalt",
+          "Rückkehr zu normaler Aktivität in 3–4 Wochen"
+        ]},
+        { "p": "Die Rekonstruktionsraten sind mit der Sternotomie vergleichbar." },
+        { "h2": "Operationszeitpunkt" },
+        { "p": "Eine Rekonstruktion bringt die besten Ergebnisse, solange die Klappe noch \"rettbar\" ist. Zu langes Warten kann irreversible Schäden am linken Ventrikel verursachen. Moderne Leitlinien empfehlen frühe Operationen bei symptomatischer schwerer Insuffizienz — besonders bei zu erwartender hoher Rekonstruktionsrate." },
+        { "h2": "Nächster Schritt" },
+        { "p": "Wenn Sie die Diagnose Mitralinsuffizienz haben und eine Operation ansteht, ist die wichtigste Frage zuerst: ist Ihre Anatomie rekonstruktionsfähig? Bringen Sie Ihre Echokardiographie zu einem Beratungstermin mit." }
+      ]
+    },
+    "valve-disease-signs": {
+      "title": "Herzklappenerkrankungen: Anzeichen, die Sie nicht ignorieren sollten",
+      "excerpt": "Atemnot, Herzklopfen, geschwollene Knöchel — welche Symptome auf eine Klappenerkrankung hinweisen und wann der Gang zum Spezialisten lohnt.",
+      "body": [
+        { "h2": "Es beginnt leise und schränkt dann das Leben ein" },
+        { "p": "Herzklappen sorgen dafür, dass Blut in die richtige Richtung durch die vier Kammern fließt. Eine Klappe verengt sich (Flussbehinderung) oder schließt nicht mehr vollständig (Rückfluss). In beiden Fällen steigt die Belastung des Herzens." },
+        { "p": "Das Tückische: Klappenerkrankungen verlaufen über Jahre meist still. Symptome schleichen sich ein und werden leicht als \"Älterwerden\" oder \"schlechte Form\" abgetan." },
+        { "h2": "Sieben häufige Warnzeichen" },
+        { "h3": "1. Atemnot bei Belastung" },
+        { "p": "Treppen, Anstiege oder kurze Spaziergänge, die Sie früher nicht aus der Puste brachten — jetzt schon? Das ist das häufigste erste Zeichen einer Klappenerkrankung. Bei steigendem Linksherzdruck staut sich Flüssigkeit in den Lungen." },
+        { "h3": "2. Schnelle Erschöpfung" },
+        { "p": "Mehr als gewöhnliche Müdigkeit — wenn Sie nach kürzeren Aktivitäten sitzen müssen, kann das Herzminutenvolumen reduziert sein." },
+        { "h3": "3. Herzklopfen / Palpitationen" },
+        { "p": "Unregelmäßiger Herzschlag kann der erste Hinweis auf Vorhofflimmern sein. Mitralerkrankungen erhöhen das AF-Risiko deutlich." },
+        { "h3": "4. Geschwollene Knöchel und Füße" },
+        { "p": "Wenn die Strumpfränder am Abend tiefer sitzen oder Schuhe enger werden — möglicherweise eine Rechtsherzbelastung." },
+        { "h3": "5. Belastungsabhängiger Brustschmerz oder Druckgefühl" },
+        { "p": "Klassisch bei Aortenstenose. Ursache sind nicht die Koronarien — sondern der Herzmuskel selbst, der sich nicht mehr ausreichend versorgen kann." },
+        { "h3": "6. Synkopen (besonders bei Belastung)" },
+        { "p": "Das ernsteste Symptom der Aortenstenose. Wenn Sie unter Belastung das Bewusstsein verloren haben, ist das nichts, was warten kann." },
+        { "h3": "7. Atemnot im Liegen (Orthopnoe)" },
+        { "p": "Wenn Sie nicht flach schlafen können und mehrere Kissen brauchen — die Linksherzinsuffizienz ist fortgeschritten." },
+        { "h2": "Welches Symptom deutet auf welche Klappe?" },
+        { "ul": [
+          "Belastungs-Brustschmerz + Synkope — Aortenstenose",
+          "Atemnot im Liegen + Knöchelschwellung — Mitralinsuffizienz",
+          "Palpitationen + Erschöpfung — Mitralerkrankung",
+          "Dyspnoe + Rechtsherzzeichen — Trikuspidalinsuffizienz"
+        ]},
+        { "p": "Ein einzelnes Symptom stellt nie die Diagnose. Welche Klappe wie schwer betroffen ist, klärt die Echokardiographie." },
+        { "h2": "Geräusche — was sie sind und nicht sind" },
+        { "p": "Hat Ihr Arzt ein \"Geräusch\" gehört? Ein Herzgeräusch entsteht, wenn Blut über eine Klappe oder ein Gefäß fließt. Nicht jedes Geräusch bedeutet Krankheit:" },
+        { "ul": [
+          "Akzidentelles Geräusch: Häufig bei Kindern, in der Schwangerschaft, bei Fieber.",
+          "Pathologisches Geräusch: Hinweis auf Klappenstenose, -insuffizienz oder kongenitale Anomalie."
+        ]},
+        { "p": "Jedes neu festgestellte Geräusch sollte mit einer Echokardiographie abgeklärt werden." },
+        { "h2": "Wann sollten Sie einen Termin vereinbaren?" },
+        { "p": "Bei einem oder mehreren Punkten — nicht abwarten:" },
+        { "ul": [
+          "Auffällige Erschöpfung bei früher problemlosen Aktivitäten",
+          "Wiederkehrende Palpitationen",
+          "Belastungs-Brustschmerz, Druck oder Synkopen",
+          "Neue Knöchelschwellung",
+          "Atemnot im Liegen"
+        ]},
+        { "p": "Sofort in die Notaufnahme bei:" },
+        { "ul": [
+          "Starkem, anhaltendem Brustschmerz",
+          "Plötzlicher schwerer Atemnot",
+          "Plötzlichem Bewusstseinsverlust"
+        ]},
+        { "h2": "Wie wird die Diagnose gestellt?" },
+        { "p": "In der Regel zwei Schritte:" },
+        { "ul": [
+          "Klinische Untersuchung + EKG: Geräusch, Rhythmus, Herzgröße",
+          "Echokardiographie: Detaillierte Klappenstruktur, -bewegung und -insuffizienzgrad"
+        ]},
+        { "p": "In komplexen Fällen kommen TEE oder kardiale MRT/CT hinzu." },
+        { "h2": "Nächster Schritt" },
+        { "p": "Wenn eines oder mehrere dieser Symptome Sie beschreiben, klärt eine einfache Echokardiographie die meisten Fragen schnell. Buchen Sie einen Kontrolltermin — je früher Klappenerkrankungen erkannt werden, desto vielfältiger bleiben die Behandlungsoptionen." }
+      ]
+    },
+    "aortic-aneurysm-guide": {
+      "title": "Aortenaneurysma: von der Diagnose bis zur Behandlung",
+      "excerpt": "Ein stiller Befund, der lebensbedrohlich werden kann. Screening, Verlaufskontrolle und die Operationsentscheidung.",
+      "body": [
+        { "h2": "Was ist ein Aortenaneurysma?" },
+        { "p": "Die Aorta ist die Hauptschlagader — sie verlässt das Herz und versorgt vom Bauchraum aus alle Organe. Ein Aneurysma ist eine Schwächung eines Abschnitts der Aortenwand, die sich über den normalen Durchmesser hinaus aufweitet." },
+        { "p": "Nach Lokalisation:" },
+        { "ul": [
+          "Aufsteigende Aorta: direkt oberhalb des Herzens.",
+          "Aortenbogen: die Krümmung, an der die Hirngefäße abzweigen.",
+          "Absteigende thorakale Aorta: im Brustkorb.",
+          "Bauchaorta: im Abdomen."
+        ]},
+        { "p": "Dieser Beitrag konzentriert sich auf thorakale Aortenaneurysmen." },
+        { "h2": "Gibt es Symptome?" },
+        { "p": "Meist nicht. Aneurysmen werden typischerweise zufällig auf Bildgebung entdeckt, die für andere Indikationen erfolgt (Thorax-CT, Echokardiographie)." },
+        { "p": "Wenn Symptome auftreten:" },
+        { "ul": [
+          "Tiefer, dumpfer Schmerz zwischen den Schulterblättern oder vorne im Brustkorb",
+          "Heiserkeit (eine sich vergrößernde Aorta kann den linken Stimmbandnerv komprimieren)",
+          "Schluckbeschwerden",
+          "Aortenklappeninsuffizienz-Symptome (wenn auch die Klappe betroffen ist)"
+        ]},
+        { "p": "Plötzlicher, \"reißender\" Brust- oder Rückenschmerz ist immer ein Notfall — Hinweis auf Dissektion oder Ruptur." },
+        { "h2": "Risikofaktoren" },
+        { "ul": [
+          "Hoher Blutdruck (stärkster Einzelfaktor)",
+          "Rauchen",
+          "Familienanamnese (insbesondere Verwandte ersten Grades mit Aneurysma)",
+          "Genetische Syndrome: Marfan, Ehlers-Danlos, Loeys-Dietz, Turner",
+          "Bicuspide Aortenklappe",
+          "Höheres Alter"
+        ]},
+        { "h2": "Screening: für wen?" },
+        { "p": "Wer eine erstgradige Verwandtschaft mit thorakalem Aortenaneurysma hat, sollte einmal mit Echokardiographie oder CT untersucht werden. Bei Marfan und ähnlichen Syndromen ist die jährliche Kontrolle Standard." },
+        { "h2": "Größe und Risiko" },
+        { "p": "Der Durchmesser bestimmt das Rupturrisiko direkt:" },
+        { "ul": [
+          "< 4 cm — Sehr geringes jährliches Ruptur-/Dissektionsrisiko",
+          "4–4,9 cm — < 1% jährliches Risiko",
+          "5–5,9 cm — 5–10% jährliches Risiko",
+          "≥ 6 cm — 15%+ jährliches Risiko"
+        ]},
+        { "p": "Operation in der Regel ab 5,5 cm; bei Marfan oder bicuspider Klappe sinkt die Schwelle auf 5 cm oder sogar 4,5 cm. Wachstum über 0,5 cm pro Jahr ist eine eigenständige OP-Indikation." },
+        { "h2": "Operative Optionen" },
+        { "p": "Nach Lokalisation und Größe:" },
+        { "ul": [
+          "Aufsteigende Aorta: Ersatz mit Prothese. Bentall oder David ergänzt je nach Klappenstatus.",
+          "Aortenbogen: Komplex; oft tiefer hypothermer Kreislaufstillstand erforderlich.",
+          "Absteigende thorakale Aorta: TEVAR (endovaskuläre Stentprothese) oder offene OP.",
+          "Bauchaorta: EVAR (endovaskulär) oder offene OP."
+        ]},
         { "h2": "Erholung" },
-        { "p": "Da das Brustbein nicht durchtrennt wird, sind die Schmerzen deutlich geringer. Die meisten Patienten gehen nach 3–4 Tagen nach Hause." }
+        { "p": "Offene OP der aufsteigenden Aorta: 6–8 Tage Krankenhaus. Vollständige Erholung 2–3 Monate. Die Prothese bleibt lebenslang; Verlaufskontrollen mit Echo oder CT." },
+        { "h2": "Wenn keine OP nötig ist" },
+        { "p": "Bei Aneurysmen unter 5,5 cm reicht jährliches CT oder MR. In dieser Zeit:" },
+        { "ul": [
+          "Blutdruckkontrolle ist entscheidend (Ziel < 130/80 mmHg)",
+          "Rauchen einstellen",
+          "Betablocker in den meisten Fällen empfohlen",
+          "Schwere isometrische Belastung vermeiden (Kraftsport, Bodybuilding)",
+          "Aerobe Bewegung fortsetzen (Gehen, Schwimmen — vorteilhaft)"
+        ]},
+        { "h2": "Nächster Schritt" },
+        { "p": "Wenn Ihr Bildbericht \"Ektasie der aufsteigenden Aorta\" oder \"Aortenaneurysma\" erwähnt, vereinbaren Sie statt zu sorgen einen Beratungstermin. Sobald Größe, Wachstum und Begleiterkrankungen bekannt sind, ergibt sich ein klarer Verlaufs- und Behandlungsplan." }
       ]
     },
-    "tavi-vs-savr": {
-      "title": "TAVI oder offener Aortenklappenersatz?",
-      "excerpt": "Die Wahl bei Aortenstenose — Risiko, Alter, Anatomie und Haltbarkeit.",
+    "aortic-dissection-emergency": {
+      "title": "Aortendissektion: ein Notfall, in dem Minuten zählen",
+      "excerpt": "Was eine Typ-A-Dissektion ist, warum sie innerhalb weniger Stunden operiert werden muss und wie unser 24/7-Team darauf eingestellt ist.",
       "body": [
-        { "p": "TAVI war der wichtigste Fortschritt der letzten Dekade in der Aortenklappenbehandlung." }
+        { "h2": "Es zählen Minuten, nicht Stunden" },
+        { "p": "Eine Aortendissektion ist ein Einriss der inneren Schicht der Aortenwand, durch den Blut zwischen die Wandschichten dringt. So entsteht ein zweiter Kanal neben dem echten Lumen." },
+        { "p": "Es gibt zwei Typen:" },
+        { "ul": [
+          "Typ A: Betrifft die aufsteigende Aorta — Notfall-OP. Unbehandelt steigt die Mortalität pro Stunde um 1–2%.",
+          "Typ B: Beginnt distal der linken A. subclavia — initial medikamentöse Therapie."
+        ]},
+        { "p": "Dieser Beitrag konzentriert sich auf Typ A — die akut lebensbedrohliche Form." },
+        { "h2": "Symptome" },
+        { "p": "Das klassische Bild:" },
+        { "ul": [
+          "Plötzlicher, \"reißender\" Brustschmerz — oft in den Rücken ausstrahlend",
+          "Bewusstseinstrübung (bei beeinträchtigter Hirnperfusion)",
+          "Pulsverlust in einem Arm oder Pulsdifferenz zwischen beiden Armen",
+          "Ohnmacht",
+          "Schlaganfallähnliche Symptome",
+          "Bauchschmerz (bei Beteiligung der Mesenterialarterien)"
+        ]},
+        { "p": "Eine Dissektion wird häufig mit einem Herzinfarkt verwechselt. Die Schmerzqualität unterscheidet sich: Der Infarktschmerz ist drückend und steigt langsam an; Dissektionsschmerz ist plötzlich und wird als \"reißend\" beschrieben." },
+        { "h2": "Risikofaktoren" },
+        { "ul": [
+          "Unkontrollierte Hypertonie (häufigste Einzelursache)",
+          "Bestehendes Aortenaneurysma",
+          "Genetische Syndrome (Marfan, Ehlers-Danlos)",
+          "Bicuspide Aortenklappe",
+          "Trauma (besonders Hochgeschwindigkeitsunfälle)",
+          "Kokain",
+          "Schwangerschaft (besonders 3. Trimester bei Marfan-Patientinnen)"
+        ]},
+        { "h2": "Diagnose" },
+        { "p": "Bei Verdacht:" },
+        { "ul": [
+          "Schnell kontrastverstärktes Thorax-CT — Goldstandard.",
+          "TEE als schnelle Alternative bei instabilem Patienten."
+        ]},
+        { "p": "Bei klarem Verdacht wird die Therapie vor Ende der Bildgebung begonnen." },
+        { "h2": "Notfalltherapie" },
+        { "p": "Typ A → sofort in den OP:" },
+        { "ul": [
+          "Zielblutdruck < 110 mmHg, Puls ~60/min (i.v. Betablocker + Nitroglycerin)",
+          "Schmerztherapie (Morphium)",
+          "Blutprodukte vorbereiten",
+          "Operation typischerweise unter tiefem hypothermem Kreislaufstillstand",
+          "Ersatz der aufsteigenden Aorta mit Prothese; ggf. Klappe und Wurzel mitversorgen"
+        ]},
+        { "p": "Die Operation ist komplex und lang (5–7 Stunden). Mortalität korreliert direkt mit der Zeit zur OP; das Überleben ist deutlich höher bei Operationen innerhalb von 24 Stunden." },
+        { "h2": "Unsere 24/7-Bereitschaft" },
+        { "p": "Bei uns sind Dissektionsfälle Priorität. Das Herzchirurgieteam an der Partnerklinik ist rund um die Uhr in Bereitschaft. CT-Diagnostik, Anästhesie und OP-Logistik sind innerhalb von 60–90 Minuten abgeschlossen — eine Zeitspanne, in der viele Zentren sich noch in der Erstbeurteilung befinden." },
+        { "h2": "Intensivstation und danach" },
+        { "p": "Zwei bis vier Tage Intensivstation, dann Verlegung auf Normalstation. Krankenhausaufenthalt insgesamt 10–14 Tage. Erholung dauert länger als bei Standardherz-OPs: vollständige Erholung 3–4 Monate." },
+        { "h2": "Langfristig" },
+        { "p": "Patientinnen und Patienten nach überstandener Dissektion benötigen:" },
+        { "ul": [
+          "Lebenslange jährliche CT- oder MR-Kontrollen (verbleibende Aortensegmente können sich erweitern)",
+          "Strenge Blutdruckkontrolle (< 130/80 mmHg, oft besser < 120/80)",
+          "Vermeidung schwerer körperlicher Belastung",
+          "Genetisches Screening für Verwandte, wenn indiziert"
+        ]},
+        { "h2": "Wann ist es ein Notfall?" },
+        { "p": "Bei plötzlichem, ungewöhnlich starkem Brust- oder Rückenschmerz nicht selbst Hand anlegen — direkt in die Notaufnahme. Schon eine Stunde Verzögerung kann Ergebnisse verschlechtern." },
+        { "h2": "Nächster Schritt" },
+        { "p": "Wenn Sie ein bekanntes Aortenaneurysma haben oder eine frühere Dissektion in der Familie vorliegt, sind regelmäßige Echokardiographie- und CT-Screenings ratsam. Kontaktieren Sie uns für einen Beratungstermin." }
       ]
     },
-    "what-is-bentall": {
-      "title": "Bentall: Aortenwurzel als Einheit ersetzen",
-      "excerpt": "Wenn Wurzelaneurysma und schwere Klappeninsuffizienz zusammen auftreten.",
+    "bentall-vs-david": {
+      "title": "Bentall vs. David: Entscheidung zwischen zwei Wurzelverfahren",
+      "excerpt": "Soll die Aortenklappe erhalten werden oder gemeinsam mit der Wurzel ersetzt werden? Wir treffen die Entscheidung anhand von Anatomie und Langzeitziel.",
       "body": [
-        { "p": "Bentall ersetzt Klappe, Wurzel und Aorta ascendens als eine Einheit." }
+        { "h2": "Zwei klassische Verfahren für die Aortenwurzel" },
+        { "p": "Die Aortenwurzel sitzt direkt oberhalb des Herzens und enthält die Aortenklappe sowie die Abgänge der Koronararterien. Erkrankungen dieses Bereichs (Erweiterung, Aneurysma) erfordern bei Operationspflicht eine von zwei Hauptoptionen:" },
+        { "ul": [
+          "Bentall-Operation: Aortenklappe + Wurzel + aufsteigende Aorta gemeinsam ersetzen.",
+          "David-Operation: Eigene Aortenklappe erhalten; nur Wurzel und aufsteigende Aorta ersetzen."
+        ]},
+        { "p": "Beide sind valide, evidenzbasierte Optionen. Die Wahl richtet sich nach Klappenstatus und Anatomie." },
+        { "h2": "Die Bentall-Operation" },
+        { "p": "1968 von Hugh Bentall beschrieben:" },
+        { "ul": [
+          "Die erkrankte Aortenklappe wird entfernt",
+          "Eine kombinierte Klappenprothese (Klappe + Aortenrohr in einem Stück) wird implantiert",
+          "Die Koronarostien werden auf das neue Gewebe reimplantiert"
+        ]},
+        { "p": "Ergebnis: ein einmaliger Ersatz von Klappe + Wurzel + Aorta." },
+        { "h3": "Wann Bentall?" },
+        { "ul": [
+          "Aortenklappe deutlich geschädigt (Verkalkung, rheumatischer Schaden, Endokarditis)",
+          "Bicuspide Aortenklappe mit ausgeprägter Insuffizienz",
+          "Klappe nicht rekonstruktionsfähig"
+        ]},
+        { "h3": "Vorteile" },
+        { "ul": [
+          "Bewährt: 50+ Jahre Erfahrung",
+          "Einzeitige Lösung: Klappe und Wurzel zugleich",
+          "Kürzere OP-Zeit als David"
+        ]},
+        { "h3": "Nachteile" },
+        { "ul": [
+          "Mechanische Klappe: lebenslange Antikoagulation",
+          "Biologische Klappe: Reoperation nach 10–15 Jahren oft nötig",
+          "Jeder spätere Eingriff (z. B. bei Endokarditis) betrifft die gesamte Konstruktion"
+        ]},
+        { "h2": "Die David-Operation" },
+        { "p": "1992 von Tirone David beschrieben:" },
+        { "ul": [
+          "Aortenklappe bleibt erhalten (bei gesunden Segeln)",
+          "Erkrankte Wurzel und aufsteigende Aorta werden mit Prothese ersetzt",
+          "Aortenklappe wird im neuen Gewebe wieder aufgehängt"
+        ]},
+        { "p": "Ergebnis: die eigene Klappe bleibt erhalten, nur die Wurzelstruktur wird erneuert." },
+        { "h3": "Wann David?" },
+        { "ul": [
+          "Wurzelaneurysma mit strukturell gesunden Segeln",
+          "Junge Patienten",
+          "Wenn Antikoagulation vermieden werden soll",
+          "Marfan-Syndrom (oft junge Patienten)"
+        ]},
+        { "h3": "Vorteile" },
+        { "ul": [
+          "Keine Antikoagulation: native Klappe erhalten",
+          "Geringeres Endokarditisrisiko",
+          "Bessere Hämodynamik: natürliches Strömungsmuster",
+          "Bessere Langzeitüberlebensraten: Studien favorisieren klappenerhaltende Verfahren"
+        ]},
+        { "h3": "Nachteile" },
+        { "ul": [
+          "Technisch anspruchsvoller: Erfahrung des Operateurs zählt",
+          "Längere OP-Zeit",
+          "Klappeninsuffizienz möglich: 5–10% benötigen langfristig erneute Intervention",
+          "Nicht für alle geeignet: bei degenerierten Segeln nicht durchführbar"
+        ]},
+        { "h2": "Wie wird entschieden?" },
+        { "p": "Schlüsselfaktoren in der Sprechstunde:" },
+        { "ul": [
+          "Alter — Höher spricht für Bentall · Jünger spricht für David",
+          "Klappenstatus — Deutlich geschädigt spricht für Bentall · Segel gesund spricht für David",
+          "Antikoagulation möglich — Akzeptabel spricht für Bentall · Vermeiden spricht für David",
+          "Genetisches Syndrom — Nein spricht für Bentall · Marfan u. ä. spricht für David",
+          "Erfahrung — Standard spricht für Bentall · Hochvolumen spricht für David"
+        ]},
+        { "p": "Häufig fällt die endgültige Entscheidung intraoperativ mit TEE: Sind die Segel wirklich gesund, wird David fortgesetzt; sind sie nicht ausreichend, erfolgt Bentall. Dieses Sicherheitsnetz schützt die Patientin in jedem Szenario." },
+        { "h2": "Ergebnisse" },
+        { "p": "Beide Verfahren liefern in erfahrenen Händen exzellente Ergebnisse:" },
+        { "ul": [
+          "30-Tage-Mortalität: 1–3% (beide)",
+          "5-Jahres-Überleben: 85–90%+",
+          "Reoperation: Bentall abhängig von Klappenhaltbarkeit; David ~1% pro Jahr"
+        ]},
+        { "h2": "Nächster Schritt" },
+        { "p": "Wenn eine Aortenwurzelerkrankung diagnostiziert wurde und eine Operation ansteht, bringen Sie Ihre Bildgebung (CT-Angiographie, Echo) zur gemeinsamen Beurteilung mit. Ob Ihre Segel rekonstruktionsfähig sind, klärt sich meist schnell — und beantwortet die Schlüsselfrage des Operationsplans." }
       ]
     },
-    "off-pump-bypass": {
-      "title": "Off-pump Bypass: Operation am schlagenden Herzen",
-      "excerpt": "Bypass ohne Herz-Lungen-Maschine — Vorteile, Grenzen und Patientenauswahl.",
+    "living-with-aneurysm": {
+      "title": "Leben mit einem Aneurysma: Verlaufskontrolle, Lebensstil, Kontrolle",
+      "excerpt": "Kontrollintervalle, Blutdruckmanagement und Empfehlungen für den Alltag bei Aneurysmen, die noch keine Operation erfordern.",
       "body": [
-        { "p": "Off-pump CABG verzichtet auf die Herz-Lungen-Maschine." }
+        { "h2": "Eine OP ist nicht zwingend — Disziplin schon" },
+        { "p": "Ein kleines Aortenaneurysma in der Bildgebung zu finden ist zunächst beunruhigend. Die gute Nachricht: Die meisten kleinen Aneurysmen erfordern jahrelang keine Operation. Mit der richtigen Verlaufskontrolle und Lebensstilentscheidungen bleibt die Lage lange stabil." },
+        { "p": "Dieser Beitrag ist ein Wegweiser für Patientinnen und Patienten, deren Aneurysma die OP-Schwelle noch nicht erreicht hat." },
+        { "h2": "Verlaufsplan" },
+        { "p": "Häufigkeit hängt von Größe und Lage ab:" },
+        { "ul": [
+          "4,0–4,4 cm — Jährliche Echokardiographie",
+          "4,5–4,9 cm — Jährliches Echo oder CT/MR",
+          "5,0–5,4 cm — Halbjährlich",
+          "5,5 cm und darüber — Chirurgische Konsultation"
+        ]},
+        { "p": "Bei Marfan oder verwandten Syndromen ist die Schwelle niedriger (5 cm, sogar 4,5 cm). Wachstum über 0,5 cm pro Jahr verschiebt die Operation nach vorn." },
+        { "h2": "Blutdruck: das Fundament" },
+        { "p": "Der einzelne stärkste Einflussfaktor auf das Wachstum eines Aneurysmas ist der Blutdruck. Zielwerte:" },
+        { "ul": [
+          "Allgemein: < 130/80 mmHg",
+          "Marfan oder hochrisiko: < 120/80 mmHg"
+        ]},
+        { "p": "Zur Kontrolle:" },
+        { "ul": [
+          "Betablocker als Erstlinie (senken Herzfrequenz und Wandstress)",
+          "ARB (z. B. Losartan) bei Marfan ergänzend",
+          "Diuretika und Kalziumkanalblocker als Add-on möglich"
+        ]},
+        { "p": "Heimmessung: morgens und abends, mehrmals pro Woche. Konstant hohe Werte mit Ihrer Kardiologin teilen." },
+        { "h2": "Bewegung: ja, aber die richtige" },
+        { "p": "Mit einem Aneurysma zu leben heißt nicht, sich nicht zu bewegen. Im Gegenteil: regelmäßige aerobe Bewegung verlangsamt das Wachstum." },
+        { "h3": "Empfohlen" },
+        { "ul": [
+          "Gehen, Wandern",
+          "Schwimmen",
+          "Lockeres Radfahren",
+          "Yoga (ohne Atem anhalten / Valsalva)",
+          "Leichte Gewichte mit hoher Wiederholungszahl (unter 5 kg)"
+        ]},
+        { "h3": "Zu meiden" },
+        { "ul": [
+          "Schweres Krafttraining, Bodybuilding (schwere Isometrie treibt Blutdruck hoch)",
+          "Kraftsport: Ringen, Gewichtheben, schwerer CrossFit",
+          "Hochkontaktsport: Boxen, Judo",
+          "Explosivsport: Sprinten, intensives Tennisspielen",
+          "Tauchen (besonders Scuba)"
+        ]},
+        { "p": "Faustregel: keine Aktivitäten mit Pressatmung oder plötzlichen Druckwechseln." },
+        { "h2": "Rauchen: strikt aufhören" },
+        { "p": "Rauchen schädigt die Aortenwand direkt und verdoppelt die Wachstumsrate. Stärkster modifizierbarer Einzelfaktor." },
+        { "h2": "Lebensstil" },
+        { "ul": [
+          "Mediterrane Ernährung: Olivenöl, Fisch, Gemüse, Obst, Nüsse",
+          "Salz: unter 5 g/Tag",
+          "Alkohol: maßvoll; Mengen, die den Blutdruck heben, vermeiden",
+          "Stressmanagement: chronischer Stress hebt Blutdruck; Meditation und Atemübungen helfen",
+          "Schlaf: 7–8 Stunden; Schlafapnoe muss behandelt werden (beschleunigt Wachstum)"
+        ]},
+        { "h2": "Familien-Screening" },
+        { "p": "Für Verwandte ersten Grades:" },
+        { "ul": [
+          "Wenn Eltern, Geschwister oder Kinder Aneurysmen haben, einmalige Echokardiographie empfehlenswert",
+          "Bei Marfan: genetische Beratung und Familien-Screening"
+        ]},
+        { "h2": "Notfall-Bewusstsein" },
+        { "p": "Sofort in die Notaufnahme bei:" },
+        { "ul": [
+          "Plötzlichem, schwerem \"reißendem\" Brust- oder Rückenschmerz",
+          "Plötzlicher Synkope",
+          "Schlaganfallähnlichen Symptomen (einseitige Taubheit, Sprachstörung)",
+          "Plötzlicher Pulsabschwächung in einem Arm"
+        ]},
+        { "p": "Diese Symptome weisen auf Dissektion oder Ruptur hin. Die Entscheidung trifft man in Sekunden, nicht in Minuten." },
+        { "h2": "Die psychologische Seite" },
+        { "p": "Mit einem Aneurysma zu leben erzeugt im ersten Jahr Angst. Die meisten Patientinnen gewöhnen sich. Wenn nötig:" },
+        { "ul": [
+          "Mit Kardiologin oder Herzchirurgen sprechen (konkrete Zahlen helfen)",
+          "Patientengruppen für Aortenerkrankungen (Marfan-Stiftungen u. ä.)",
+          "Bei ausgeprägten Ängsten ärztliche Hilfe suchen"
+        ]},
+        { "h2": "Nächster Schritt" },
+        { "p": "Sind Sie auf einem regelmäßigen Verlaufsplan? Bringen Sie Ihre aktuelle Bildgebung und Ihren Plan mit, und wir besprechen den nächsten Schritt gemeinsam. Sorge ist nicht das Ziel — strukturierte Verlaufskontrolle ist es." }
       ]
     },
-    "patient-journey-de": {
-      "title": "Von München nach Antalya: Eine Patientenreise",
-      "excerpt": "Der TAVI-Weg unseres 64-jährigen Patienten — vom ersten Videocall bis zur Rückkehr.",
+    "atrial-myxoma": {
+      "title": "Vorhofmyxom: der häufigste gutartige Herztumor",
+      "excerpt": "Häufig zufällig entdeckt. Wie er gefunden wird, warum er entfernt werden muss.",
       "body": [
-        { "p": "K., 64, kam aus München mit schwerer Aortenstenose." }
+        { "h2": "Der häufigste gutartige Herztumor" },
+        { "p": "Primäre gutartige Herztumoren sind selten. Der häufigste ist das Vorhofmyxom — wörtlich ein \"myxoider Tumor im Vorhof\"." },
+        { "p": "Etwa 75% der Vorhofmyxome entstehen im linken Vorhof, 20% im rechten. Meist solitär; bei familiären Formen können mehrere Läsionen vorkommen." },
+        { "h2": "Symptome" },
+        { "p": "Die klassische Trias:" },
+        { "h3": "1. Obstruktion" },
+        { "p": "Der Tumor kann den Blutfluss an der Mitralklappe blockieren:" },
+        { "ul": [
+          "Belastungsabhängige Atemnot",
+          "Lageabhängige Synkopen",
+          "Lungenödem",
+          "Beschwerden, die im Liegen besser werden, im Stehen schlechter"
+        ]},
+        { "p": "Da der Tumor beweglich ist, ändern sich die Symptome mit der Körperposition — ein klassischer Hinweis." },
+        { "h3": "2. Embolie" },
+        { "p": "Tumorbruchstücke gelangen in den Kreislauf. Häufigste Komplikation:" },
+        { "ul": [
+          "Schlaganfall (linkes Vorhofmyxom)",
+          "Akute periphere Arterienverschlüsse (z. B. Beinischämie)",
+          "Lungenembolie (rechtes Vorhofmyxom)"
+        ]},
+        { "h3": "3. Systemische Symptome" },
+        { "p": "Tumor-eigene Zytokine verursachen:" },
+        { "ul": [
+          "Fieber",
+          "Gewichtsverlust",
+          "Gelenkschmerzen",
+          "Müdigkeit",
+          "Erhöhte BSG und CRP",
+          "Manchmal als virale oder autoimmune Erkrankung fehlgedeutet"
+        ]},
+        { "p": "Häufig dominiert nur eines der drei Muster — daher kann die Diagnose verzögert sein." },
+        { "h2": "Diagnose" },
+        { "p": "Typischerweise zwei Schritte:" },
+        { "ul": [
+          "Transthorakale Echokardiographie: identifiziert den Tumor in über 95% der Fälle.",
+          "Transösophageale Echokardiographie (TEE): klärt Anhaftung, Stiel und Größe."
+        ]},
+        { "p": "CT oder MRT kann ergänzend hilfreich sein, besonders bei älteren Patientinnen, bei denen die Koronaranatomie mitbeurteilt werden soll." },
+        { "h2": "Operation: einzige Option, mit ausgezeichneten Ergebnissen" },
+        { "p": "Sobald ein Vorhofmyxom diagnostiziert ist, wird die chirurgische Entfernung in jedem Fall empfohlen. Gründe:" },
+        { "ul": [
+          "Embolisierungsrisiko (jeden Tag etwas höher)",
+          "Risiko mechanischer Obstruktion",
+          "Seltenes Risiko maligner Transformation"
+        ]},
+        { "p": "Abwartendes Verhalten ist nicht gerechtfertigt." },
+        { "h3": "Operationsplan" },
+        { "ul": [
+          "Standard-Sternotomie oder minimalinvasiv (rechte Mini-Thorakotomie)",
+          "Herz-Lungen-Maschine",
+          "Tumor wird mit Stiel und einer breiten Manschette der Vorhofwand entfernt",
+          "Vorhofdefekt primär oder mit Patch verschlossen",
+          "Begleitende Mitralinsuffizienz (durch mechanische Obstruktion) verschwindet meist"
+        ]},
+        { "h3": "Ergebnisse" },
+        { "ul": [
+          "30-Tage-Mortalität: 1–2%",
+          "Lokales Rezidiv: 1–3% (höher bei familiären Formen)",
+          "Langzeitüberleben: vergleichbar mit der altersangepassten Allgemeinbevölkerung",
+          "Krankenhausaufenthalt: 5–7 Tage"
+        ]},
+        { "h2": "Nach der OP" },
+        { "p": "Jährliche Echokardiographie für die ersten 6–12 Monate als Rezidivkontrolle. Danach reicht die Routine-Herzkontrolle in nicht-familiären Fällen." },
+        { "h2": "Familiäre Form (Carney-Komplex)" },
+        { "p": "In 5–10% der Fälle. Multiple Läsionen, jüngeres Auftreten, Hautpigmentierung und andere endokrine Tumoren möglich. Diese Form erfordert:" },
+        { "ul": [
+          "Genetische Testung",
+          "Verpflichtendes Screening von Verwandten ersten Grades",
+          "Engmaschigere Kontrollen + frühere OP"
+        ]},
+        { "h2": "Nächster Schritt" },
+        { "p": "Wenn die Bildgebung eine Vorhofmasse zeigt, ist eine zügige herzchirurgische Konsultation empfohlen. Mit der richtigen Operation sind Vorhofmyxome praktisch heilbar. Kontaktieren Sie uns für einen Beratungstermin." }
       ]
     },
-    "after-surgery-life": {
-      "title": "Leben nach der offenen Herz-OP: Die ersten 12 Wochen",
-      "excerpt": "Ein praktischer Wochenkalender — wann gehen, wann fahren, wann heben.",
+    "maze-procedure": {
+      "title": "Die MAZE-Operation: Vorhofflimmern chirurgisch beenden",
+      "excerpt": "Wenn Vorhofflimmern lange besteht oder andere Eingriffe begleitet, kann die chirurgische Ablation den Sinusrhythmus wiederherstellen.",
       "body": [
-        { "p": "Die Stunden im OP prägen den Rest Ihres Lebens — die ersten zwölf Wochen prägen das Ergebnis." }
+        { "h2": "Eine chirurgische Lösung für Vorhofflimmern" },
+        { "p": "Vorhofflimmern (VHF) ist die häufigste Rhythmusstörung weltweit. Mit dem Alter steigt die Häufigkeit — über 65-Jährige sind zu mehr als 10% betroffen. Symptome: Palpitationen, Erschöpfung, Belastungsdyspnoe. Die schwerwiegendste Komplikation ist Gerinnselbildung im linken Vorhof mit nachfolgendem Schlaganfall." },
+        { "p": "Behandlungsoptionen:" },
+        { "ul": [
+          "Medikamentöse Rhythmus-/Frequenzkontrolle + Antikoagulation",
+          "Katheterablation (interventionell)",
+          "Chirurgische Ablation — MAZE-Operation"
+        ]},
+        { "p": "Dieser Beitrag behandelt Option 3." },
+        { "h2": "Was ist die MAZE-Operation?" },
+        { "p": "1987 von Dr. James Cox entwickelt, blockiert die MAZE-Operation chirurgisch die abnormen elektrischen Pfade, die VHF antreiben." },
+        { "p": "Die Originaltechnik heißt Cox-Maze; \"maze\" beschreibt das Labyrinthmuster der Schnitte, das nur einen einzigen erlaubten Pfad vom Sinus- zum AV-Knoten lässt. Alle anderen elektrischen Wege werden unterbrochen." },
+        { "p": "Moderne Varianten:" },
+        { "ul": [
+          "Cox-Maze IV: Schnitte werden durch Radiofrequenz- oder Kryoablation ersetzt.",
+          "Mini-MAZE: Zielregion ist die hintere linke Vorhofwand und die Lungenvenen."
+        ]},
+        { "h2": "Für wen geeignet?" },
+        { "p": "MAZE ist besonders relevant bei:" },
+        { "ul": [
+          "VHF-Patientinnen mit gleichzeitiger Herzoperation: 30–45 Minuten zusätzlich während Bypass-, Klappen- oder Aorteneingriff.",
+          "VHF-Patienten nach erfolgloser Katheterablation",
+          "Lang anhaltendem persistierendem VHF (Medikamente und Katheter reichen nicht)",
+          "Vergrößertem linkem Vorhof (typisch > 5–5,5 cm)",
+          "Zustand nach gerinnselbedingtem Schlaganfall — besonders wenn das linke Vorhofohr im selben Eingriff verschlossen wird"
+        ]},
+        { "h2": "Linkes Vorhofohr — ein zusätzlicher Nutzen" },
+        { "p": "Bei der MAZE-OP wird das linke Vorhofohr (LAA) ebenfalls chirurgisch verschlossen. Etwa 90% der VHF-bezogenen Gerinnsel entstehen dort. Sein Verschluss senkt das Schlaganfallrisiko deutlich — unabhängig vom Erfolg der Ablation." },
+        { "h2": "Wie wird es durchgeführt?" },
+        { "p": "In Kombination mit anderen Eingriffen:" },
+        { "ul": [
+          "Sternotomie oder Mini-Thorakotomie",
+          "Herz-Lungen-Maschine",
+          "Ablationslinien werden im linken Vorhof während des Haupteingriffs gesetzt",
+          "LAA wird gestapelt oder übernäht",
+          "30–45 Minuten zusätzliche Zeit"
+        ]},
+        { "p": "Bei isoliertem MAZE (nur wegen VHF):" },
+        { "ul": [
+          "Rechte Mini-Thorakotomie (minimalinvasiv)",
+          "Herz-Lungen-Maschine bei Bedarf",
+          "2–3 Stunden OP-Zeit"
+        ]},
+        { "h2": "Erfolgsraten" },
+        { "ul": [
+          "Begleitendes MAZE: ~75–85% Sinusrhythmus nach 1 Jahr",
+          "Isoliertes MAZE: ~85–90% nach 1 Jahr",
+          "Sinusrhythmus 5 Jahre nach Katheterablation: ~50%",
+          "Sinusrhythmus 5 Jahre nach MAZE: ~75–85%"
+        ]},
+        { "p": "MAZE liefert also deutlich nachhaltigere Ergebnisse als die Katheterablation." },
+        { "h2": "Danach" },
+        { "p": "Vorhofarrhythmien können in den ersten 3 Monaten weiterhin auftreten — Wundheilungsphase. Nach 3 Monaten wird der Rhythmus erneut bewertet; bei Sinusrhythmus kann die Antikoagulation oft schrittweise reduziert werden (sofern auch das LAA verschlossen wurde)." },
+        { "p": "EKG- und Holter-Kontrollen nach 3, 6 und 12 Monaten, dann jährlich." },
+        { "h2": "Risiken" },
+        { "ul": [
+          "Schrittmacherbedarf: 5–10% (Ablation in der Nähe des Sinusknotens)",
+          "Blutung: 2–3%",
+          "Schlaganfall (intraoperativ): ~1%",
+          "Wundinfektion"
+        ]},
+        { "h2": "Nächster Schritt" },
+        { "p": "Wenn eine Herzoperation ansteht und Sie VHF haben, sollte MAZE auf der Tagesordnung stehen. Auch ein isoliertes MAZE ist eine Option bei medikamentös resistentem, langanhaltendem VHF. Bringen Sie Ihre Behandlungsgeschichte und Rhythmusprotokolle in einen Beratungstermin mit." }
       ]
     },
-    "aortic-dissection-101": {
-      "title": "Aortendissektion: Anatomie eines Notfalls",
-      "excerpt": "Hier zählen Minuten, nicht Stunden. Symptome, Typen und moderne Verfahren.",
+    "pericardiectomy": {
+      "title": "Perikardektomie: das eingeengte Herz wieder entlasten",
+      "excerpt": "Wenn eine konstriktive Perikarditis die Herzfüllung behindert, schafft die Entfernung des Perikards deutliche Linderung.",
       "body": [
-        { "p": "Eine Aortendissektion beginnt mit einem Riss in der inneren Schicht der Aortenwand." }
+        { "h2": "Ein Herz \"in der Schale\": Was ist konstriktive Perikarditis?" },
+        { "p": "Das Herz ist von einem dünnen Sack umhüllt — dem Perikard. Normalerweise elastisch und schmierend, kann es aus verschiedenen Gründen entzündet, verdickt und steif werden. Das Ergebnis: ein Herz, das gleichsam in einer Panzerhülle gefangen ist — es kontrahiert, kann sich aber nicht ausreichend füllen." },
+        { "p": "Die Erkrankung heißt konstriktive Perikarditis. Sie sieht aus wie Herzinsuffizienz, aber der Herzmuskel selbst ist intakt. Das Problem liegt in der \"Außenhülle\"." },
+        { "h2": "Ursachen" },
+        { "p": "Häufige Ursachen:" },
+        { "ul": [
+          "Tuberkulöse Perikarditis (in vielen Regionen weiterhin relevant)",
+          "Vorausgegangene Herzoperationen (mit anschließender Perikardverdickung)",
+          "Vorausgegangene Strahlentherapie (besonders im Brustbereich)",
+          "Autoimmunerkrankungen (Rheuma, Lupus, Vaskulitis)",
+          "Urämische Perikarditis (fortgeschrittene Niereninsuffizienz)",
+          "Idiopathisch (keine identifizierbare Ursache)"
+        ]},
+        { "p": "In der Türkei bleibt die Tuberkulose eine nicht zu vernachlässigende Ursache; in Regionen mit Migrationsdynamik sind die Raten höher." },
+        { "h2": "Symptome" },
+        { "p": "Das Bild entwickelt sich über Jahre langsam:" },
+        { "ul": [
+          "Belastungsabhängige Atemnot",
+          "Beinschwellung, Aszites",
+          "Lebervergrößerung; im Spätstadium Gelbsucht",
+          "Gestaute Halsvenen",
+          "Frühes Sättigungsgefühl, Appetitlosigkeit (aufgrund von Leber- und Milzstauung)"
+        ]},
+        { "p": "In fortgeschrittenen Fällen treten Patienten in eine \"kardiale Kachexie\" — sie verlieren Muskelmasse, halten aber Flüssigkeit zurück. Ein wichtiges Spätbefund." },
+        { "h2": "Diagnose: oft anspruchsvoll" },
+        { "p": "Die konstriktive Perikarditis ist nicht leicht zu diagnostizieren; sie wird oft mit einer restriktiven Kardiomyopathie (primärer Herzmuskelerkrankung) verwechselt. Eine zuverlässige Diagnose kombiniert:" },
+        { "ul": [
+          "Echokardiographie: Perikarddicke, septale Bewegungsmuster, abrupte Frühfüllung",
+          "Kardiale MRT oder CT: Visualisierung des Perikards (>4 mm Dicke ist typisch)",
+          "Rechts- und Linksherzkatheter: Charakteristische \"Wurzel-Quadrat\"-Druckkurven"
+        ]},
+        { "p": "Bleibt die Diagnose unklar, kann die intraoperative Biopsie helfen." },
+        { "h2": "Perikardektomie: Entfernung der \"Hülle\"" },
+        { "p": "Die definitive Therapie ist chirurgisch. Das Perikard wird:" },
+        { "ul": [
+          "Über eine Sternotomie entfernt (klassisch)",
+          "Oder über eine linke Thorakotomie (frühere Präferenz)"
+        ]},
+        { "p": "Das vorsichtige Lösen des steifen, manchmal verkalkten Perikards vom Herzmuskel ist technisch anspruchsvoll. An den Myokard adhärente Plaques müssen mit großer Sorgfalt abgelöst werden." },
+        { "p": "Umfang:" },
+        { "ul": [
+          "Anterior: bis zum Sternum",
+          "Inferior: bis zum Zwerchfell",
+          "Lateral: bis zum linken Phrenikusnerv (geschont)",
+          "Posterior: rechtsseitig so weit wie möglich"
+        ]},
+        { "h2": "Ergebnisse" },
+        { "ul": [
+          "Sofortige Erleichterung: Die meisten Patientinnen berichten innerhalb weniger Stunden über deutlich gebesserte Atemnot",
+          "Aszites und Ödem klingen ab: innerhalb von Tagen",
+          "30-Tage-Mortalität: 5–10% (höher in fortgeschrittenen Fällen)",
+          "5-Jahres-Überleben: 75–85%"
+        ]},
+        { "p": "Der stärkste Einflussfaktor auf das Ergebnis ist das Timing. Eine Operation vor Eintritt der kardialen Kachexie und vor schwerer Leber- und Nierenschädigung verbessert die Ergebnisse drastisch." },
+        { "h2": "Nach der Operation" },
+        { "ul": [
+          "7–10 Tage Krankenhausaufenthalt",
+          "Normale Aktivität nach Woche 6",
+          "Vollständige Erholung nach drei Monaten",
+          "Diuretika werden schrittweise reduziert",
+          "Grunderkrankungen (TB, rheumatisch) werden separat behandelt"
+        ]},
+        { "h2": "Nächster Schritt" },
+        { "p": "Eine Perikardektomie sollte erwogen werden bei:" },
+        { "ul": [
+          "Unerklärter chronischer Beinschwellung + Aszites",
+          "Dyspnoe nach vorausgegangener Herzoperation",
+          "Tuberkulose-Anamnese + Herzinsuffizienzsymptomen",
+          "Spät auftretender Herzinsuffizienz nach Brustkorb-Strahlentherapie"
+        ]},
+        { "p": "Wenn eines dieser Beschreibungen zutrifft, ist eine herzchirurgische Konsultation dringend empfohlen. Bringen Sie Ihre Bildgebung und Katheterdaten mit." }
       ]
     },
-    "atrial-fib-maze": {
-      "title": "MAZE: Eine chirurgische Antwort auf Vorhofflimmern",
-      "excerpt": "Wie sorgfältig gezogene Linien den Rhythmus wiederherstellen können.",
+    "when-cardiac-surgery": {
+      "title": "Wann ist eine Herzoperation nötig? Ein Wegweiser für Patientinnen und Patienten",
+      "excerpt": "Wir grenzen ab, welche Erkrankungen sich medikamentös führen lassen und bei welchen die Operation nicht aufgeschoben werden sollte.",
       "body": [
-        { "p": "MAZE legt kontrollierte Leitungslinien auf das Herzgewebe." }
-      ]
-    },
-    "sutureless-valves": {
-      "title": "Nahtlose Aortenklappen: Kürzere Zeit, weniger Risiko",
-      "excerpt": "Klappen, die ohne klassische Naht halten, reduzieren OP-Zeit und Risiko.",
-      "body": [
-        { "p": "Nahtlose Klappen sind Bioprothesen, die durch radiale Kraft halten." }
+        { "h2": "Ist eine Operation immer nötig?" },
+        { "p": "Nein. Die moderne Kardiologie kann die meisten Herzerkrankungen medikamentös führen. Eine Herzoperation kommt ins Spiel, wenn Medikamente nicht ausreichen oder ein strukturelles Problem vorliegt. Dieser Beitrag klärt, in welchen Situationen die Operation nicht aufgeschoben werden sollte." },
+        { "h2": "Warum spielt \"Verzögerung\" eine Rolle?" },
+        { "p": "Herzgewebe verändert sich mit der Zeit irreversibel. Eine über Jahre unbehandelte undichte Klappe lässt den linken Ventrikel dilatieren und Funktion verlieren. Nach einer verspäteten Operation kehrt das Herz möglicherweise nicht in seine frühere Form zurück. Der Zeitpunkt ist ebenso wichtig wie die Operation selbst." },
+        { "h2": "Wann ist eine Operation zu erwägen?" },
+        { "h3": "1. Koronare Herzkrankheit" },
+        { "p": "Wenn Medikamente und Stents nicht reichen, oder bei:" },
+        { "ul": [
+          "Hauptstammstenose (besonders > 50%)",
+          "Dreigefäßerkrankung + Diabetes",
+          "Komplexer Anatomie: lange, verkalkte, multiple Läsionen",
+          "Versagen der Symptomkontrolle unter Medikamenten und Stents"
+        ]},
+        { "p": "steht eine Bypass-Operation (klassisch oder MIDCAB) auf der Tagesordnung." },
+        { "h3": "2. Klappenerkrankungen" },
+        { "ul": [
+          "Schwere Aortenstenose mit Symptomen (Belastungssynkopen, Brustschmerz, Dyspnoe) — nicht warten",
+          "Schwere Mitralinsuffizienz mit Linksventrikeldilatation",
+          "Endokarditis — besonders bei großen Vegetationen, Embolien oder beginnender Herzinsuffizienz"
+        ]},
+        { "p": "Moderne Leitlinien empfehlen heute frühe Operationen auch bei asymptomatischer schwerer Aortenstenose, sobald die linksventrikuläre Funktion zu sinken beginnt." },
+        { "h3": "3. Aortenerkrankungen" },
+        { "ul": [
+          "Aufsteigendes Aortenaneurysma ≥ 5,5 cm (5 cm bei Marfan; in Einzelfällen 4,5 cm)",
+          "Typ-A-Aortendissektion (Notfall)",
+          "Schnell wachsendes Aneurysma (> 0,5 cm pro Jahr)"
+        ]},
+        { "h3": "4. Angeborene Herzerkrankungen" },
+        { "ul": [
+          "Im Erwachsenenalter entdeckte relevante Links-Rechts-Shunts (ASD, VSD)",
+          "OP am wirksamsten vor Eintritt einer pulmonalen Hypertonie"
+        ]},
+        { "h3": "5. Rhythmusstörungen" },
+        { "ul": [
+          "Lang anhaltendes VHF, ablations-resistent — MAZE",
+          "VHF zufällig bei einer anderen Herz-OP entdeckt — MAZE ergänzen"
+        ]},
+        { "h3": "6. Sonstige" },
+        { "ul": [
+          "Vorhofmyxom — OP in jedem Fall",
+          "Konstriktive Perikarditis — Perikardektomie"
+        ]},
+        { "h2": "Rote Flaggen: nicht aufschieben" },
+        { "p": "Bei einem dieser Punkte zeitnahe Konsultation einer Herzchirurgin oder eines Herzchirurgen vereinbaren:" },
+        { "ul": [
+          "Synkope unter Belastung",
+          "Sie können nicht flach schlafen, brauchen mehrere Kissen",
+          "Echo zeigt schwere Aortenstenose oder ausgeprägte Klappeninsuffizienz",
+          "Angiographie zeigt eine Hauptstammstenose",
+          "Aneurysma > 5 cm festgestellt",
+          "Vorausgegangene Herz-OP mit neuen Symptomen"
+        ]},
+        { "h2": "Fragen vor der OP-Entscheidung" },
+        { "p": "Stellen Sie diese Fragen offen:" },
+        { "ul": [
+          "Was passiert ohne Operation?",
+          "Wie sind meine Überlebenszahlen mit Operation?",
+          "Welcher Ansatz — minimalinvasiv oder klassisch — passt zu mir?",
+          "Kann ich eine Zweitmeinung einholen?",
+          "Wie lange dauert die Erholung?"
+        ]},
+        { "p": "Eine gute Chirurgin antwortet klar, geht nicht in die Defensive und unterstützt aktiv eine Zweitmeinung." },
+        { "h2": "Zweitmeinung — ein gesunder Schritt" },
+        { "p": "Bei einer so weitreichenden Entscheidung ist eine Zweitmeinung sinnvoll. Wir sehen Patientinnen mit bestehenden Behandlungsplänen ohne Wertung und überprüfen ihre Fälle mit derselben Sorgfalt. Zweitmeinung gehört für uns selbstverständlich zur Kommunikation." },
+        { "h2": "Nächster Schritt" },
+        { "p": "Ist eine Herzoperation auf dem Tisch? Unsicherheit verzögert; Klarheit ermöglicht Entscheidungen. Bringen Sie Ihre Angiographie und Echokardiographie mit, und besprechen wir die Lage gemeinsam — ruhig und faktenbasiert." }
       ]
     }
   }

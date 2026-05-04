@@ -16,6 +16,7 @@ type PostContentBlock =
   | { h2: string }
   | { h3: string }
   | { quote: string }
+  | { ul: string[] }
 
 type PostContent = {
   title: string

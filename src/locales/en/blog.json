@@ -28,95 +28,1021 @@
   "likedBtn": "Liked",
   "share": "Share",
   "cats": {
-    "coronary-artery-surgery": "Coronary Bypass",
-    "heart-valve-surgery": "Heart Valve",
+    "coronary-artery-surgery": "Coronary Artery Surgery",
+    "heart-valve-surgery": "Heart Valve Surgery",
     "aortic-surgery": "Aortic Surgery",
-    "other": "Other Adult Surgery",
-    "international": "Health Tourism",
-    "lifestyle": "After Surgery"
+    "other-cardiac-surgery": "Other Adult Cardiac Surgery"
   },
   "posts_content": {
-    "midcab-explained": {
-      "title": "What is MIDCAB? Bypass without opening the sternum",
-      "excerpt": "Coronary bypass through a small incision under the left breast — how it works, who's a candidate, and how recovery differs.",
+    "midcab": {
+      "title": "What is MIDCAB? A guide to minimally invasive coronary bypass",
+      "excerpt": "How a 5–8 cm incision below the left breast replaces the traditional sternotomy — and which patients are good candidates.",
       "body": [
-        { "p": "When most people picture coronary bypass, they imagine a long incision down the middle of the chest. MIDCAB — Minimally Invasive Direct Coronary Artery Bypass — skips that step. The surgeon works through a 6–8 cm cut under the left breast; the sternum stays whole." },
-        { "h2": "Who is it for?" },
-        { "p": "MIDCAB is ideal for patients with single-vessel disease in the LAD. With multi-vessel involvement, a hybrid approach — MIDCAB + percutaneous stent — may be considered." },
-        { "h2": "Recovery" },
-        { "p": "Because the sternum isn't broken, post-op pain is significantly lower. Most patients are discharged in 3–4 days, return to office work in 2 weeks, and to heavy activity in 4–6 weeks." },
-        { "quote": "Reaching the target vessel is the same goal in every bypass technique; what differs is how we get there." },
-        { "h2": "Limits" },
-        { "p": "Not every patient is a candidate. Anatomical position, lung adhesions, prior surgical history all matter at the planning stage." }
+        { "h2": "Coronary bypass without opening the breastbone" },
+        { "p": "In classic coronary bypass, the surgeon divides the breastbone (sternum) along the midline. MIDCAB — Minimally Invasive Direct Coronary Artery Bypass — skips that step. A 5–8 cm incision in the left chest wall, just below the breast, is enough." },
+        { "p": "The left internal mammary artery (LIMA) is sewn directly to the left anterior descending coronary artery (LAD), restoring flow past the blockage. In most cases the heart-lung machine isn't needed; the operation is performed on a beating heart." },
+        { "h2": "Who is MIDCAB for?" },
+        { "p": "MIDCAB isn't the right choice for every bypass candidate. The patients we see the best results in tend to fit one of these profiles:" },
+        { "ul": [
+          "Single-vessel disease: A significant blockage limited to the LAD.",
+          "Hybrid candidates: Multi-vessel disease where MIDCAB to the LAD is combined with stenting (PCI) of the other vessels.",
+          "High open-surgery risk: Older patients, lung disease, or prior chest surgery."
+        ]},
+        { "p": "Every patient's anatomy is different. The decision is made by reviewing your coronary angiogram, echocardiogram, and chest CT together." },
+        { "h2": "Advantages over classic bypass" },
+        { "ul": [
+          "Faster recovery: Without a sternotomy, early-week pain is markedly less. Most patients return to full activity in 4–6 weeks; classic bypass takes 8–12 weeks.",
+          "Less blood loss: A smaller surgical field reduces transfusion need.",
+          "Shorter hospital stay: Typically 3–4 days, versus 5–7 for classic bypass.",
+          "Smaller scar: Hidden under clothing — and quite cosmetic."
+        ]},
+        { "h2": "Limitations" },
+        { "p": "The biggest limitation of MIDCAB is access. The left chest incision exposes the LAD area directly, but circumflex or right coronary artery grafting requires a different technique. That's when a hybrid surgical-interventional approach comes into play." },
+        { "p": "Surgeon experience matters. Working through a small incision is technically harder, so MIDCAB should be performed in high-volume, experienced centres." },
+        { "h2": "Operation day and after" },
+        { "p": "Surgery typically lasts 2–3 hours. You spend a brief time in intensive care, then move to a regular ward. Drains are removed within 1–2 days; discharge is usually on day 3 or 4." },
+        { "p": "In the first week at home you avoid heavy lifting, driving, and long travel. Desk work resumes around week 6; physical work and exercise gradually return at 8–12 weeks." },
+        { "h2": "When to see a specialist" },
+        { "p": "If you've been told you need bypass surgery, or your angiogram shows a significant blockage, take the time to review your options carefully — don't rush. Is MIDCAB a good fit for you? Bring your imaging to a consultation and we'll go through it together to identify the most appropriate approach for your case." }
       ]
     },
-    "tavi-vs-savr": {
-      "title": "TAVI or open aortic valve replacement?",
-      "excerpt": "Choosing between transcatheter and surgical valve replacement in aortic stenosis — risk, age, anatomy, durability.",
+    "off-pump-vs-on-pump": {
+      "title": "Off-pump vs. on-pump bypass: which approach, when?",
+      "excerpt": "We compare the trade-offs of the heart-lung machine versus operating on a beating heart.",
       "body": [
-        { "p": "TAVI has been the most important advance in aortic valve treatment of the last decade. A new valve is delivered through a catheter — usually from the leg — without opening the chest." },
+        { "h2": "Two approaches, the same goal" },
+        { "p": "Coronary bypass surgery has one objective: open a new path beyond a blocked vessel. There are two main ways to get there." },
+        { "p": "In on-pump bypass, the heart is briefly stopped and a heart-lung machine takes over circulation. The surgeon sews into a still, motionless heart." },
+        { "p": "In off-pump bypass (beating-heart bypass), the heart keeps working. Specialised stabilisers immobilise only the small area being sutured. The body's own circulation is preserved throughout." },
+        { "h2": "Why two methods?" },
+        { "p": "Both have evidence-based roles. Choice depends on anatomy, comorbidities, and surgeon experience." },
+        { "h3": "Strengths of on-pump" },
+        { "ul": [
+          "Controlled field: Operating on a still heart maximises suture precision.",
+          "Better in complex anatomy: Multi-vessel disease benefits from unrestricted access.",
+          "Long-term patency data: Decades of follow-up support its outcomes."
+        ]},
+        { "h3": "Strengths of off-pump" },
+        { "ul": [
+          "Pump-free physiology: Avoids the inflammation and embolic load associated with cardiopulmonary bypass.",
+          "Kidney-protective: Reduces dialysis risk in patients with borderline renal function.",
+          "Neurological advantage: Some studies show a small but meaningful drop in stroke rate.",
+          "Less transfusion: No extracorporeal circuit means lower blood loss."
+        ]},
+        { "h2": "Which method for which patient?" },
+        { "p": "Roughly:" },
+        { "ul": [
+          "High-risk, multiple comorbidities: Often off-pump.",
+          "Multi-vessel, complex anatomy: Often on-pump.",
+          "Younger, lower-risk: Both work well; surgeon experience tips the balance.",
+          "Calcified aorta: \"No-touch\" off-pump avoids aortic manipulation."
+        ]},
+        { "h2": "Common myths" },
+        { "quote": "Off-pump is less invasive." },
+        { "p": "No. Both approaches use the same sternotomy. \"Minimally invasive\" applies to techniques like MIDCAB, where the breastbone is preserved." },
+        { "quote": "Off-pump is faster." },
+        { "p": "It depends on the surgeon. Single-graft cases are similar; multi-vessel off-pump cases can take longer." },
+        { "quote": "The pump is always bad." },
+        { "p": "Modern heart-lung machines are not those of 30 years ago. In the right patient, on-pump doesn't worsen outcomes." },
+        { "h2": "How is the decision made?" },
+        { "p": "In consultation we review your angiogram, echocardiogram, and lab values together. The decision is shaped by:" },
+        { "ul": [
+          "Number of diseased vessels and graft target quality",
+          "Left ventricular function",
+          "Renal function",
+          "Aortic calcification",
+          "Prior chest surgery"
+        ]},
+        { "p": "Nothing is \"always better.\" What matters is choosing the right evidence-based approach for you." },
+        { "h2": "When to see a specialist" },
+        { "p": "If bypass surgery is on the table and you're unsure which approach fits, book a consultation. With your imaging in front of us, we'll calmly walk through why one option is preferred over the other in your case." }
+      ]
+    },
+    "bypass-recovery": {
+      "title": "Recovering from bypass: the first 12 weeks",
+      "excerpt": "What to do, what to avoid, and when to return to work and to social life after bypass surgery.",
+      "body": [
+        { "h2": "Day one: intensive care" },
+        { "p": "The first 12–24 hours after bypass surgery are typically spent in intensive care. During this time:" },
+        { "ul": [
+          "Breathing is initially supported by a ventilator; in most patients the tube comes out within hours.",
+          "Cardiac rhythm is monitored continuously.",
+          "Chest drains (small tubes) prevent fluid build-up; they're removed within 1–2 days.",
+          "Pain is managed actively — modern protocols make this far more comfortable than people expect."
+        ]},
+        { "h2": "Days 2–5: ward and mobilisation" },
+        { "p": "Once you move from intensive care to a ward, mobilisation begins. The first goal: sitting at the bedside, then short walks in the corridor. Breathing exercises (incentive spirometry) are central — they significantly reduce lung complications." },
+        { "p": "Diet starts with fluids and progresses to normal food. Average hospital stay is 5–7 days; for minimally invasive procedures (MIDCAB, sutureless TAVI) it can be as short as 3–4 days." },
+        { "h2": "First two weeks at home" },
+        { "p": "When you're discharged, things won't feel \"normal\" — and that's expected:" },
+        { "ul": [
+          "Fatigue: The most common complaint. Energy goes inward to heal. Short naps during the day are fine.",
+          "Sternum sensations: After classic bypass, breastbone tightness and tenderness last 6–8 weeks. With MIDCAB, this is much milder.",
+          "Sleep disruption: It takes a few days to leave hospital rhythm behind.",
+          "Mood: Mild low mood or anxiety in the first 4–6 weeks is common. If it doesn't lift, please tell us."
+        ]},
+        { "h2": "Weeks 3–6: increasing activity" },
+        { "p": "This is the period to gradually extend daily walks. The rule of thumb: walk at a pace where you can still talk without getting breathless." },
+        { "ul": [
+          "Driving: Wait 4–6 weeks after classic bypass; 2–3 weeks after MIDCAB.",
+          "Sexual activity: Generally safe once you can climb a flight of stairs comfortably (around week 4).",
+          "Lifting: Stay under 5 kg for the first six weeks. Strict adherence allows the sternum to fully heal."
+        ]},
+        { "h2": "Weeks 6–12: back to work and life" },
+        { "ul": [
+          "Desk-based work: Safe to return at week 6.",
+          "Physical work: Reviewed at week 10–12 with your doctor.",
+          "Exercise: Walking and low-intensity activity, building to normal exercise by month three.",
+          "Cardiac rehabilitation: If offered, attend. Structured exercise, education, and psychological support measurably improve one-year outcomes."
+        ]},
+        { "h2": "The long view: lifestyle" },
+        { "p": "Bypass solves the blockage but doesn't cure the underlying vascular disease. To keep your grafts patent for the long term:" },
+        { "ul": [
+          "Statins: Almost always lifelong.",
+          "Antiplatelet therapy: Aspirin is core; anything added is decided by your surgical team.",
+          "Smoking: Must stop. The strongest single predictor of graft failure.",
+          "Blood pressure and glucose: Stay on top of targets with your cardiologist.",
+          "Diet and exercise: A Mediterranean-style diet and 150 minutes of moderate activity per week."
+        ]},
+        { "h2": "When to seek emergency care" },
+        { "p": "Don't wait if any of these appear:" },
+        { "ul": [
+          "New chest pain",
+          "Severe shortness of breath",
+          "Wound discharge, redness, or fever",
+          "Sudden one-sided swelling (especially in a leg)",
+          "Palpitations or fainting"
+        ]},
+        { "h2": "Questions" },
+        { "p": "Recovery is different for every patient. If anything is worrying you, contact us — don't wait. Book a follow-up appointment, or message us quickly via WhatsApp." }
+      ]
+    },
+    "classic-vs-minimal-bypass": {
+      "title": "Classic open bypass vs. minimally invasive: which fits which patient?",
+      "excerpt": "Evidence-based outcomes, anatomy, and patient profile — we walk through how the choice is actually made.",
+      "body": [
+        { "h2": "Same problem, different door" },
+        { "p": "In coronary bypass surgery the goal is simple: restore blood flow past a blockage. Classic bypass and minimally invasive bypass (MIDCAB and similar variants) reach that goal through different doors." },
+        { "h2": "Classic bypass: the proven standard" },
+        { "p": "In classic (sternotomy) bypass, the surgeon divides the breastbone in the midline. This access:" },
+        { "ul": [
+          "Reaches every coronary artery directly.",
+          "Is the safest approach in multi-vessel disease.",
+          "In emergencies, gives the team rapid access to all instruments.",
+          "Is supported by decades of long-term follow-up data."
+        ]},
+        { "p": "When the aorta, valves, and multiple vessels need to be addressed in one session, classic bypass remains the gold standard." },
+        { "h2": "Minimally invasive: superior in the right patient" },
+        { "p": "MIDCAB and similar techniques work through 5–8 cm incisions. The breastbone is preserved; the surgeon works between chest-wall muscles." },
+        { "ul": [
+          "Faster recovery: Most patients return to full activity in 4–6 weeks.",
+          "Less pain: Sternum integrity intact means dramatically less early-week discomfort.",
+          "Cosmetic edge: The scar sits beneath bra-strap or t-shirt line.",
+          "Shorter stay: 3–4 days versus 5–7 for classic."
+        ]},
+        { "p": "But minimally invasive isn't for everyone." },
+        { "h2": "Which approach for which patient?" },
+        { "ul": [
+          "Single-vessel (LAD) disease — MIDCAB",
+          "Multi-vessel, complex anatomy — Classic bypass",
+          "Concurrent valve or aortic surgery — Classic bypass",
+          "Older age, multiple comorbidities, high open-surgery risk — Hybrid (MIDCAB + stent) or heart team review",
+          "Redo surgery (prior bypass) — Case by case; minimally invasive can be advantageous"
+        ]},
+        { "h2": "Are long-term outcomes different?" },
+        { "p": "In experienced hands, long-term outcomes are very similar between the two. With the right patient selection, five-year graft patency and survival rates are not clinically different." },
+        { "p": "The clear differences are in early comfort and recovery speed. For an active, working person — or someone with single-vessel disease — the minimally invasive advantages are hard to ignore." },
+        { "h2": "How decisions are made" },
+        { "p": "At our practice in Antalya every case is, where possible, reviewed in a heart team huddle (surgeon, cardiologist, anesthetist). Imaging, labs, and the patient's lifestyle priorities are discussed together." },
+        { "p": "Key questions:" },
+        { "ul": [
+          "What does the anatomy permit?",
+          "Will any concurrent surgery be needed?",
+          "What are the patient's personal recovery goals?",
+          "Do comorbidities limit the minimally invasive option?"
+        ]},
+        { "h2": "The wrong question: \"Which is better?\"" },
+        { "p": "The right question is: \"Which is better for me?\" — and that answer is patient-specific." },
+        { "p": "Bring your angiogram report to a consultation and we'll walk through every option clearly. The decision is always yours; our job is to lay out the choices honestly." }
+      ]
+    },
+    "tavi": {
+      "title": "What is TAVI? Aortic valve replacement without open surgery",
+      "excerpt": "A new-generation aortic valve, delivered through a groin artery — designed for older or higher-risk patients.",
+      "body": [
+        { "h2": "An alternative to open surgery for aortic stenosis" },
+        { "p": "TAVI — Transcatheter Aortic Valve Implantation — is a catheter-based valve replacement for severe aortic stenosis, performed without open-heart surgery. First introduced in 2002, it has become the standard of care for many older patients over the past two decades." },
+        { "p": "During the procedure a new biological valve, compressed inside a thin catheter system, is inserted via the femoral artery in the groin. It is advanced up the aorta, positioned inside the diseased valve, and expanded. The old valve isn't removed — the new one starts working from inside it." },
         { "h2": "Who is TAVI for?" },
-        { "p": "Originally for patients at very high surgical risk. Today it's also used safely in intermediate- and low-risk older patients." },
-        { "h2": "When is open surgery still preferred?" },
-        { "p": "Younger patients, those needing concomitant procedures, complex anatomy, or bicuspid valves — SAVR remains the standard." },
-        { "quote": "TAVI and SAVR aren't rivals; they're two tools for the same goal. Matching patient to tool is the surgeon's job." }
+        { "p": "In its early years TAVI was offered only to patients at very high surgical risk. Indications have widened considerably:" },
+        { "ul": [
+          "Patients over 75 with severe aortic stenosis (routine indication)",
+          "High surgical risk (lung disease, kidney failure, frailty)",
+          "Prior chest surgery",
+          "Selected younger, anatomically favourable intermediate-risk patients (case by case)"
+        ]},
+        { "p": "The decision is always made by a heart team (surgeon, cardiologist, anesthetist, imaging specialist). Aortic annulus dimensions, calcification pattern, coronary ostia distance, and access vessel quality are reviewed in detail on CT angiography." },
+        { "h2": "TAVI vs. open AVR" },
+        { "ul": [
+          "Incision — TAVI: small puncture in the groin · Open AVR: sternotomy",
+          "Anaesthesia — TAVI: often conscious sedation · Open AVR: general required",
+          "Hospital stay — TAVI: 2–4 days · Open AVR: 5–7 days",
+          "Recovery — TAVI: 1–2 weeks · Open AVR: 6–8 weeks",
+          "Valve durability (younger) — TAVI: 8–12+ years · Open AVR: 15–20 years (bioprosthesis)"
+        ]},
+        { "h2": "Procedure day" },
+        { "p": "Most patients receive light sedation; general anaesthesia is available if needed. The procedure takes 60–90 minutes in the cath lab, with continuous fluoroscopy guiding valve positioning." },
+        { "p": "The first night is spent in a coronary care unit. Most patients stand the next day and are discharged within 2–4 days." },
+        { "h2": "Risks and limitations" },
+        { "p": "TAVI is a high-success procedure but not without risk:" },
+        { "ul": [
+          "Pacemaker need: The most common complication (5–15%). Some patients need a permanent pacemaker afterwards.",
+          "Vascular injury: Femoral access may need surgical repair.",
+          "Stroke: Low (2–4%) but a meaningful risk.",
+          "Paravalvular leak: Small leaks between the new valve and the aortic wall — most resolve on their own or are well tolerated."
+        ]},
+        { "h2": "Life afterwards" },
+        { "p": "Antiplatelet therapy is taken for six months. Prophylactic antibiotics may be needed before dental work. Annual echocardiography monitors valve function." },
+        { "p": "Most patients feel a significant improvement in shortness of breath and chest pain — quality of life rises markedly." },
+        { "h2": "When to see a specialist" },
+        { "p": "If you have new shortness of breath, exertional chest pressure, or fainting episodes, and an echocardiogram shows severe aortic stenosis, the decision shouldn't be rushed. Bring your imaging to a consultation and we'll review whether TAVI is the right option for you, together." }
       ]
     },
-    "what-is-bentall": {
-      "title": "Bentall procedure: Replacing the aortic root as one",
-      "excerpt": "When aortic root aneurysm and severe valve insufficiency coexist, Bentall solves both in a single operation.",
+    "sutureless-aortic": {
+      "title": "Sutureless aortic valves: a faster, suture-free biological valve",
+      "excerpt": "By eliminating suturing time, this approach shortens cross-clamp time and offers an alternative for higher-risk surgical candidates.",
       "body": [
-        { "p": "Bentall replaces the aortic valve, root and ascending aorta in one composite graft. Typical candidate: a patient with a dilated root and severe valve insufficiency." },
-        { "h2": "Surgical steps" },
-        { "p": "Diseased tissue removed; a tubular graft containing a mechanical or biological valve is inserted; coronary ostia are reimplanted onto the graft." },
+        { "h2": "A new-generation aortic valve that anchors without sutures" },
+        { "p": "In classic aortic valve replacement the surgeon, after removing the diseased valve, secures the new biological or mechanical valve with 12–15 individual sutures. This step is technically demanding and adds time." },
+        { "p": "Sutureless aortic valves remove that step. The valve sits inside a special stent frame; once positioned, the elastic stent anchors the valve to the aortic annulus automatically. Just three guiding sutures are required." },
+        { "h2": "Why does it matter?" },
+        { "p": "The shift sounds small, but it shortens operating time meaningfully:" },
+        { "ul": [
+          "Aortic cross-clamp time: Heart-stopped time is 30–40% shorter than classic AVR.",
+          "Heart-lung machine time: Drops by a similar margin.",
+          "Total operative time: About 30–45 minutes shorter."
+        ]},
+        { "p": "Shorter pump time reduces lung and kidney complications — particularly for older or comorbid patients." },
+        { "h2": "Who is it for?" },
+        { "p": "Sutureless aortic valves stand out in three scenarios:" },
+        { "ul": [
+          "High surgical risk: Patients near the limit for open AVR but not ideal for TAVI.",
+          "Concurrent surgery: Bypass + valve or multi-valve operations, where shorter pump time matters most.",
+          "Minimally invasive access: Right upper mini-thoracotomy, where suturing in a small field is challenging — sutureless makes the operation feasible."
+        ]},
+        { "h2": "How is it different from TAVI?" },
+        { "p": "The two are sometimes confused:" },
+        { "ul": [
+          "Approach — Sutureless AVR: open surgery (mini- or full sternotomy) · TAVI: catheter (femoral)",
+          "Diseased valve — Sutureless AVR: removed · TAVI: crushed, left in place",
+          "Cross-clamp — Sutureless AVR: yes (short) · TAVI: no",
+          "Estimated valve life — Sutureless AVR: 15–20 years · TAVI: 10–12 years (long-term data limited)",
+          "Calcification tolerance — Sutureless AVR: more flexible · TAVI: limited in certain patterns"
+        ]},
+        { "p": "Think of sutureless as \"the surgery closest to TAVI.\" The two aren't interchangeable; each has its place." },
         { "h2": "Outcomes" },
-        { "p": "Modern series report 30-day mortality below 2%. Long-term survival depends directly on valve choice and patient compliance." }
+        { "p": "Multi-centre studies in experienced hands report:" },
+        { "ul": [
+          "30-day mortality: 1–2% (similar to classic AVR)",
+          "Permanent pacemaker need: 8–10% (lower than TAVI)",
+          "Hospitalisation: 4–6 days",
+          "5-year valve dysfunction: very low"
+        ]},
+        { "h2": "Limitations" },
+        { "p": "No procedure is perfect:" },
+        { "ul": [
+          "Slightly higher pacemaker rate than conventional valves.",
+          "Anatomic restrictions: wide aortic annulus or specific calcification patterns may rule it out.",
+          "Cost: higher than a conventional bioprosthesis."
+        ]},
+        { "h2": "How is it decided?" },
+        { "p": "In consultation we review echocardiography, coronary angiography, and CT angiography (when needed) together. Your surgical risk score, anatomy, and any concurrent surgical needs are weighed jointly." },
+        { "h2": "Next step" },
+        { "p": "If you've been diagnosed with aortic valve disease and the question \"open AVR or TAVI?\" hasn't produced a clear answer, sutureless can be a third door. Bring your imaging to a consultation and we'll review options together." }
       ]
     },
-    "off-pump-bypass": {
-      "title": "Off-pump bypass: Surgery on the beating heart",
-      "excerpt": "Bypass without the heart-lung machine — advantages, limits, and patient selection.",
+    "mitral-repair-vs-replacement": {
+      "title": "Mitral valve: repair or replace?",
+      "excerpt": "The long-term advantages of preserving your own valve, and the situations where replacement becomes the right call.",
       "body": [
-        { "p": "Off-pump CABG keeps the heart beating during the operation; specialised stabilisers immobilise the target vessel area only." }
+        { "h2": "Mitral valve: repair or replace?" },
+        { "p": "The mitral valve is a one-way valve between the left atrium and left ventricle. When it fails to close properly blood flows backwards (mitral regurgitation); when it narrows, flow forwards is impaired (mitral stenosis)." },
+        { "p": "Treatment options split into two paths: repair the existing valve or replace it with a new one. The core principle of modern cardiac surgery: repair, whenever possible." },
+        { "h2": "Why repair first?" },
+        { "p": "Preserving the patient's own valve has measurable long-term advantages:" },
+        { "ul": [
+          "Better left ventricular function: Native valve mechanics are preserved.",
+          "No anticoagulation: A mechanical valve requires lifelong warfarin; repair usually does not.",
+          "Lower endocarditis (infection) risk.",
+          "Better long-term survival: Studies consistently show longer survival after successful repair than after replacement."
+        ]},
+        { "h2": "When is repair feasible?" },
+        { "p": "Success depends on the type of valve disease:" },
+        { "ul": [
+          "Degenerative MR (Barlow / FED): Repair rate over 95%. Modern techniques (neochords, annuloplasty ring, triangular resection) are highly effective.",
+          "Functional MR (heart-failure related): Possible but with more variable long-term results.",
+          "Rheumatic mitral stenosis: Durable repair is rare; commissurotomy may be tried in selected cases.",
+          "Endocarditis: Small vegetations — repair; widespread destruction — replacement."
+        ]},
+        { "h2": "Repair techniques" },
+        { "p": "Key surgical tools:" },
+        { "ul": [
+          "Annuloplasty ring: Restores the dilated annulus to its anatomic shape.",
+          "Neochords (artificial chordae tendineae): ePTFE strands replace ruptured or elongated native chords.",
+          "Leaflet resection / re-shaping: Excess tissue on the posterior leaflet is removed.",
+          "Edge-to-edge repair: In selected cases the two leaflets are joined."
+        ]},
+        { "h2": "When is replacement necessary?" },
+        { "p": "Replacement is the right choice when:" },
+        { "ul": [
+          "Severe leaflet calcification",
+          "Widespread rheumatic damage",
+          "Extensive tissue loss after endocarditis",
+          "An intra-operative TEE shows unsatisfactory repair (we then convert to replacement)"
+        ]},
+        { "p": "Two valve options:" },
+        { "ul": [
+          "Mechanical: Highly durable (40+ years), but lifelong anticoagulation required.",
+          "Biological (tissue): No anticoagulation needed, but may require redo replacement at 10–15 years. Preferred in older patients."
+        ]},
+        { "h2": "Minimally invasive approach" },
+        { "p": "Mitral surgery today is often performed through a right mini-thoracotomy — without dividing the breastbone. A 5–6 cm incision below the right breast is enough. The advantages:" },
+        { "ul": [
+          "Less pain",
+          "4–5 day hospital stay",
+          "Return to normal activity in 3–4 weeks"
+        ]},
+        { "p": "Repair success rates are equivalent to conventional sternotomy." },
+        { "h2": "Surgical timing" },
+        { "p": "Repair gives the best results when the valve is still \"salvageable.\" Waiting too long can cause irreversible left-ventricular damage. Modern guidelines recommend earlier surgery for symptomatic severe regurgitation — particularly when high repair success is expected." },
+        { "h2": "Next step" },
+        { "p": "If you've been diagnosed with mitral regurgitation and surgery is on the table, the first priority is understanding whether your anatomy is repairable. Bring your echocardiogram to a consultation for a detailed review." }
       ]
     },
-    "patient-journey-de": {
-      "title": "From Munich to Antalya: A patient's journey",
-      "excerpt": "Following our 64-year-old patient through the full TAVI pathway — from first video call to return home.",
+    "valve-disease-signs": {
+      "title": "Heart valve disease: symptoms you shouldn't ignore",
+      "excerpt": "Breathlessness, palpitations, ankle swelling — which symptoms suggest valve disease, and when should you see a specialist?",
       "body": [
-        { "p": "K., 64, came to us from Munich with severe aortic stenosis. The journey began with a video consultation built around the echo and CT his local cardiologist had sent us." },
-        { "h2": "Planning" },
-        { "p": "Imaging confirmed TAVI eligibility; surgery was scheduled two weeks later. The clinic coordinated everything — hospital, transfer, accommodation." },
-        { "h2": "The hospital days" },
-        { "p": "The procedure took 90 minutes. He stood up the same day and was discharged on day three. A German interpreter joined every consult and patient-education session." }
+        { "h2": "It starts quietly, then narrows your life" },
+        { "p": "Heart valves keep blood moving in the right direction through the four chambers. A valve either narrows (restricting flow) or fails to close completely (allowing backflow). Either way, the heart's workload rises." },
+        { "p": "The catch: valve disease usually progresses silently for years. Symptoms creep in gradually and are easy to dismiss as \"ageing\" or \"being out of shape.\"" },
+        { "h2": "Seven common warning signs" },
+        { "h3": "1. Shortness of breath on exertion" },
+        { "p": "Stairs, slopes, or short walks that didn't bother you before — now leaving you breathless? That's the most common first sign of valve disease. As left-heart pressures rise, fluid backs up into the lungs." },
+        { "h3": "2. Easy fatigue" },
+        { "p": "Beyond ordinary tiredness — needing to sit down after shorter activities than before suggests reduced cardiac output." },
+        { "h3": "3. Palpitations" },
+        { "p": "An irregular heartbeat may be the first sign of atrial fibrillation. Mitral disease significantly raises AF risk." },
+        { "h3": "4. Ankle and foot swelling" },
+        { "p": "If your sock marks are deeper at night, or your shoes feel tighter — right-heart strain may be the cause." },
+        { "h3": "5. Exertional chest pain or pressure" },
+        { "p": "Classic in aortic stenosis. The cause isn't the coronaries — it's the heart muscle itself struggling to get enough blood." },
+        { "h3": "6. Fainting or near-fainting (especially with exertion)" },
+        { "p": "The most serious aortic-stenosis symptom. Don't dismiss exertional fainting — it shouldn't wait." },
+        { "h3": "7. Breathlessness lying flat (orthopnoea)" },
+        { "p": "If you can't sleep flat and need extra pillows — left-heart failure is advanced." },
+        { "h2": "Which symptom suggests which valve?" },
+        { "ul": [
+          "Exertional chest pain + fainting — Aortic stenosis",
+          "Breathlessness lying flat + ankle swelling — Mitral regurgitation",
+          "Palpitations + fatigue — Mitral disease",
+          "Dyspnoea + right-heart signs — Tricuspid regurgitation"
+        ]},
+        { "p": "A single symptom never makes the diagnosis. Echocardiography clarifies which valve is involved and how severely." },
+        { "h2": "Murmurs — what they are and aren't" },
+        { "p": "Has your doctor heard a \"murmur\"? A murmur is the sound of blood crossing a valve or vessel. Not every murmur means disease:" },
+        { "ul": [
+          "Innocent murmur: Common in children, pregnancy, fever.",
+          "Pathologic murmur: Suggests valve narrowing, regurgitation, or congenital anomaly."
+        ]},
+        { "p": "Any newly identified murmur should be evaluated with echocardiography." },
+        { "h2": "When to book an appointment" },
+        { "p": "Don't wait if you have any of:" },
+        { "ul": [
+          "Marked fatigue with previously easy activities",
+          "Recurring palpitations",
+          "Exertional chest pain, pressure, or fainting",
+          "New ankle swelling",
+          "Breathlessness lying flat"
+        ]},
+        { "p": "Go to the emergency room for any of:" },
+        { "ul": [
+          "Severe, persistent chest pain",
+          "Sudden severe shortness of breath",
+          "Sudden loss of consciousness"
+        ]},
+        { "h2": "How is it diagnosed?" },
+        { "p": "Usually two steps:" },
+        { "ul": [
+          "Clinical exam + ECG: Murmur, rhythm, heart size",
+          "Echocardiography: Detailed valve structure, motion, and leak severity"
+        ]},
+        { "p": "In complex cases, transoesophageal echocardiography or cardiac MRI/CT may be added." },
+        { "h2": "Next step" },
+        { "p": "If one or more of the symptoms above describe you, a simple echocardiogram usually answers most questions quickly. Don't hesitate to book a check-up — the earlier valve disease is detected, the wider your surgical options remain." }
       ]
     },
-    "after-surgery-life": {
-      "title": "Life after open-heart surgery: The first 12 weeks",
-      "excerpt": "A practical week-by-week calendar for the months after discharge — when to walk, when to drive, when to lift.",
+    "aortic-aneurysm-guide": {
+      "title": "Aortic aneurysm: from diagnosis to treatment",
+      "excerpt": "A silent condition that can become life-threatening. Screening, follow-up, and the surgical decision.",
       "body": [
-        { "p": "The hours on the operating table shape the rest of your life — but the result depends just as much on the first twelve weeks after." }
+        { "h2": "What is an aortic aneurysm?" },
+        { "p": "The aorta is the body's main artery — leaving the heart and travelling down through the abdomen to supply every organ. An aneurysm is a weakening of part of the aortic wall that balloons outward beyond its normal diameter." },
+        { "p": "By location:" },
+        { "ul": [
+          "Ascending aortic aneurysm: Just above the heart.",
+          "Aortic arch aneurysm: The curved section where the brain's vessels branch off.",
+          "Descending thoracic aneurysm: Within the chest.",
+          "Abdominal aneurysm: In the abdomen."
+        ]},
+        { "p": "This article focuses on thoracic aortic aneurysms." },
+        { "h2": "Are there symptoms?" },
+        { "p": "Usually not. Aneurysms are typically found incidentally on imaging done for another reason (chest CT, echocardiogram)." },
+        { "p": "When symptoms do appear, they may include:" },
+        { "ul": [
+          "Deep, dull pain between the shoulder blades or in the front of the chest",
+          "Hoarseness (an enlarging aorta can press on the left vocal nerve)",
+          "Difficulty swallowing",
+          "Aortic valve regurgitation symptoms (when the valve is also affected)"
+        ]},
+        { "p": "Sudden, \"tearing\" chest or back pain is always an emergency — it may indicate dissection or rupture." },
+        { "h2": "Risk factors" },
+        { "ul": [
+          "High blood pressure (the strongest single factor)",
+          "Smoking",
+          "Family history (especially first-degree relatives with aneurysm)",
+          "Genetic syndromes: Marfan, Ehlers-Danlos, Loeys-Dietz, Turner",
+          "Bicuspid aortic valve",
+          "Older age"
+        ]},
+        { "h2": "Screening: who needs it?" },
+        { "p": "Anyone with a first-degree relative affected by thoracic aortic aneurysm should be screened once with echocardiography or CT. In Marfan and similar genetic conditions, annual surveillance is standard." },
+        { "h2": "Size and risk" },
+        { "p": "Aneurysm diameter directly affects rupture risk:" },
+        { "ul": [
+          "< 4 cm — Very low annual rupture/dissection risk",
+          "4–4.9 cm — < 1% annual risk",
+          "5–5.9 cm — 5–10% annual risk",
+          "≥ 6 cm — 15%+ annual risk"
+        ]},
+        { "p": "Surgery is generally recommended at 5.5 cm; in Marfan or bicuspid valve cases the threshold drops to 5 cm or even 4.5 cm. Rapid growth (more than 0.5 cm per year) is an independent indication for surgery." },
+        { "h2": "Surgical options" },
+        { "p": "By location and size:" },
+        { "ul": [
+          "Ascending aorta: Replacement with a prosthetic graft. Bentall or David is added based on valve status.",
+          "Aortic arch: Complex; often requires deep hypothermic circulatory arrest.",
+          "Descending thoracic: TEVAR (endovascular stent-graft) or open surgery.",
+          "Abdominal: EVAR (endovascular) or open surgery."
+        ]},
+        { "h2": "Recovery" },
+        { "p": "Open ascending aortic surgery typically requires 6–8 days in hospital. Full recovery takes 2–3 months. The graft itself is permanent and is monitored long-term with periodic echocardiography or CT." },
+        { "h2": "When surgery isn't needed yet" },
+        { "p": "For aneurysms below 5.5 cm, annual CT or MR follow-up is sufficient. During this period:" },
+        { "ul": [
+          "Blood pressure control is critical (target < 130/80 mmHg)",
+          "Stop smoking",
+          "Beta-blockers are recommended in most patients",
+          "Avoid heavy isometric exercise (powerlifting, bodybuilding)",
+          "Continue aerobic exercise (walking, swimming — beneficial)"
+        ]},
+        { "h2": "Next step" },
+        { "p": "If your imaging report mentions \"ascending aortic ectasia\" or \"aortic aneurysm,\" book a consultation rather than worrying. Once we know the size, growth rate, and any associated conditions, the follow-up and treatment plan becomes straightforward." }
       ]
     },
-    "aortic-dissection-101": {
-      "title": "Aortic dissection: Anatomy of an emergency",
-      "excerpt": "Where minutes matter, not hours. Symptoms, types, and modern surgical approaches.",
+    "aortic-dissection-emergency": {
+      "title": "Aortic dissection: an emergency where minutes matter",
+      "excerpt": "What a Type A dissection is, why it requires surgery within hours, and how our 24/7 team is structured around it.",
       "body": [
-        { "p": "Aortic dissection begins with a tear in the inner layer of the aortic wall." }
+        { "h2": "Minutes matter, not hours" },
+        { "p": "Aortic dissection is a tear in the inner layer of the aortic wall, allowing blood to flow between the layers. This creates a second channel running alongside the true lumen." },
+        { "p": "It splits into two types:" },
+        { "ul": [
+          "Type A: Involves the ascending aorta — emergency surgery. Untreated mortality rises 1–2% per hour.",
+          "Type B: Begins beyond the left subclavian artery — initially treated medically."
+        ]},
+        { "p": "This article focuses on Type A — the form that is most rapidly life-threatening." },
+        { "h2": "Symptoms" },
+        { "p": "The classic picture:" },
+        { "ul": [
+          "Sudden, \"tearing\" chest pain — often radiating to the back",
+          "Confusion (if brain perfusion is affected)",
+          "Pulse loss in one arm or a pulse difference between arms",
+          "Fainting",
+          "Stroke-like symptoms",
+          "Abdominal pain (if mesenteric arteries are involved)"
+        ]},
+        { "p": "Dissection is often confused with a heart attack. The pain character differs: heart attack pain is pressure-like and builds gradually; dissection pain is sudden and described as \"tearing.\"" },
+        { "h2": "Risk factors" },
+        { "ul": [
+          "Uncontrolled hypertension (the most common single cause)",
+          "Existing aortic aneurysm",
+          "Genetic syndromes (Marfan, Ehlers-Danlos)",
+          "Bicuspid aortic valve",
+          "Trauma (especially high-speed motor vehicle collision)",
+          "Cocaine use",
+          "Pregnancy (especially the third trimester in Marfan patients)"
+        ]},
+        { "h2": "Diagnosis" },
+        { "p": "Suspected dissection:" },
+        { "ul": [
+          "Rapid contrast-enhanced chest CT — the gold standard.",
+          "Transoesophageal echocardiography (TEE) is a faster alternative when the patient is unstable."
+        ]},
+        { "p": "If suspicion is strong, treatment is started before imaging completes." },
+        { "h2": "Emergency treatment" },
+        { "p": "Type A → operating room immediately:" },
+        { "ul": [
+          "Target blood pressure < 110 mmHg and pulse ~60 bpm (IV beta-blocker + nitroglycerine)",
+          "Pain management (morphine)",
+          "Blood products prepared",
+          "Surgery typically under deep hypothermic circulatory arrest",
+          "Ascending aorta replaced with a tube graft; valve and root addressed if needed"
+        ]},
+        { "p": "Surgery is complex and long (5–7 hours). Mortality correlates directly with time to surgery; survival is significantly higher in patients operated within 24 hours." },
+        { "h2": "Our 24/7 readiness" },
+        { "p": "At our practice, dissection cases are a priority. The contracted-hospital cardiac team is on call around the clock. CT scan, anaesthesia, and operating room logistics are completed within 60–90 minutes — a window in which many centres are still in the initial assessment phase." },
+        { "h2": "ICU and beyond" },
+        { "p": "Two to four days in intensive care, then a regular ward. Total hospital stay is typically 10–14 days. Recovery is longer than after standard cardiac surgery: full recovery takes 3–4 months." },
+        { "h2": "Long-term" },
+        { "p": "Patients who have survived aortic dissection require:" },
+        { "ul": [
+          "Lifelong annual CT or MR (remaining aortic segments may dilate over time)",
+          "Strict blood-pressure control (< 130/80 mmHg, often < 120/80 is better)",
+          "Avoidance of heavy physical strain",
+          "Genetic screening for relatives, when appropriate"
+        ]},
+        { "h2": "When to think emergency" },
+        { "p": "If you have sudden, unusually severe chest or back pain, do not attempt to manage it yourself — go directly to the emergency department. Even a one-hour delay can worsen outcomes." },
+        { "h2": "Next step" },
+        { "p": "If you have a known aortic aneurysm, or relatives with prior dissection, periodic echocardiography and CT screening are advisable. Contact us to book a consultation." }
       ]
     },
-    "atrial-fib-maze": {
-      "title": "MAZE: A surgical answer to atrial fibrillation",
-      "excerpt": "How carefully drawn lines on the heart's chambers can restore rhythm when drugs and ablation fall short.",
+    "bentall-vs-david": {
+      "title": "Bentall vs. David: choosing between two root procedures",
+      "excerpt": "Should the aortic valve be preserved, or replaced together with the root? We make the decision based on anatomy and long-term goals.",
       "body": [
-        { "p": "MAZE creates controlled conduction lines on cardiac tissue to interrupt fibrillation." }
+        { "h2": "Two classic procedures for the aortic root" },
+        { "p": "The aortic root sits just above the heart and contains the aortic valve and the origins of the coronary arteries. When this region is diseased (dilation, aneurysm) and surgery is required, there are two principal options:" },
+        { "ul": [
+          "Bentall procedure: Replace the aortic valve, root, and ascending aorta together.",
+          "David procedure: Preserve the patient's own aortic valve; replace only the root and ascending aorta."
+        ]},
+        { "p": "Both are valid, evidence-based options. The choice depends on the valve's condition and the patient's anatomy." },
+        { "h2": "The Bentall procedure" },
+        { "p": "Described in 1968 by Hugh Bentall, this procedure:" },
+        { "ul": [
+          "Removes the diseased aortic valve",
+          "Inserts a composite valved graft (a prosthetic valve combined with the aortic tube graft)",
+          "Reimplants the coronary ostia onto the new graft"
+        ]},
+        { "p": "Result: a single replacement of valve + root + aorta." },
+        { "h3": "When is Bentall preferred?" },
+        { "ul": [
+          "The aortic valve is significantly damaged (calcification, rheumatic damage, endocarditis)",
+          "Bicuspid aortic valve with marked regurgitation",
+          "The valve cannot be repaired due to a structural problem"
+        ]},
+        { "h3": "Advantages" },
+        { "ul": [
+          "Proven technique: 50+ years of experience",
+          "Single-stage solution: Valve and root together",
+          "Shorter operative time than David"
+        ]},
+        { "h3": "Limitations" },
+        { "ul": [
+          "Mechanical valve: lifelong anticoagulation required",
+          "Biological valve: redo surgery often needed in 10–15 years",
+          "Any future issue (e.g., endocarditis) affects the entire construct"
+        ]},
+        { "h2": "The David procedure" },
+        { "p": "Described in 1992 by Tirone David, this technique:" },
+        { "ul": [
+          "Leaves the aortic valve in place (when the leaflets are healthy)",
+          "Replaces the diseased root and ascending aorta with a tube graft",
+          "Re-suspends the aortic valve inside the new graft"
+        ]},
+        { "p": "Result: the patient's own valve is preserved, only the root structure is renewed." },
+        { "h3": "When is David preferred?" },
+        { "ul": [
+          "Root aneurysm with structurally healthy aortic leaflets",
+          "Younger patients",
+          "When anticoagulation is to be avoided",
+          "Marfan syndrome (most of these patients are young)"
+        ]},
+        { "h3": "Advantages" },
+        { "ul": [
+          "No anticoagulation: the native valve is preserved",
+          "Lower endocarditis risk",
+          "Better hemodynamics: natural valve flow pattern",
+          "Better long-term survival: studies favour valve-sparing approaches"
+        ]},
+        { "h3": "Limitations" },
+        { "ul": [
+          "Technically more demanding: surgeon experience matters",
+          "Longer operative time",
+          "Valve regurgitation may develop: 5–10% may need reintervention over years",
+          "Not suitable for everyone: if leaflets are degenerated, David is not feasible"
+        ]},
+        { "h2": "How is the decision made?" },
+        { "p": "Key factors in consultation:" },
+        { "ul": [
+          "Age — Older favours Bentall · Younger favours David",
+          "Valve status — Marked damage favours Bentall · Leaflets healthy favours David",
+          "Anticoagulation suitability — Acceptable favours Bentall · To be avoided favours David",
+          "Genetic syndrome — Absent favours Bentall · Marfan etc. favours David",
+          "Surgeon experience — Standard favours Bentall · High-volume favours David"
+        ]},
+        { "p": "Often the final decision is made intra-operatively with TEE: if the leaflets are genuinely healthy, David proceeds; if they are not adequate, Bentall is performed. This safety net protects the patient regardless of scenario." },
+        { "h2": "Outcomes" },
+        { "p": "Both procedures yield excellent results in experienced hands:" },
+        { "ul": [
+          "30-day mortality: 1–3% (both procedures)",
+          "5-year survival: 85–90%+",
+          "Reoperation: Bentall depends on valve durability; David ~1% per year"
+        ]},
+        { "h2": "Next step" },
+        { "p": "If you have aortic root disease and surgery is on the table, bring your imaging (CT angiography, echocardiogram) for a joint review. Whether your leaflets are repairable usually becomes clear quickly — and that answers the key question shaping the operative plan." }
       ]
     },
-    "sutureless-valves": {
-      "title": "Sutureless aortic valves: Shorter time, lower risk",
-      "excerpt": "Valves that hold without traditional stitches reduce operating time and risk in older patients.",
+    "living-with-aneurysm": {
+      "title": "Living with an aneurysm: surveillance, lifestyle, control",
+      "excerpt": "Follow-up intervals, blood-pressure management, and daily-life recommendations for aneurysms that don't yet need surgery.",
       "body": [
-        { "p": "Sutureless valves are bioprostheses that anchor with radial force rather than sutures." }
+        { "h2": "Surgery isn't mandatory — discipline is" },
+        { "p": "The discovery of a small aortic aneurysm on imaging is initially worrying. The good news: most small aneurysms don't require surgery for years. With the right surveillance and lifestyle decisions, things can stay stable for a long time." },
+        { "p": "This article is a roadmap for patients with an aneurysm that hasn't reached the surgical threshold." },
+        { "h2": "Surveillance schedule" },
+        { "p": "Frequency depends on size and location:" },
+        { "ul": [
+          "4.0–4.4 cm — Annual echocardiography",
+          "4.5–4.9 cm — Annual echo or CT/MR",
+          "5.0–5.4 cm — Every 6 months",
+          "5.5 cm and above — Surgical consultation"
+        ]},
+        { "p": "In Marfan or related genetic syndromes the threshold is lower (5 cm, even 4.5 cm). Growth of more than 0.5 cm per year shifts surgery forward." },
+        { "h2": "Blood pressure: the foundation" },
+        { "p": "The single strongest factor influencing aneurysm growth is blood pressure. Targets:" },
+        { "ul": [
+          "General: < 130/80 mmHg",
+          "Marfan or high risk: < 120/80 mmHg"
+        ]},
+        { "p": "For control:" },
+        { "ul": [
+          "Beta-blockers are first-line (reduce heart rate and aortic wall stress)",
+          "ARBs (e.g., losartan) can add protection in Marfan",
+          "Diuretics and calcium-channel blockers can help"
+        ]},
+        { "p": "Home monitoring: morning and evening, several times a week. Share consistent highs with your cardiologist." },
+        { "h2": "Exercise: yes, but the right kind" },
+        { "p": "Living with an aneurysm doesn't mean inactivity. Regular aerobic exercise actually slows aneurysm growth." },
+        { "h3": "Recommended" },
+        { "ul": [
+          "Walking, hiking",
+          "Swimming",
+          "Light cycling",
+          "Yoga (avoiding breath-holding and Valsalva manoeuvres)",
+          "Light weights with high reps (under 5 kg)"
+        ]},
+        { "h3": "To avoid" },
+        { "ul": [
+          "Heavy weightlifting, bodybuilding (heavy isometrics spike blood pressure)",
+          "Strength sports: wrestling, powerlifting, heavy CrossFit",
+          "High-contact sports: boxing, judo",
+          "Explosive sports: sprinting, intense racket play",
+          "Diving (especially scuba)"
+        ]},
+        { "p": "Rule of thumb: avoid activities involving breath-holding or sudden pressure changes." },
+        { "h2": "Smoking: must stop" },
+        { "p": "Smoking directly damages the aortic wall structure and doubles the growth rate. It is the single strongest modifiable factor." },
+        { "h2": "Lifestyle" },
+        { "ul": [
+          "Mediterranean-style diet: olive oil, fish, vegetables, fruit, nuts",
+          "Salt: under 5 g per day",
+          "Alcohol: moderate; avoid amounts that raise blood pressure",
+          "Stress management: chronic stress raises BP; meditation and breathing exercises help",
+          "Sleep: 7–8 hours; sleep apnoea must be treated (it accelerates aneurysm growth)"
+        ]},
+        { "h2": "Family screening" },
+        { "p": "For first-degree relatives:" },
+        { "ul": [
+          "If a parent, sibling, or child has an aneurysm history, a one-time echocardiogram is recommended",
+          "Marfan diagnosis warrants genetic counselling and family screening"
+        ]},
+        { "h2": "Emergency awareness" },
+        { "p": "Go to the emergency department immediately for:" },
+        { "ul": [
+          "Sudden, severe \"tearing\" chest or back pain",
+          "Sudden fainting",
+          "Stroke-like symptoms (one-sided numbness, speech difficulty)",
+          "Sudden weakening of the pulse in one arm"
+        ]},
+        { "p": "These suggest dissection or rupture. The decision to go is made in seconds, not minutes." },
+        { "h2": "The psychological side" },
+        { "p": "Living with an aneurysm produces some anxiety in the first year. Most patients adjust over time. When you need it:" },
+        { "ul": [
+          "Talk with a cardiologist or cardiac surgeon (seeing your numbers concretely helps)",
+          "Join an aortic patient community (Marfan foundations, etc.)",
+          "Seek a mental health professional if anxiety becomes pronounced"
+        ]},
+        { "h2": "Next step" },
+        { "p": "Are you on a regular surveillance plan? Bring your most recent imaging and current schedule, and we can plan the next step together. Worry isn't the goal — structured surveillance is." }
+      ]
+    },
+    "atrial-myxoma": {
+      "title": "Atrial myxoma: the most common benign cardiac tumour",
+      "excerpt": "Often diagnosed by accident. How it's found, why it must be removed.",
+      "body": [
+        { "h2": "The most common benign cardiac tumour" },
+        { "p": "Primary benign tumours of the heart are rare. The most common is atrial myxoma — literally a \"myxoid tumour growing in the atrium.\"" },
+        { "p": "About 75% of atrial myxomas arise in the left atrium and 20% in the right. Most are solitary; in familial forms, multiple lesions can occur." },
+        { "h2": "Symptoms" },
+        { "p": "A classic triad:" },
+        { "h3": "1. Obstruction" },
+        { "p": "The tumour can block blood flow at the mitral valve. This produces:" },
+        { "ul": [
+          "Exertional shortness of breath",
+          "Position-dependent fainting",
+          "Pulmonary oedema",
+          "Symptoms that ease lying down and worsen when standing"
+        ]},
+        { "p": "Because the tumour is mobile, symptoms can change with body position — a classic clue to atrial myxoma." },
+        { "h3": "2. Embolism" },
+        { "p": "Fragments break off and enter the circulation. The most common complication:" },
+        { "ul": [
+          "Stroke (with left atrial myxoma)",
+          "Acute peripheral arterial occlusion (e.g., leg ischaemia)",
+          "Pulmonary embolism (with right atrial myxoma)"
+        ]},
+        { "h3": "3. Systemic symptoms" },
+        { "p": "Tumour-derived cytokines cause:" },
+        { "ul": [
+          "Fever",
+          "Weight loss",
+          "Joint pain",
+          "Fatigue",
+          "Elevated ESR and CRP",
+          "Sometimes mistaken for a viral or autoimmune illness"
+        ]},
+        { "p": "Often only one of these three patterns dominates — which is why diagnosis is sometimes delayed." },
+        { "h2": "Diagnosis" },
+        { "p": "Typically two steps:" },
+        { "ul": [
+          "Transthoracic echocardiography: Identifies the tumour in over 95% of cases.",
+          "Transoesophageal echocardiography (TEE): Clarifies the attachment, stalk, and dimensions."
+        ]},
+        { "p": "CT or MRI may add information, especially in older patients where coronary anatomy needs review in the same session." },
+        { "h2": "Surgery: the only option, with excellent results" },
+        { "p": "Once an atrial myxoma is diagnosed, surgical excision is recommended in every patient. The reasons are:" },
+        { "ul": [
+          "Risk of embolisation (a little higher every day)",
+          "Risk of mechanical obstruction",
+          "Rare risk of malignant transformation"
+        ]},
+        { "p": "Watchful waiting is not justified." },
+        { "h3": "Surgical plan" },
+        { "ul": [
+          "Standard sternotomy or minimally invasive (right mini-thoracotomy) approach",
+          "Heart-lung machine",
+          "The tumour is excised with its stalk and a wide cuff of atrial wall",
+          "The atrial defect is closed primarily or with a patch",
+          "Coexisting mitral regurgitation (from mechanical obstruction) typically resolves"
+        ]},
+        { "h3": "Outcomes" },
+        { "ul": [
+          "30-day mortality: 1–2%",
+          "Local recurrence: 1–3% (higher in familial forms)",
+          "Long-term survival: similar to age-matched general population",
+          "Hospital stay: 5–7 days"
+        ]},
+        { "h2": "After surgery" },
+        { "p": "Annual echocardiography for the first 6–12 months for recurrence surveillance. After that, routine cardiac follow-up suffices in non-familial cases." },
+        { "h2": "Familial form (Carney complex)" },
+        { "p": "Seen in 5–10% of cases. Multiple lesions, younger onset, skin pigmentation, and other endocrine tumours may co-occur. This form requires:" },
+        { "ul": [
+          "Genetic testing",
+          "Mandatory screening of first-degree relatives",
+          "More frequent follow-up + earlier surgery"
+        ]},
+        { "h2": "Next step" },
+        { "p": "If imaging has identified an atrial mass, prompt cardiac surgical consultation is recommended. With the right operation, atrial myxomas are essentially curable. Contact us to book a consultation." }
+      ]
+    },
+    "maze-procedure": {
+      "title": "The MAZE procedure: surgically ending atrial fibrillation",
+      "excerpt": "When fibrillation is long-standing or accompanies other cardiac surgery, surgical ablation can restore sinus rhythm.",
+      "body": [
+        { "h2": "A surgical solution for atrial fibrillation" },
+        { "p": "Atrial fibrillation (AF) is the most common rhythm disorder worldwide. Its prevalence rises with age — over a tenth of people aged 65+ live with it. Symptoms include palpitations, fatigue, and exertional shortness of breath. The most serious complication is clot formation in the left atrium leading to stroke." },
+        { "p": "Treatment options:" },
+        { "ul": [
+          "Drug-based rhythm/rate control + anticoagulation",
+          "Catheter ablation (interventional)",
+          "Surgical ablation — the MAZE procedure"
+        ]},
+        { "p": "This article focuses on option 3." },
+        { "h2": "What is the MAZE procedure?" },
+        { "p": "Developed in 1987 by Dr. James Cox, the MAZE procedure surgically blocks the abnormal electrical pathways that drive AF." },
+        { "p": "The original technique is called Cox-Maze; \"maze\" reflects the labyrinth pattern of incisions that leaves only a single permitted path from sinus node to AV node. All other electrical paths are interrupted." },
+        { "p": "Modern variants:" },
+        { "ul": [
+          "Cox-Maze IV: Replaces incisions with radiofrequency or cryoablation lines.",
+          "Mini-MAZE: Targets the posterior left atrium and pulmonary veins."
+        ]},
+        { "h2": "Who is it for?" },
+        { "p": "MAZE is most relevant in:" },
+        { "ul": [
+          "AF patients undergoing concurrent cardiac surgery: Adding 30–45 minutes during a bypass, valve, or aortic operation.",
+          "AF patients in whom catheter ablation has failed",
+          "Long-standing persistent AF (where drugs and catheter ablation aren't enough)",
+          "Enlarged left atrium (typically > 5–5.5 cm)",
+          "History of clot-related stroke — particularly when the left atrial appendage is also closed in the same operation"
+        ]},
+        { "h2": "Left atrial appendage — a bonus benefit" },
+        { "p": "In MAZE the left atrial appendage (LAA) is also surgically closed. Around 90% of AF-related clots originate from this small pouch. Closing it markedly lowers stroke risk — independent of whether the ablation itself maintains sinus rhythm." },
+        { "h2": "How is it done?" },
+        { "p": "When combined with another cardiac operation:" },
+        { "ul": [
+          "Sternotomy or mini-thoracotomy",
+          "Heart-lung machine",
+          "Ablation lines placed in the left atrium during the main procedure",
+          "LAA stapled or oversewn",
+          "30–45 minutes added to the operation"
+        ]},
+        { "p": "In stand-alone MAZE (for AF only):" },
+        { "ul": [
+          "Right mini-thoracotomy (minimally invasive)",
+          "Heart-lung machine if needed",
+          "2–3 hour operation"
+        ]},
+        { "h2": "Success rates" },
+        { "ul": [
+          "Concurrent MAZE: ~75–85% sinus rhythm at one year",
+          "Stand-alone MAZE: ~85–90% at one year",
+          "Five-year sinus rhythm after catheter ablation: ~50%",
+          "Five-year sinus rhythm after MAZE: ~75–85%"
+        ]},
+        { "p": "In other words, MAZE produces noticeably more durable results than catheter ablation." },
+        { "h2": "Afterwards" },
+        { "p": "Atrial arrhythmias may persist for the first three months — this is the wound-healing phase. After three months, the rhythm is reassessed; if sinus rhythm is restored, anticoagulation can often be tapered (provided the LAA was also closed)." },
+        { "p": "ECG and Holter monitoring at 3, 6, and 12 months, then annually." },
+        { "h2": "Risks" },
+        { "ul": [
+          "Pacemaker need: 5–10% (ablation near the sinoatrial node)",
+          "Bleeding: 2–3%",
+          "Stroke (intra-operative): ~1%",
+          "Wound infection"
+        ]},
+        { "h2": "Next step" },
+        { "p": "If you're scheduled for cardiac surgery and have AF, MAZE should always be on the agenda. Stand-alone MAZE is also an option for medication-resistant long-standing AF. Bring your treatment history and rhythm records to a consultation for a joint review." }
+      ]
+    },
+    "pericardiectomy": {
+      "title": "Pericardiectomy: relieving the constrained heart",
+      "excerpt": "When constrictive pericarditis impairs cardiac filling, removing the pericardium delivers significant relief from breathlessness and oedema.",
+      "body": [
+        { "h2": "A heart in a \"shell\": what is constrictive pericarditis?" },
+        { "p": "The heart sits inside a thin sac called the pericardium. Normally elastic and lubricating, it can — for a number of reasons — become inflamed, thickened, and stiff. The result is a heart effectively trapped inside an armored shell — it contracts but can't fill properly." },
+        { "p": "The condition is called constrictive pericarditis. It looks like heart failure, but the heart muscle itself is intact. The problem comes from the \"outer envelope.\"" },
+        { "h2": "What causes it?" },
+        { "p": "Most common causes:" },
+        { "ul": [
+          "Tuberculous pericarditis (still important in many regions)",
+          "Prior cardiac surgery (with subsequent pericardial thickening)",
+          "Prior radiotherapy (especially chest radiation)",
+          "Autoimmune disease (rheumatic disease, lupus, vasculitis)",
+          "Uraemic pericarditis (advanced kidney failure)",
+          "Idiopathic (no identifiable cause)"
+        ]},
+        { "p": "In Türkiye, tuberculosis remains a non-trivial cause; rates remain higher in regions with significant migration." },
+        { "h2": "Symptoms" },
+        { "p": "The picture builds slowly over years:" },
+        { "ul": [
+          "Exertional shortness of breath",
+          "Leg swelling, abdominal distention (ascites)",
+          "Liver enlargement; jaundice in advanced cases",
+          "Distended neck veins",
+          "Early satiety, loss of appetite (from liver and splenic congestion)"
+        ]},
+        { "p": "In advanced disease patients enter \"cardiac cachexia\" — losing muscle mass while retaining fluid. This is a late-stage finding and demands attention." },
+        { "h2": "Diagnosis: often difficult" },
+        { "p": "Constrictive pericarditis isn't straightforward to diagnose; it is often confused with restrictive cardiomyopathy (a primary heart-muscle disease). Reliable diagnosis combines:" },
+        { "ul": [
+          "Echocardiography: Pericardial thickness, septal motion patterns, abrupt early filling",
+          "Cardiac MR or CT: Pericardial visualisation (>4 mm thickness is typical)",
+          "Right + left heart catheterisation: Characteristic \"square root\" pressure tracings"
+        ]},
+        { "p": "If the diagnosis remains unclear, intra-operative biopsy can help." },
+        { "h2": "Pericardiectomy: removing the heart's \"shell\"" },
+        { "p": "Definitive treatment is surgical. The pericardium is:" },
+        { "ul": [
+          "Removed via sternotomy (classic)",
+          "Or via left thoracotomy (older preference)"
+        ]},
+        { "p": "Carefully separating the stiff, sometimes calcified pericardium from the heart muscle is technically demanding. Plaques adherent to the myocardium must be peeled away with care." },
+        { "p": "The extent removed:" },
+        { "ul": [
+          "Anteriorly: to the sternum",
+          "Inferiorly: to the diaphragm",
+          "Laterally: to the left phrenic nerve (which is preserved)",
+          "Posteriorly: as far as feasible on the right"
+        ]},
+        { "h2": "Outcomes" },
+        { "ul": [
+          "Immediate relief: Most patients report marked improvement in breathlessness within hours of surgery",
+          "Ascites and oedema resolve: within days",
+          "30-day mortality: 5–10% (higher in advanced cases)",
+          "5-year survival: 75–85%"
+        ]},
+        { "p": "The strongest determinant of outcome is timing. Operating before cardiac cachexia develops, and before liver and kidney are heavily affected, dramatically improves results." },
+        { "h2": "After surgery" },
+        { "ul": [
+          "7–10 days in hospital",
+          "Normal activity by week six",
+          "Full recovery by three months",
+          "Diuretics tapered gradually",
+          "Underlying causes (TB, rheumatic) treated separately"
+        ]},
+        { "h2": "Next step" },
+        { "p": "Pericardiectomy should be on the agenda when:" },
+        { "ul": [
+          "Unexplained chronic leg swelling + ascites",
+          "Dyspnoea developing after prior cardiac surgery",
+          "Tuberculosis history + heart-failure-like symptoms",
+          "Heart failure developing late after chest radiotherapy"
+        ]},
+        { "p": "If any of these describe you, a cardiac surgery consultation is strongly recommended. Bring your imaging and catheterisation data, and we'll go through it with you." }
+      ]
+    },
+    "when-cardiac-surgery": {
+      "title": "When is cardiac surgery necessary? A patient's roadmap",
+      "excerpt": "We clarify the line between conditions managed with medication and those where surgery shouldn't be delayed.",
+      "body": [
+        { "h2": "Is surgery always required?" },
+        { "p": "No. Modern cardiology can manage most heart conditions with medication. Cardiac surgery comes into play when medication isn't enough or when there is a structural problem. This article clarifies the situations where surgery shouldn't be delayed." },
+        { "h2": "Why does \"delaying\" matter?" },
+        { "p": "Heart tissues undergo irreversible changes over time. A leaking valve left untreated for years lets the left ventricle dilate and lose function. After delayed surgery, the heart may not return fully to its earlier form. Timing is as critical as the surgery itself." },
+        { "h2": "Conditions where surgery should be considered" },
+        { "h3": "1. Coronary disease" },
+        { "p": "When medication and stents are not enough, or with:" },
+        { "ul": [
+          "Left main disease (especially > 50%)",
+          "Three-vessel disease + diabetes",
+          "Complex anatomy: long, calcified, multiple lesions",
+          "Failure of symptom control with medication and stents"
+        ]},
+        { "p": "bypass surgery (classic or MIDCAB) is on the table." },
+        { "h3": "2. Valve disease" },
+        { "ul": [
+          "Severe aortic stenosis with symptoms (exertional fainting, chest pain, dyspnoea) — don't wait",
+          "Severe mitral regurgitation with left-ventricular dilation",
+          "Endocarditis — particularly with large vegetations, embolic events, or developing heart failure"
+        ]},
+        { "p": "Modern guidelines now recommend earlier surgery even in asymptomatic severe aortic stenosis if left-ventricular function is starting to decline." },
+        { "h3": "3. Aortic disease" },
+        { "ul": [
+          "Ascending aortic aneurysm ≥ 5.5 cm (5 cm in Marfan; 4.5 cm in some cases)",
+          "Type A aortic dissection (emergency)",
+          "Rapidly enlarging aneurysm (> 0.5 cm per year)"
+        ]},
+        { "h3": "4. Congenital heart disease" },
+        { "ul": [
+          "Significant adult-detected left-to-right shunts (ASD, VSD)",
+          "Surgery is most effective before pulmonary hypertension develops"
+        ]},
+        { "h3": "5. Rhythm disorders" },
+        { "ul": [
+          "Long-standing AF unresponsive to catheter ablation — MAZE",
+          "AF detected during another cardiac operation — add MAZE"
+        ]},
+        { "h3": "6. Other" },
+        { "ul": [
+          "Atrial myxoma — surgery in every case",
+          "Constrictive pericarditis — pericardiectomy"
+        ]},
+        { "h2": "Red flags: don't delay" },
+        { "p": "If any of these apply, request a cardiac surgical consultation this week:" },
+        { "ul": [
+          "You've fainted with exertion",
+          "You can't sleep flat and need multiple pillows",
+          "An echo shows severe aortic stenosis or marked valvular regurgitation",
+          "An angiogram shows left main disease",
+          "An aneurysm above 5 cm has been detected",
+          "You've had prior cardiac surgery and new symptoms have developed"
+        ]},
+        { "h2": "Questions to ask before deciding on surgery" },
+        { "p": "When talking with your doctor, don't hesitate to ask:" },
+        { "ul": [
+          "What happens if I don't have surgery?",
+          "What are my survival numbers with surgery?",
+          "Which approach — minimally invasive or classic — fits me?",
+          "Can I get a second opinion?",
+          "How long does recovery take?"
+        ]},
+        { "p": "A good surgeon answers clearly, doesn't become defensive, and supports you in seeking a second opinion." },
+        { "h2": "Second opinions — a healthy step" },
+        { "p": "For a decision as significant as cardiac surgery, a second opinion is reasonable and valuable. We see patients arriving with their existing treatment plans without judgement and review their cases with the same care. We treat second opinions as a natural part of communication." },
+        { "h2": "Next step" },
+        { "p": "Is cardiac surgery on the table? Uncertainty causes delay; clarity supports decision-making. Bring your angiogram and echocardiogram, and let's have a calm, evidence-based review together." }
       ]
     }
   }

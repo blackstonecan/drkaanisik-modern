@@ -28,106 +28,1021 @@
   "likedBtn": "Beğenildi",
   "share": "Paylaş",
   "cats": {
-    "coronary-artery-surgery": "Koroner Bypass",
-    "heart-valve-surgery": "Kalp Kapağı",
+    "coronary-artery-surgery": "Koroner Arter Cerrahisi",
+    "heart-valve-surgery": "Kalp Kapak Cerrahisi",
     "aortic-surgery": "Aort Cerrahisi",
-    "other": "Diğer Eriş. Cerrahi",
-    "international": "Sağlık Turizmi",
-    "lifestyle": "Yaşam Sonrası"
+    "other-cardiac-surgery": "Diğer Erişkin Kalp Cerrahisi"
   },
   "posts_content": {
-    "midcab-explained": {
-      "title": "MIDCAB nedir? Sternum açılmadan koroner bypass",
-      "excerpt": "Sol meme altından küçük bir kesiyle yapılan bypass; nasıl çalışır, kimler için uygundur ve iyileşme süreci klasikten neyle ayrılır?",
+    "midcab": {
+      "title": "MIDCAB nedir? Minimal invaziv direkt koroner bypass rehberi",
+      "excerpt": "Sternum açılmadan, sol göğüs duvarındaki küçük bir kesiyle yapılan bypass tekniğinin nasıl çalıştığını ve kimlere uygun olduğunu anlatıyoruz.",
       "body": [
-        { "p": "Klasik koroner bypass denildiğinde aklımıza önce sternumu (göğüs kemiğini) ortadan açan büyük bir kesi geliyor. MIDCAB — Minimally Invasive Direct Coronary Artery Bypass — bu adımı atlar. Cerrah sol meme altından yaklaşık 6–8 santimetrelik küçük bir kesiyle çalışır; göğüs kemiği bütün kalır." },
-        { "h2": "Kimler için uygundur?" },
-        { "p": "MIDCAB özellikle sol ön inen arterde (LAD) tek damar tıkanıklığı olan hastalar için idealdir. Birden fazla damar tutulumu varsa hibrit bir yaklaşım — MIDCAB + perkütan stent — gündeme gelebilir." },
-        { "h2": "İyileşme süreci" },
-        { "p": "Sternumu kırmadığımız için ağrı belirgin ölçüde daha azdır. Hastaların büyük kısmı 3–4 gün içinde taburcu olur, 2 hafta içinde ofis işlerine, 4–6 hafta içinde ağır fiziksel aktiviteye dönebilir." },
-        { "quote": "Hedef damarın açılması her bypass tekniğinde aynıdır; fark, oraya nasıl ulaştığımızdadır." },
-        { "h2": "Sınırları" },
-        { "p": "Her hasta MIDCAB için uygun değildir. Anatomik konum, akciğer yapışıklığı, geçirilmiş cerrahi öyküsü gibi faktörler ön değerlendirmede kritiktir. Karar, koroner anjiografi ve göğüs BT görüntülerinin ardından verilir." }
+        { "h2": "Sternum açılmadan yapılan koroner bypass" },
+        { "p": "Klasik koroner bypass cerrahisinde göğüs kemiği (sternum) ortadan dikey olarak açılır. MIDCAB — Minimal İnvaziv Direkt Koroner Bypass — bu adımı atlar. Sol göğüs duvarında, meme altından geçen yaklaşık 5–8 cm'lik küçük bir kesi yeterlidir." },
+        { "p": "Sol iç meme atardamarı (LIMA), sol ön inen koroner artere (LAD) doğrudan dikilir; tıkalı bölüme yeni bir kan yolu açılır. Çoğu vakada kalp-akciğer makinesine ihtiyaç duyulmaz; ameliyat atan kalp üzerinde yapılır." },
+        { "h2": "Kimler için uygun?" },
+        { "p": "MIDCAB her bypass hastasına uygulanmaz. En iyi sonuçları aldığımız hasta profilleri şöyle:" },
+        { "ul": [
+          "Tek damar hastalığı: Yalnızca LAD damarında ciddi tıkanıklık olan hastalar.",
+          "Hibrit yaklaşım adayları: Çok damar tutulumunda LAD'a MIDCAB, diğer damarlara stent (PCI) uygulanan kombinasyonlar.",
+          "Açık ameliyatın riskli olduğu durumlar: İleri yaş, akciğer hastalığı, daha önce göğüs cerrahisi geçirmiş hastalar."
+        ]},
+        { "p": "Her hastanın anatomisi farklıdır; karar koroner anjiyografi, EKO ve toraks BT bulgularının birlikte değerlendirilmesiyle alınır." },
+        { "h2": "Klasik bypass'a göre avantajlar" },
+        { "ul": [
+          "Daha hızlı iyileşme: Sternum kırılmadığı için ilk haftalarda ağrı belirgin azdır. Çoğu hasta 4–6 hafta içinde tam aktiviteye döner; klasik bypass'ta bu süre 8–12 haftadır.",
+          "Daha az kan kaybı: Küçük kesi alanı sayesinde transfüzyon ihtiyacı düşer.",
+          "Daha kısa hastane yatışı: Ortalama 3–4 gün — klasik bypass'ta 5–7 güne karşı.",
+          "Daha küçük iz: Estetik açıdan da farkı belirgindir."
+        ]},
+        { "h2": "Sınırlamalar" },
+        { "p": "MIDCAB'in en büyük sınırlaması erişilebilen damar sayısıdır. Sol göğüs kesisi yalnızca LAD bölgesine doğrudan ulaşmaya izin verir. Sirkumfleks veya sağ koroner artere yapılacak bypass başka bir teknik gerektirir. Bu durumda hibrit cerrahi-girişimsel yaklaşım gündeme gelir." },
+        { "p": "Ayrıca cerrahın deneyimi sonuca büyük etki eder: dar bir alanda çalışmak teknik açıdan daha zorludur. Bu yüzden MIDCAB'in mutlaka yüksek hacimli, tecrübeli merkezlerde yapılmasını öneriyoruz." },
+        { "h2": "Ameliyat günü ve sonrası" },
+        { "p": "Ameliyat genellikle 2–3 saat sürer. Hasta yoğun bakımda kısa süre kalır, ardından servise alınır. Drenler 1–2 günde çıkar, taburculuk genelde 3. veya 4. gündür." },
+        { "p": "Taburculuk sonrası ilk hafta boyunca ağır kaldırma, araç kullanımı ve uzun seyahatlerden kaçınılır. 6. haftada masaüstü işlere, 8–12. haftada fiziksel iş ve egzersize tam dönüş hedeflenir." },
+        { "h2": "Ne zaman uzmana başvurmalı?" },
+        { "p": "Göğüs ağrısı, yorulma, ya da yapılan koroner anjiyografide tıkanıklık tespit edildiyse cerrahi seçenekleri aceleye getirmeden değerlendirmek önemlidir. MIDCAB sizin için bir seçenek mi? Konsültasyon randevusunda anjiyografi görüntülerinizi birlikte inceleyip, hangi yaklaşımın size en uygun olduğunu netleştirelim." }
       ]
     },
-    "tavi-vs-savr": {
-      "title": "TAVI mı, açık aort kapak ameliyatı mı?",
-      "excerpt": "Aort darlığında transkateter (TAVI) ve cerrahi (SAVR) seçimi; risk, yaş, anatomi ve dayanıklılık denklemlerinin ışığında.",
+    "off-pump-vs-on-pump": {
+      "title": "Off-pump (atan kalpte) bypass mı, on-pump bypass mı?",
+      "excerpt": "Kalp-akciğer makinesi kullanılan ve kullanılmayan iki yaklaşımın avantaj ve sınırlarını karşılaştırıyoruz.",
       "body": [
-        { "p": "Aort darlığı tedavisinde son on yılın en önemli gelişmesi TAVI oldu. Kalp kateterizasyonuyla, çoğunlukla bacaktaki damardan ilerleyen bir kateter aracılığıyla yeni kapak yerine getirilir; göğüs açılmaz." },
-        { "h2": "TAVI kimler için?" },
-        { "p": "Başlangıçta yalnızca açık ameliyatın çok yüksek riskli olduğu hastalar için tasarlandı. Bugün, orta-düşük riskli ileri yaş hastalarda da güvenli sonuçlarla uygulanıyor." },
-        { "h2": "Açık ameliyat ne zaman?" },
-        { "p": "Genç hastalar, başka kalp ameliyatına da ihtiyacı olanlar (örn. eşlik eden bypass), kompleks anatomi veya iki yapraklı aort kapağı olanlar için cerrahi (SAVR) hâlâ standart." },
-        { "quote": "TAVI ile SAVR rakipler değil, aynı amacın iki farklı aracıdır. Hastayı doğru araca yönlendirmek hekimin görevidir." }
+        { "h2": "İki yaklaşım, aynı hedef" },
+        { "p": "Koroner bypass cerrahisinde temel hedef sabittir: tıkalı damarın ötesine yeni bir kan yolu açmak. Bu hedefe ulaşmanın iki ana yolu vardır." },
+        { "p": "On-pump bypass sırasında kalp geçici olarak durdurulur ve bir kalp-akciğer makinesi dolaşımı üstlenir. Cerrah, hareketsiz bir kalp üzerinde dikiş atar." },
+        { "p": "Off-pump bypass (atan kalpte bypass) sırasında ise kalp çalışmaya devam eder. Özel cihazlarla — \"stabilizatörler\" — yalnızca dikiş yapılan bölge sabitlenir. Vücudun kendi dolaşımı korunur." },
+        { "h2": "Neden iki yöntem var?" },
+        { "p": "Her iki yöntemin de kanıta dayalı yeri vardır. Tercih hastanın anatomisine, ek hastalıklarına ve cerrah deneyimine bağlıdır." },
+        { "h3": "On-pump'ın güçlü yönleri" },
+        { "ul": [
+          "Kontrollü saha: Hareketsiz kalp üzerinde dikiş hassasiyeti yüksektir.",
+          "Kompleks anatomide üstün: Çok damar hastalığında, tüm bölgelere rahat erişim sağlar.",
+          "Uzun dönem açıklık oranları: Kanıta dayalı uzun takip verileri mevcuttur."
+        ]},
+        { "h3": "Off-pump'ın güçlü yönleri" },
+        { "ul": [
+          "Pompasız fizyoloji: Kalp-akciğer makinesinin getirdiği inflamasyon ve enbolik yük azalır.",
+          "Böbrek koruyucu: Özellikle böbrek fonksiyonu sınırda olan hastalarda diyaliz ihtiyacı oluşturma riski daha düşük.",
+          "Nörolojik koruma: Bazı çalışmalar inme oranında küçük ama anlamlı düşüş gösterir.",
+          "Daha az kan transfüzyonu: Ekstrakorporeal devre olmadığı için."
+        ]},
+        { "h2": "Hangi yöntem hangi hastaya?" },
+        { "p": "Genel olarak şunu söyleyebiliriz:" },
+        { "ul": [
+          "Yüksek riskli, çoklu komorbidite: Off-pump tercih edilebilir.",
+          "Çok damarlı, kompleks anatomi: On-pump daha güvenli olabilir.",
+          "Genç, düşük riskli hasta: Her iki yöntem de iyi sonuçlar verir; cerrah deneyimi belirleyicidir.",
+          "Kalsifik aort: Aortik manipülasyondan kaçınmak gerekiyorsa \"no-touch\" off-pump tercih edilir."
+        ]},
+        { "h2": "Ortak yanlış anlamalar" },
+        { "quote": "Off-pump daha az invazivdir." },
+        { "p": "Hayır. Her iki yöntem de aynı sternotomi kesisini gerektirir. \"Minimal invaziv\" terimi, sternum kırılmadan yapılan MIDCAB gibi tekniklere aittir." },
+        { "quote": "Off-pump daha kısa sürer." },
+        { "p": "Cerrahın deneyimine göre değişir. Tek damar bypass'ında genellikle benzerdir; çok damarlı vakalarda off-pump daha uzun sürebilir." },
+        { "quote": "Pompa kullanımı her zaman kötüdür." },
+        { "p": "Modern kalp-akciğer makineleri 30 yıl öncesinin makineleri değildir. Doğru hasta seçildiğinde pompa kullanmak sonuçları kötüleştirmez." },
+        { "h2": "Karar nasıl verilir?" },
+        { "p": "Konsültasyonda anjiyografi, EKO ve laboratuvar bulgularınızı birlikte değerlendiriyoruz. Aşağıdaki noktalar kararı yönlendirir:" },
+        { "ul": [
+          "Tutulan damar sayısı ve damar kalitesi",
+          "Sol ventrikül fonksiyonu",
+          "Böbrek fonksiyonu",
+          "Aort kalsifikasyonu",
+          "Daha önceki göğüs cerrahisi öyküsü"
+        ]},
+        { "p": "Hiçbir şey \"her zaman daha iyi\" değildir. Önemli olan, sizin için kanıta dayalı en doğru yaklaşımı seçmek." },
+        { "h2": "Bir sonraki adım" },
+        { "p": "Bypass cerrahisi gündemdeyse ve hangi yaklaşımın size uygun olduğundan emin değilseniz konsültasyon randevusu alın. Görüntülerinizle birlikte sakin bir şekilde, neden bir yöntemin seçildiğini açıklayabilmek bizim için önemlidir." }
       ]
     },
-    "what-is-bentall": {
-      "title": "Bentall prosedürü: Aort kökünün toptan değişimi",
-      "excerpt": "Aort kökünde anevrizma ve aort kapağında ileri yetersizlik bir aradaysa, Bentall iki sorunu tek seansta çözer.",
+    "bypass-recovery": {
+      "title": "Bypass sonrası iyileşme: ilk 12 hafta",
+      "excerpt": "Hastaneden çıktıktan sonraki ilk üç ay; nelere dikkat etmeli, ne zaman işe ve sosyal yaşama dönülür, neye karşı temkinli olunur?",
       "body": [
-        { "p": "Bentall prosedürü, aort kapağı + aort kökü + asendan aortayı tek bir kompozit greftle değiştiren cerrahidir. Tipik aday: aort kökü genişlemiş, kapağında ileri yetersizliği olan hasta." },
-        { "h2": "Cerrahi adımlar" },
-        { "p": "Hastalıklı doku çıkarılır; mekanik ya da biyolojik kapak içeren tübüler bir greft yerleştirilir; koroner damar ağızları greft üzerine yeniden ekilir." },
+        { "h2": "İlk gün: yoğun bakım" },
+        { "p": "Bypass ameliyatından çıktıktan sonraki ilk 12–24 saati genellikle yoğun bakımda geçirirsiniz. Bu süre boyunca:" },
+        { "ul": [
+          "Solunumunuz başlangıçta yapay solunum cihazıyla desteklenir; çoğu hastada ilk birkaç saat içinde tüp çıkarılır.",
+          "Kalp ritminiz sürekli izlenir.",
+          "Göğüs drenleri (küçük tüpler) sıvı toplanmasını önler; 1–2 günde çıkarılır.",
+          "Ağrı kontrol altına alınır — modern protokollerle bu sürecin ne kadar konforlu yönetilebildiği şaşırtıcıdır."
+        ]},
+        { "h2": "2–5. günler: servise dönüş" },
+        { "p": "Yoğun bakımdan servise alındığınızda hareketlenme başlar. İlk hedef: yatak başında oturmak, sonra koridorda kısa yürüyüşler. Solunum egzersizleri (insentif spirometri) bu dönemin temelidir; akciğer komplikasyonlarını ciddi şekilde azaltır." },
+        { "p": "Beslenme önce sıvı, sonra normal diyetle ilerler. Ortalama hastanede kalış 5–7 gündür; minimal invaziv prosedürlerde (MIDCAB, sutureless TAVI) 3–4 güne kadar düşebilir." },
+        { "h2": "İlk 2 hafta: evde dikkat" },
+        { "p": "Taburcu olduğunuzda her şey \"normal\" hissetmez — bu beklenen bir tablodur:" },
+        { "ul": [
+          "Yorgunluk: En sık yakınmadır. Vücut iyileşirken enerjiyi içeride kullanır. Gün içinde kısa kestirmeler normaldir.",
+          "Sternum hissiyatı: Klasik bypass yaptıysanız göğüs kemiğinde gerginlik ve hassasiyet 6–8 hafta sürer. MIDCAB'da bu çok daha hafiftir.",
+          "Uyku düzeninde dalgalanma: Hastanedeki ritimden çıkış birkaç gün sürer.",
+          "Duygu durumu: Hafif depresyon veya anksiyete normaldir; 4–6 haftada düzelir. Geçmezse mutlaka söyleyin."
+        ]},
+        { "h2": "3–6. haftalar: aktiviteyi artırma" },
+        { "p": "Bu dönemde yürüyüş süresini günden güne artırmak temel hedeftir. Genel kural: nefes nefese kalmadan, konuşabildiğiniz tempoda yürüyün." },
+        { "ul": [
+          "Araç kullanımı: Klasik bypass sonrası 4–6 hafta beklemek gerekir. MIDCAB'da bu süre 2–3 haftaya iner.",
+          "Cinsel yaşam: Bir kat merdiven çıkabiliyorsanız genellikle güvenlidir (4. hafta civarında).",
+          "Ağırlık kaldırma: İlk 6 hafta 5 kg üzeri kaldırılmaz. Sternum tam kaynaması için bu kuralı kesinlikle takip edin."
+        ]},
+        { "h2": "6–12. haftalar: işe ve hayata dönüş" },
+        { "ul": [
+          "Masa başı işler: 6. hafta itibariyle dönüş güvenlidir.",
+          "Fiziksel iş gücü: 10–12. hafta, doktorunuzla birlikte değerlendirilir.",
+          "Spor: Yürüyüş ve düşük şiddetli aktiviteden başlayıp 3. ay sonunda kademeli olarak normal egzersize dönülür.",
+          "Kardiyak rehabilitasyon: Eğer önerildiyse mutlaka katılın. Yapısal egzersiz, eğitim ve psikolojik destek 1 yıllık sonuçları belirgin iyileştirir."
+        ]},
+        { "h2": "Uzun vadede: hayat tarzı" },
+        { "p": "Bypass tıkanıklığı çözer ama altta yatan damar hastalığını ortadan kaldırmaz. Greftlerin uzun ömürlü olması için:" },
+        { "ul": [
+          "Statin kullanımı: Mutlaka, çoğu hastada ömür boyu.",
+          "Antiagregan tedavi: Aspirin temel; eklenecek ilaçları cerrah ekibiniz belirler.",
+          "Sigara: Kesin bırakılmalı. Greft tıkanıklığında en güçlü tek faktördür.",
+          "Tansiyon ve şeker kontrolü: Hedef değerleri kardiyologunuzla birlikte koruyun.",
+          "Diyet ve egzersiz: Akdeniz tipi diyet ve haftada 150 dakika orta yoğunlukta aktivite."
+        ]},
+        { "h2": "Ne zaman acil ilgi gerekir?" },
+        { "p": "Aşağıdakilerden herhangi biri varsa beklemeyin, hemen acil servise başvurun:" },
+        { "ul": [
+          "Yeni başlayan göğüs ağrısı",
+          "Şiddetli nefes darlığı",
+          "Kesi yerinden akıntı, kızarıklık veya ateş",
+          "Bir tarafta ani şişme (özellikle bacakta)",
+          "Çarpıntı veya bayılma hissi"
+        ]},
+        { "h2": "Sorular için" },
+        { "p": "İyileşme her hastada farklıdır. Endişelendiğiniz herhangi bir şey varsa beklemek yerine kliniğimizle iletişime geçin. Daha fazla bilgi için bir kontrol randevusu alabilir veya WhatsApp üzerinden hızlıca bize ulaşabilirsiniz." }
+      ]
+    },
+    "classic-vs-minimal-bypass": {
+      "title": "Klasik açık bypass mı, minimal invaziv yaklaşım mı?",
+      "excerpt": "Kanıta dayalı sonuçlar, anatomi ve hastanın genel durumu — hangi yaklaşımın hangi hastaya daha uygun olduğunu birlikte değerlendiriyoruz.",
+      "body": [
+        { "h2": "Aynı sorun, farklı yol" },
+        { "p": "Koroner bypass cerrahisinde tıkalı damarın ötesine kan akışını yeniden sağlamak hedefin tamamıdır. Klasik bypass ile minimal invaziv bypass (MIDCAB ya da TECAB gibi varyantlar) bu hedefe iki farklı kapıdan ulaşır." },
+        { "h2": "Klasik bypass: kanıtlanmış standart" },
+        { "p": "Klasik (sternotomi ile) bypass'ta cerrah göğüs kemiğini ortadan dikey olarak açar. Bu erişim:" },
+        { "ul": [
+          "Tüm koroner damarlara doğrudan ulaşımı sağlar.",
+          "Çok damarlı tutulumda en güvenli yaklaşımdır.",
+          "Acil koşullarda ekibin tüm aletlerine hızla erişim verir.",
+          "Onlarca yıllık takip verisiyle desteklenir."
+        ]},
+        { "p": "Aort, kapak ve birden fazla damarın aynı seansta ele alınması gerekiyorsa klasik yaklaşım hâlâ altın standarttır." },
+        { "h2": "Minimal invaziv: doğru hastada üstün" },
+        { "p": "MIDCAB ve benzeri yaklaşımlar 5–8 cm'lik küçük kesilerle yapılır. Sternum açılmaz; göğüs duvarı kasları arasından geçilir." },
+        { "ul": [
+          "Daha hızlı iyileşme: Çoğu hasta 4–6 hafta içinde tam aktiviteye döner.",
+          "Daha az ağrı: Sternum bütünlüğü korunduğu için ilk haftalardaki rahatsızlık belirgin azdır.",
+          "Estetik üstünlük: İz, sutyen veya tişört altında kalacak şekilde gizlidir.",
+          "Daha kısa hastane yatışı: 3–4 gün, klasikte 5–7 güne karşı."
+        ]},
+        { "p": "Ancak minimal invaziv her hastaya uygun değildir." },
+        { "h2": "Hangi yaklaşım hangi hastaya?" },
+        { "ul": [
+          "Tek damar (LAD) hastalığı — MIDCAB",
+          "Çok damarlı, kompleks anatomi — Klasik bypass",
+          "Eş zamanlı kapak veya aort cerrahisi — Klasik bypass",
+          "İleri yaş, ek hastalıklar, açık cerrahiye yüksek risk — Hibrit (MIDCAB + stent) veya TAVI/cerrahi konsey kararı",
+          "Tekrar bypass (redo cerrahisi) — Hastaya göre değişir; minimal invaziv bazen avantajlı"
+        ]},
+        { "h2": "Sonuçlar açısından fark var mı?" },
+        { "p": "Uzun dönem sonuçlar açısından her iki yaklaşım da deneyimli ellerde çok benzer rakamlar verir. Doğru hasta seçildiğinde 5 yıllık greft açıklığı ve hayatta kalma oranları arasında klinik olarak anlamlı fark görülmez." },
+        { "p": "Ancak kısa dönem konfor ve iyileşme hızı belirgin farklıdır. Çalışan, aktif yaşamı olan veya tek damar hastalığı olan birisi için minimal invaziv yaklaşımın getirdiği avantajlar yadsınamaz." },
+        { "h2": "Karar konseyi" },
+        { "p": "Antalya'daki kliniğimizde her vaka, mümkünse önceden bir kalp ekibi (cerrah, kardiyolog, anestezist) toplantısında değerlendirilir. Görüntüleme, laboratuvar ve hastanın yaşam tarzı birlikte tartışılır." },
+        { "p": "Karar verilirken temel sorular şunlardır:" },
+        { "ul": [
+          "Anatomi neye izin veriyor?",
+          "Eş zamanlı başka bir cerrahi gerekecek mi?",
+          "Hastanın iyileşme süresine yönelik kişisel hedefleri neler?",
+          "Ek hastalıklar minimal invaziv yaklaşımı sınırlıyor mu?"
+        ]},
+        { "h2": "Yanlış soru: \"Hangisi daha iyi?\"" },
+        { "p": "Doğru soru: \"Benim için hangisi daha doğru?\" — bu sorunun yanıtı her hasta için farklıdır." },
+        { "p": "Anjiyografi raporunuzla birlikte konsültasyon randevusu aldığınızda, mevcut tüm seçenekleri sade ve net bir dille birlikte değerlendiririz. Karar her zaman sizin; bizim işimiz seçenekleri açık şekilde sunmaktır." }
+      ]
+    },
+    "tavi": {
+      "title": "TAVI nedir? Açık ameliyatsız aort kapak değişimi",
+      "excerpt": "İleri yaş veya yüksek cerrahi riskli hastalarda kasıktaki damar yoluyla yerleştirilen yeni nesil aort kapağı.",
+      "body": [
+        { "h2": "Aort darlığında açık ameliyatın alternatifi" },
+        { "p": "TAVI — Transkateter Aort Kapak İmplantasyonu — şiddetli aort darlığı tablosunda açık kalp ameliyatı olmadan yapılan, kateter aracılı bir kapak değişimidir. İlk olarak 2002'de uygulanmış olan bu yöntem, son 20 yılda ileri yaş hastalarda standart tedavi haline gelmiştir." },
+        { "p": "İşlem sırasında yeni biyolojik bir kapak, küçük bir kateter sistemi içinde sıkıştırılmış halde kasıktaki femoral artere yerleştirilir. Aort üzerinden ilerleyerek hastalıklı kapağın içine yerleştirilir ve genişletilir. Eski kapak çıkarılmaz; yeni kapak onun içinden çalışmaya başlar." },
+        { "h2": "Kimler için uygun?" },
+        { "p": "TAVI ilk yıllarında yalnızca açık ameliyat riski çok yüksek hastalara önerilirdi. Günümüzde endikasyonlar genişlemiştir:" },
+        { "ul": [
+          "75 yaş üzeri ciddi aort darlığı hastaları (rutin endikasyon)",
+          "Yüksek cerrahi risk (akciğer hastalığı, böbrek yetmezliği, frailty)",
+          "Daha önce göğüs cerrahisi geçirmiş hastalar",
+          "Orta riskli, anatomisi uygun seçilmiş genç hastalar (vakaya göre)"
+        ]},
+        { "p": "Karar her zaman bir kalp ekibi konseyiyle (cerrah, kardiyolog, anestezist, görüntüleme uzmanı) alınır. Aort kapak alanı, kalsifikasyon paterni, koroner ostia mesafesi ve damar kalitesi BT anjiyografi ile detaylı incelenir." },
+        { "h2": "Açık ameliyata göre farklılıklar" },
+        { "ul": [
+          "Kesi — TAVI: kasıkta küçük ponksiyon · Açık AVR: sternotomi",
+          "Anestezi — TAVI: sıklıkla bilinçli sedasyon · Açık AVR: genel anestezi zorunlu",
+          "Hastane yatışı — TAVI: 2–4 gün · Açık AVR: 5–7 gün",
+          "Tam iyileşme — TAVI: 1–2 hafta · Açık AVR: 6–8 hafta",
+          "Kapak ömrü (genç) — TAVI: 8–12+ yıl · Açık AVR: 15–20 yıl (biyoprotez)"
+        ]},
+        { "h2": "İşlem günü" },
+        { "p": "Çoğu hasta hafif sedasyon altında işlemi alır; gerekirse genel anestezi de mümkündür. İşlem 60–90 dakika sürer. Anjio salonunda yapılır ve floroskopi (canlı röntgen) ile kapak yerleşimi görüntülenir." },
+        { "p": "İşlem sonrası ilk gece koroner yoğun bakımda izlenir. Çoğu hasta ertesi gün ayağa kalkar ve 2–4 gün içinde taburcu olur." },
+        { "h2": "Riskler ve sınırlamalar" },
+        { "p": "TAVI, çok başarılı bir prosedür olmakla birlikte risksiz değildir:" },
+        { "ul": [
+          "Kalp pili ihtiyacı: En sık komplikasyon (%5–15). Bazı hastalarda işlem sonrası kalıcı pil gerekebilir.",
+          "Damar yaralanması: Ponksiyon yapılan damarda (femoral) tamir gerekebilir.",
+          "İnme: Düşük (%2–4) ama önemli bir risk.",
+          "Kapak sızıntısı: Yeni kapak ile aort duvarı arasında küçük sızıntılar görülebilir; çoğu kendiliğinden veya iyi tolere edilir."
+        ]},
+        { "h2": "Sonrasında yaşam" },
+        { "p": "İşlem sonrası 6 ay boyunca antiplatelet tedavi alınır. Diş işlemleri öncesi profilaktik antibiyotik gerekebilir. EKO ile kapak fonksiyonu yıllık olarak takip edilir." },
+        { "p": "Çoğu hasta nefes darlığı ve göğüs ağrısı gibi semptomlarda ciddi rahatlama hisseder; günlük yaşam kalitesi belirgin yükselir." },
+        { "h2": "Uzmana ne zaman başvurmalı?" },
+        { "p": "Yeni nefes darlığı, eforla göğüs basıncı veya bayılma hissi yaşıyor ve ekokardiyografide ciddi aort darlığı tespit edildiyse karar süreci aceleye getirilmemelidir. Konsültasyon randevusunda mevcut görüntülemenizle birlikte TAVI'nin sizin için uygun olup olmadığını birlikte değerlendiriyoruz." }
+      ]
+    },
+    "sutureless-aortic": {
+      "title": "Sutureless aort kapak: dikişsiz, hızlı yerleşen biyolojik kapak",
+      "excerpt": "Dikiş süresini ortadan kaldırarak ameliyat süresini kısaltan ve yüksek riskli hastalarda alternatif sunan modern bir yaklaşım.",
+      "body": [
+        { "h2": "Dikiş gerektirmeyen yeni nesil aort kapak" },
+        { "p": "Klasik aort kapak değişiminde cerrah, hastalıklı kapağı çıkardıktan sonra yeni biyolojik veya mekanik kapağı 12–15 ayrı dikişle yerine sabitler. Bu işlem süreyi uzatır ve teknik zorluk yaratır." },
+        { "p": "Sutureless (dikişsiz) aort kapaklar bu adımı ortadan kaldırır. Kapak özel bir stent yapı içinde gelir; yerine yerleştirildiğinde stentin elastik yapısı kapağı aort halkasına otomatik olarak sabitler. Yalnızca 3 yönlendirici dikiş yeterlidir." },
+        { "h2": "Neden önemli?" },
+        { "p": "Bu yenilik kulağa küçük gibi gelse de cerrahi süreyi belirgin etkiler:" },
+        { "ul": [
+          "Aort kros klemp süresi: Kalp durdurulan süre, klasik AVR'ye göre %30–40 daha kısa.",
+          "Kalp-akciğer makinesi süresi: Aynı oranda azalır.",
+          "Toplam ameliyat süresi: Yaklaşık 30–45 dakika daha kısa."
+        ]},
+        { "p": "Daha kısa pompa süresi, özellikle yaşlı veya komorbiditeli hastalarda akciğer ve böbrek komplikasyonlarını azaltır." },
+        { "h2": "Hangi hastaya uygun?" },
+        { "p": "Sutureless kapak, üç farklı senaryoda öne çıkar:" },
+        { "ul": [
+          "Yüksek cerrahi risk: Açık AVR'nin sınırına yaklaşan ama TAVI için tam uygun olmayan hastalar.",
+          "Eş zamanlı başka cerrahi: Bypass + kapak veya çoklu kapak vakalarında, toplam pompa süresini kısaltmak hayati değer taşır.",
+          "Minimal invaziv yaklaşım: Sağ üst mini-torakotomi gibi sınırlı sahalarda dikiş atmak zorlu olduğundan sutureless tasarım belirgin kolaylık sağlar."
+        ]},
+        { "h2": "TAVI'den nasıl farklı?" },
+        { "p": "Bazen karıştırılır:" },
+        { "ul": [
+          "Yaklaşım — Sutureless AVR: açık cerrahi (mini- veya tam sternotomi) · TAVI: kateter (femoral)",
+          "Hastalıklı kapak — Sutureless AVR: çıkarılır · TAVI: çıkarılmaz, ezilir",
+          "Kros klemp — Sutureless AVR: var (kısa) · TAVI: yok",
+          "Kapak ömrü — Sutureless AVR: 15–20 yıl tahmin · TAVI: 10–12 yıl uzun dönem veri",
+          "Kalsifikasyon paterni — Sutureless AVR: daha esnek · TAVI: belirli paternlerde sınırlı"
+        ]},
+        { "p": "Sutureless, \"açık cerrahi içinde TAVI'ye en yakın\" çözüm olarak düşünülebilir. İki yöntem birbirinin yerine geçmez; her birinin yeri farklıdır." },
         { "h2": "Sonuçlar" },
-        { "p": "Modern Bentall serilerinde 30 gün mortalite %2 altındadır. Uzun dönem sağkalım, kapak seçimine ve hasta uyumuna doğrudan bağlıdır." }
+        { "p": "Çok merkezli çalışmalar, deneyimli ellerde:" },
+        { "ul": [
+          "30 günlük mortalite: %1–2 (klasik AVR ile benzer)",
+          "Kalıcı kalp pili ihtiyacı: %8–10 (TAVI'den biraz düşük)",
+          "Hospitalizasyon: 4–6 gün",
+          "5 yıllık kapak yetersizliği: çok düşük"
+        ]},
+        { "h2": "Sınırlamalar" },
+        { "p": "Hiçbir prosedür mükemmel değildir:" },
+        { "ul": [
+          "Konvansiyonel kapaklara göre biraz daha yüksek pacemaker oranı.",
+          "Bazı anatomik özelliklerde uygun değil (geniş aort halkası, ciddi kalsifikasyon paternleri).",
+          "Maliyet klasik biyoproteze göre yüksek."
+        ]},
+        { "h2": "Karar süreci" },
+        { "p": "Konsültasyonda EKO, koroner anjiyografi ve gerekiyorsa BT anjiyografi birlikte değerlendirilir. Cerrahi risk skorunuz, anatominiz ve eş zamanlı cerrahi gereksiniminiz birlikte ele alınır." },
+        { "h2": "Bir sonraki adım" },
+        { "p": "Aort kapak hastalığı tanısı aldıysanız ve \"klasik açık cerrahi mi, TAVI mi\" sorusu cevap bulmadıysa, sutureless seçeneği üçüncü bir kapı olabilir. Konsültasyon randevusunda mevcut görüntülemelerinizi birlikte değerlendirelim." }
       ]
     },
-    "off-pump-bypass": {
-      "title": "Off-pump bypass: Atan kalpte cerrahi",
-      "excerpt": "Kalp-akciğer makinesi olmadan, kalp atmaya devam ederken yapılan bypass; avantajlar, sınırlar ve hasta seçimi.",
+    "mitral-repair-vs-replacement": {
+      "title": "Mitral kapak: tamir mi, değişim mi?",
+      "excerpt": "Hastanın kendi kapağını korumanın uzun vadeli avantajları ve hangi durumlarda değişimin kaçınılmaz olduğu.",
       "body": [
-        { "p": "Off-pump CABG, klasik bypassın ana farkı olarak kalp-akciğer makinesinin devre dışı bırakılmasıdır. Kalp ameliyat sırasında atmaya devam eder; cerrah özel stabilizatörlerle hedef damar bölgesini sabitler." },
-        { "p": "Avantajlar: kan ürünleri kullanımı azalır, böbrek fonksiyonları daha iyi korunur, inme riski seçilmiş hastalarda düşer." },
-        { "p": "Sınırlar: teknik olarak daha zorlayıcıdır, tüm damar bölgelerine eşit ulaşılması güçtür." }
+        { "h2": "Mitral kapak: tamir mi, değişim mi?" },
+        { "p": "Mitral kapak, sol atriyumla sol ventrikül arasındaki tek yönlü bir kapaktır. Yetersiz çalışırsa kan geri kaçar (mitral yetmezlik); daralırsa akış bozulur (mitral darlık)." },
+        { "p": "Tedavi seçeneği iki temel yola ayrılır: kapağı tamir etmek ya da yeni bir kapakla değiştirmek. Modern kalp cerrahisinin temel ilkesi şudur: mümkün olan her vakada tamir tercih edilir." },
+        { "h2": "Neden tamir öncelik?" },
+        { "p": "Hastanın kendi mitral kapağını korumanın uzun vadede ölçülebilir avantajları vardır:" },
+        { "ul": [
+          "Daha iyi sol ventrikül fonksiyonu: Kapağın kendine özgü hareketleri bozulmaz.",
+          "Antikoagülan gerekmez: Mekanik kapakta ömür boyu kumadin/warfarin kullanılır; tamir sonrası genelde gerekmez.",
+          "Endokardit (enfeksiyon) riski daha düşük.",
+          "Daha uzun ömür: Çalışmalar, başarılı tamir sonrası hayatta kalma süresinin değişime göre belirgin uzun olduğunu gösterir."
+        ]},
+        { "h2": "Hangi durumlarda tamir mümkün?" },
+        { "p": "Tamir başarısı kapak hastalığının tipine bağlıdır:" },
+        { "ul": [
+          "Dejenaratif mitral yetmezlik (Barlow / FED): Tamir oranı %95+. Modern teknikler (neokorda, anüloplasti halkası, üçgen rezeksiyon) çok başarılı.",
+          "Fonksiyonel yetmezlik (kalp yetmezliği zemininde): Tamir mümkün ama uzun dönem sonuçları daha değişken.",
+          "Romatizmal mitral darlık: Tamir genelde kalıcı değil; bazı hastalarda komissürotomi denenebilir.",
+          "Endokardit (enfeksiyon): Vejetasyon küçükse tamir; geniş yıkımda değişim."
+        ]},
+        { "h2": "Tamir teknikleri" },
+        { "p": "Cerrahi süresince kullanılan başlıca aletler:" },
+        { "ul": [
+          "Anüloplasti halkası: Genişlemiş kapak halkasını anatomik şekline çeker.",
+          "Neokorda (yapay korda tendinea): Kopmuş veya uzamış kordaların yerine ePTFE iplikler yerleştirilir.",
+          "Yaprak rezeksiyonu / yeniden şekillendirme: Posterior yaprak fazlalığı çıkarılır.",
+          "Edge-to-edge tamiri: Belirli vakalarda iki yaprağın birleştirilmesi."
+        ]},
+        { "h2": "Değişim ne zaman gerekli?" },
+        { "p": "Tamir yapamadığımız ya da uygun olmadığı durumlar:" },
+        { "ul": [
+          "Şiddetli kalsifikasyon",
+          "Romatizmal hasarda yapraklarda yaygın deformite",
+          "Endokardit sonrası geniş doku kaybı",
+          "Tamir sırasında yetersiz sonuç (intraoperatif EKO ile fark edilirse değişime geçilir)"
+        ]},
+        { "p": "İki kapak seçeneği mevcuttur:" },
+        { "ul": [
+          "Mekanik: Çok dayanıklı (40+ yıl), ama ömür boyu antikoagülasyon gerektirir.",
+          "Biyolojik (doku): Antikoagülan gerekmez, ama 10–15 yıl içinde tekrar değişim gerekebilir. Yaşlı hastalarda tercih."
+        ]},
+        { "h2": "Minimal invaziv yaklaşım" },
+        { "p": "Mitral cerrahisi günümüzde sıklıkla sağ taraflı mini-torakotomi ile, yani sternum açılmadan yapılır. Sağ memenin altından geçen 5–6 cm'lik küçük bir kesi yeterlidir. Bu yaklaşım:" },
+        { "ul": [
+          "Daha az ağrı",
+          "4–5 günlük hastane yatışı",
+          "3–4 haftada normal aktivite"
+        ]},
+        { "p": "Tamir başarı oranı klasik sternotomiyle aynıdır." },
+        { "h2": "Cerrahi zamanlaması" },
+        { "p": "Tamir, kapak hâlâ \"sağlam\" iken yapıldığında en iyi sonuçları verir. Beklemek bazen sol ventrikülün geri dönüşümsüz hasar görmesine yol açabilir. Modern kılavuzlar, semptomatik şiddetli yetmezlikte erken cerrahi öneriyor — özellikle tamir başarısı yüksek beklenen vakalarda." },
+        { "h2": "Bir sonraki adım" },
+        { "p": "Mitral yetmezlik tanısı aldıysanız ve cerrahi gündemdeyse, mevcut anatominizin tamire uygun olup olmadığını anlamak ilk öncelik olmalıdır. EKO görüntülerinizle birlikte konsültasyon randevusunda detaylı değerlendirme yapıyoruz." }
       ]
     },
-    "patient-journey-de": {
-      "title": "Almanya'dan Antalya'ya: Bir hasta yolculuğu",
-      "excerpt": "Münih'ten gelen 64 yaşındaki hastamızın TAVI sürecini, ilk video görüşmeden ülkesine dönüşüne kadar baştan sona aktarıyoruz.",
+    "valve-disease-signs": {
+      "title": "Kalp kapak hastalığında dikkat edilmesi gereken belirtiler",
+      "excerpt": "Nefes darlığı, çarpıntı, ayak şişmesi… Hangi belirtiler kapak hastalığını düşündürür ve ne zaman uzmana başvurmalı?",
       "body": [
-        { "p": "K. Bey, ileri aort darlığı tanısıyla Münih'ten Antalya'ya gelen 64 yaşında bir hastamız. Süreç, yerel kardiyoloğunun gönderdiği eko ve BT görüntüleriyle birlikte bir video konsültasyonla başladı." },
-        { "h2": "Planlama" },
-        { "p": "Görüntüler üzerinden TAVI uygunluğu doğrulandı; iki hafta sonrasına ameliyat tarihi verildi. Kliniğimiz, anlaşmalı hastane ve konaklama arasındaki tüm koordinasyonu üstlendi." },
-        { "h2": "Hastanedeki günler" },
-        { "p": "İşlem 90 dakika sürdü; hasta aynı gün ayağa kalktı, üçüncü gün taburcu oldu. Almanca tercüman muayene ve hasta eğitiminin tamamına katıldı." },
-        { "quote": "Hastanın evine döndüğü gün de bizim takibimiz başlıyor — telekonsültasyon ile üç ay düzenli görüşüyoruz." }
+        { "h2": "Sessizce başlar, sonra hayatı kısıtlar" },
+        { "p": "Kalp kapakları, kanın dört odacık arasında doğru yönde akmasını sağlar. Bir kapak ya darlanır (kan geçişi kısıtlanır) ya da yetersiz kapanır (kan geri kaçar). Her iki durumda da kalbin yükü artar." },
+        { "p": "Sorun şu: kapak hastalıkları çoğunlukla yıllar içinde sessizce ilerler. Belirtiler kademeli ortaya çıkar ve \"yaşlanma\" ya da \"form bozukluğu\" ile karıştırılabilir." },
+        { "h2": "En sık 7 belirti" },
+        { "h3": "1. Eforla nefes darlığı" },
+        { "p": "Daha önce sorun olmayan merdivenler, yokuşlar veya hafif yürüyüşler size nefes nefese kalmaya neden oluyor mu? Bu, kapak hastalığının en sık ilk belirtisidir. Sol kalp basıncı arttıkça akciğerlerde sıvı birikir." },
+        { "h3": "2. Çabuk yorulma" },
+        { "p": "Yorgunluğun ötesinde — daha kısa süreli aktivitelerden sonra dinlenme gerekiyorsa, kalp debisi düşmüş olabilir." },
+        { "h3": "3. Çarpıntı (palpitasyon)" },
+        { "p": "Düzensiz kalp atışı, atriyal fibrilasyonun habercisi olabilir. Mitral kapak hastalıkları AF riskini ciddi artırır." },
+        { "h3": "4. Ayak ve bilek şişmesi" },
+        { "p": "Akşamları çoraplarınızın izi belirginleşiyorsa veya ayakkabınız sıkmaya başladıysa — sağ kalp tarafının yüklenmesinin işareti olabilir." },
+        { "h3": "5. Eforla göğüs ağrısı veya basınç hissi" },
+        { "p": "Aort darlığında klasik bulgu. Koroner damarlardan değil, kalp kası kendisi yeterli kan alamadığı için olur." },
+        { "h3": "6. Bayılma veya dengesizlik (özellikle eforla)" },
+        { "p": "Aort darlığında en ciddi belirti. Eforla bayılma yaşadıysanız mutlaka aceleye gerek olmadığı varsayılmamalıdır." },
+        { "h3": "7. Yatarken nefes darlığı (ortopne)" },
+        { "p": "Düz yatınca nefes darlığı hissedip yastıkları yükseltmeniz gerekiyorsa — sol kalp ileri yetersizlik içindedir." },
+        { "h2": "Hangi belirti hangi kapak?" },
+        { "ul": [
+          "Eforla göğüs ağrısı + bayılma — Aort darlığı",
+          "Yatınca nefes darlığı + ayak şişmesi — Mitral yetmezlik",
+          "Çarpıntı + halsizlik — Mitral kapak hastalıkları",
+          "Dispne + sağ kalp belirtileri — Triküspit yetmezlik"
+        ]},
+        { "p": "Tabii ki tek belirti tanı koymaz. Doğru kapak ve şiddet ekokardiyografi ile ortaya çıkar." },
+        { "h2": "Üfürüm — nedir, ne değildir?" },
+        { "p": "Doktorunuz sizde \"üfürüm\" duydu mu? Üfürüm, kapaklardan veya damarlardan geçen kanın oluşturduğu sestir. Her üfürüm hastalık anlamına gelmez:" },
+        { "ul": [
+          "Masum üfürüm: Çocuklarda, gebelikte, ateşli hastalıklarda yaygın.",
+          "Patolojik üfürüm: Kapak darlığı, yetmezliği veya doğumsal anomaliyi düşündürür."
+        ]},
+        { "p": "Yeni saptanan bir üfürüm her zaman EKO ile değerlendirilmelidir." },
+        { "h2": "Ne zaman doktora başvurmalı?" },
+        { "p": "Aşağıdaki durumlardan biri varsa randevu alın, beklemeyin:" },
+        { "ul": [
+          "Daha önce kolayca yaptığınız aktivitelerde belirgin yorulma",
+          "Tekrarlayan çarpıntı atakları",
+          "Eforla göğüs ağrısı, basınç hissi veya bayılma",
+          "Yeni başlayan ayak şişmesi",
+          "Yatarken nefes darlığı"
+        ]},
+        { "p": "Aşağıdakilerden biri varsa acil servise başvurun:" },
+        { "ul": [
+          "Şiddetli, geçmeyen göğüs ağrısı",
+          "Ani şiddetli nefes darlığı",
+          "Ani bayılma"
+        ]},
+        { "h2": "Tanı nasıl konur?" },
+        { "p": "Genellikle iki adımda:" },
+        { "ul": [
+          "Klinik muayene + EKG: Üfürüm, ritim, kalp boyutları",
+          "Ekokardiyografi (EKO): Kapakların yapısı, hareketleri, sızıntı miktarı detaylı görüntülenir"
+        ]},
+        { "p": "Karmaşık vakalarda transözefajiyal EKO veya kardiyak MR/BT eklenebilir." },
+        { "h2": "Bir sonraki adım" },
+        { "p": "Yukarıdaki belirtilerden bir veya birkaçı sizde varsa, basit bir EKO ile çoğu durumda hızlıca cevap alınabilir. Kontrol için randevu almak çekinmeyin — kapak hastalıkları ne kadar erken yakalanırsa cerrahi seçenekler de o kadar zengin olur." }
       ]
     },
-    "after-surgery-life": {
-      "title": "Açık kalp ameliyatından sonra: İlk 12 hafta",
-      "excerpt": "Taburculuktan sonraki günler, haftalar ve ayların pratik bir takvimi: ne zaman yürünür, ne zaman araba kullanılır?",
+    "aortic-aneurysm-guide": {
+      "title": "Aort anevrizması: tanıdan tedaviye yol haritası",
+      "excerpt": "Sessiz ilerleyen ama hayatı tehdit edebilen bir tablo. Tarama, takip ve cerrahi karar süreçleri.",
       "body": [
-        { "p": "Ameliyat masasında geçirilen birkaç saat, geri kalan ömrünüzü şekillendirir. Ama iyi bir sonuç sadece masaya değil, sonraki ilk 12 haftaya da bağlıdır." },
-        { "h2": "1. hafta" },
-        { "p": "Hastanede ya da yakın kontrol altında. Kısa, sık yürüyüşler. Sternum kemiğini koruyacak hareket eğitimi." },
-        { "h2": "2.–4. hafta" },
-        { "p": "Eve dönüş. Hafif ev içi aktivite. 4. haftadan itibaren genelde araba kullanımına izin verilir." },
-        { "h2": "1.–3. ay" },
-        { "p": "Kardiyak rehabilitasyon programı. Düşük yoğunluklu egzersiz, beslenme danışmanlığı, gerekirse psikolojik destek." }
+        { "h2": "Aort anevrizması nedir?" },
+        { "p": "Aort, vücudun ana atardamarıdır — kalpten çıkar ve karın bölgesine inerek tüm organlara kan dağıtır. Anevrizma, aortun belirli bir bölgesinde duvarın zayıflayıp normalden geniş bir balon gibi şişmesi durumudur." },
+        { "p": "Lokalizasyona göre adlandırılır:" },
+        { "ul": [
+          "Asendan aort anevrizması: Kalbin hemen çıkışında.",
+          "Aortik ark anevrizması: Beyne giden damarların ayrıldığı kavisli bölge.",
+          "Desendan torasik anevrizma: Göğüs içindeki inen aort.",
+          "Abdominal anevrizma: Karın içindeki aort."
+        ]},
+        { "p": "Bu yazıda esas olarak torasik (göğüs içi) aort anevrizmaları üzerinde duruyoruz." },
+        { "h2": "Belirtileri var mı?" },
+        { "p": "Çoğu zaman, hayır. Anevrizmalar genellikle başka bir nedenle çekilen tetkiklerde tesadüfen bulunur (örneğin akciğer BT'si, kalp EKO'su)." },
+        { "p": "Belirti gösterdiğinde tabloda şunlar olabilir:" },
+        { "ul": [
+          "Kürek kemiği arasında ya da göğüs ön duvarında derin, donuk ağrı",
+          "Ses kısıklığı (büyüyen aort sol vokal sinire bası yapabilir)",
+          "Yutma güçlüğü",
+          "Kalp kapağı yetmezliği belirtileri (eşlik eden aort kapak yetmezliği varsa)"
+        ]},
+        { "p": "Ani başlayan, \"yırtılır gibi\" göğüs/sırt ağrısı her zaman acil servise gitme nedenidir — bu bir diseksiyon veya rüptür belirtisi olabilir." },
+        { "h2": "Risk faktörleri" },
+        { "ul": [
+          "Yüksek tansiyon (en güçlü tek faktör)",
+          "Sigara",
+          "Aile öyküsü (özellikle birinci derece akrabalarda anevrizma)",
+          "Genetik sendromlar: Marfan, Ehlers-Danlos, Loeys-Dietz, Turner",
+          "İki yapraklı (biküspit) aort kapağı",
+          "İleri yaş"
+        ]},
+        { "h2": "Tarama: kimler için?" },
+        { "p": "Birinci derece akrabasında torasik aort anevrizması olan herkes EKO veya BT ile bir kez taranmalıdır. Marfan veya benzer genetik durumlarda yıllık takip standarttır." },
+        { "h2": "Boyut ve risk" },
+        { "p": "Anevrizmanın çapı, rüptür riskini doğrudan etkiler:" },
+        { "ul": [
+          "< 4 cm — Çok düşük yıllık rüptür/diseksiyon riski",
+          "4–4.9 cm — < %1 yıllık risk",
+          "5–5.9 cm — %5–10 yıllık risk",
+          "≥ 6 cm — %15+ yıllık risk"
+        ]},
+        { "p": "Cerrahi karar genelde 5.5 cm üstünde verilir; Marfan veya biküspit kapakta bu sınır 5 cm'ye, hatta 4.5 cm'ye düşebilir. Hızlı büyüme (yılda 0.5 cm üstü) da bağımsız bir cerrahi endikasyondur." },
+        { "h2": "Cerrahi seçenekler" },
+        { "p": "Anevrizmanın yerine ve büyüklüğüne göre:" },
+        { "ul": [
+          "Asendan aort: Plastik bir tüp greftle değişim. Kapak durumuna göre Bentall veya David eklenir.",
+          "Aortik ark: Kompleks; sıklıkla derin hipotermik dolaşım durdurma gerektirir.",
+          "Desendan torasik: TEVAR (endovasküler stent-greft) ya da açık cerrahi.",
+          "Abdominal: EVAR (endovasküler) ya da açık cerrahi."
+        ]},
+        { "h2": "Cerrahi sonrası" },
+        { "p": "Açık asendan aort cerrahisinde hastane yatışı 6–8 gündür. Tam iyileşme 2–3 ay sürer. Greft kendisi ömür boyu kalıcıdır; düzenli EKO/BT takibi ile değerlendirilir." },
+        { "h2": "Cerrahi gerektirmeyen takipte" },
+        { "p": "5.5 cm altındaki anevrizmalarda yıllık BT veya MR takibi yeterlidir. Bu süreçte:" },
+        { "ul": [
+          "Kan basıncı kontrolü kritik (hedef < 130/80 mmHg)",
+          "Sigara bırakılmalı",
+          "Beta-bloker çoğu hastada önerilir",
+          "Ağır izometrik egzersizden kaçınılmalı (halter, vücut geliştirme)",
+          "Aerobik egzersize devam (yürüyüş, yüzme — yararlı)"
+        ]},
+        { "h2": "Bir sonraki adım" },
+        { "p": "EKO veya BT raporunda \"asendan aortta ektazi\" ya da \"aort anevrizması\" yazıyorsa endişelenmek yerine konsültasyona randevu alın. Anevrizmanın boyutu, büyüme hızı ve eşlik eden durumlar değerlendirildiğinde net bir takip ve tedavi planı çıkarmak kolaydır." }
       ]
     },
-    "aortic-dissection-101": {
-      "title": "Aort diseksiyonu: Acil durumun anatomisi",
-      "excerpt": "Saatlerin değil, dakikaların önemli olduğu bir tablo. Belirtiler, tipler ve modern cerrahi yaklaşımlar.",
+    "aortic-dissection-emergency": {
+      "title": "Aort diseksiyonu: dakikaların önemli olduğu acil tablo",
+      "excerpt": "Tip A diseksiyon nedir, neden saatler içinde ameliyat gerektirir ve bizim 7/24 ekip yapımız nasıl kuruludur?",
       "body": [
-        { "p": "Aort diseksiyonu, aort duvarının iç tabakasının yırtılmasıyla başlar. Yırtık, kanı duvarın katmanları arasına yönlendirir; bu durum dakikalar içinde yaşamı tehdit eder." },
-        { "h2": "Tip A vs Tip B" },
-        { "p": "Tip A asendan aortu kapsar — neredeyse her zaman acil cerrahi gerektirir. Tip B inen aortu etkiler ve seçilmiş vakalarda tıbbi takiple yönetilebilir." }
+        { "h2": "Saatler değil, dakikalar önemli" },
+        { "p": "Aort diseksiyonu, aort duvarının iç tabakasının yırtılması ve kanın damar duvarının katmanları arasına girmesi durumudur. Bu yeni bir kanal yaratır — gerçek lümen ile yan yana akan ikinci bir lümen." },
+        { "p": "Tablo iki farklı tipe ayrılır:" },
+        { "ul": [
+          "Tip A diseksiyon: Asendan aortu içerir — acil cerrahi gerektirir. Tedavi edilmediğinde her saatte mortalite %1–2 artar.",
+          "Tip B diseksiyon: Sol subklavyen arterin distalinde başlar — başlangıçta medikal tedavi öncelikli."
+        ]},
+        { "p": "Bu yazıda Tip A üzerinde duracağız çünkü hayati tehlikenin kritik formu odur." },
+        { "h2": "Belirtiler" },
+        { "p": "Klasik tablo:" },
+        { "ul": [
+          "Ani, \"yırtılır gibi\" göğüs ağrısı — sıklıkla sırta vurur",
+          "Bilinç bulanıklığı (beyin perfüzyonu bozulursa)",
+          "Bir kolda nabız kaybı veya bilek tansiyonunda fark",
+          "Bayılma",
+          "İnme benzeri belirtiler",
+          "Karın ağrısı (mezenter arter etkilenirse)"
+        ]},
+        { "p": "Diseksiyon tablosu özellikle kalp krizi ile karıştırılabilir. Ancak ağrının karakteri farklıdır: kalp krizinde sıkışma/baskı tarzı, yavaş yerleşir; diseksiyonda ani başlar ve \"yırtılma\" hissi olarak tarif edilir." },
+        { "h2": "Risk faktörleri" },
+        { "ul": [
+          "Kontrolsüz hipertansiyon (en sık tek neden)",
+          "Var olan aort anevrizması",
+          "Genetik sendromlar (Marfan, Ehlers-Danlos)",
+          "İki yapraklı aort kapağı",
+          "Travma (özellikle araç içi yüksek hızlı çarpışma)",
+          "Kokain kullanımı",
+          "Gebelik (özellikle 3. trimester, Marfan'lı hastalarda)"
+        ]},
+        { "h2": "Tanı" },
+        { "p": "Şüphede:" },
+        { "ul": [
+          "Hızla kontrastlı toraks BT çekilir — altın standart.",
+          "Transözefajiyal EKO (TEE) hızlı bir alternatif olabilir, özellikle hasta stabil değilse."
+        ]},
+        { "p": "Şüphe varsa tedaviyi görüntüleme beklemeden başlatmak kuraldır." },
+        { "h2": "Acil tedavi" },
+        { "p": "Tip A diseksiyon → ameliyathaneye:" },
+        { "ul": [
+          "Hedef tansiyon < 110 mmHg ve nabız ~60/dk (intravenöz beta-bloker + nitrogliserin)",
+          "Ağrı kontrolü (morfin)",
+          "Kan ürünü hazırlama",
+          "Genelde derin hipotermik dolaşım durdurma altında ameliyat",
+          "Asendan aort tüp greftle değişir; gerekirse kapak ve kök birlikte ele alınır"
+        ]},
+        { "p": "Cerrahi karmaşık ve uzundur (5–7 saat). Mortalite zamanla doğrudan ilişkilidir; 24 saat içinde opere edilen hastalarda hayatta kalma oranı belirgin yüksektir." },
+        { "h2": "Klinikte 7/24 yapılanma" },
+        { "p": "Antalya'daki ekibimizde diseksiyon vakaları bir öncelik. Anlaşmalı hastanedeki kalp cerrahisi ekibi 7/24 hazırdır. BT taraması, anestezi ve ameliyathane lojistiği ortalama 60–90 dakikada tamamlanır — bu sürede pek çok merkezde sadece ön değerlendirme tamamlanmış olur." },
+        { "h2": "Yoğun bakım ve sonrası" },
+        { "p": "Cerrahi sonrası 2–4 gün yoğun bakım, ardından servise alınma. Toplam hastane yatışı genelde 10–14 gündür. İyileşme klasik kalp ameliyatlarına göre uzun: tam iyileşme 3–4 ay sürer." },
+        { "h2": "Uzun dönem" },
+        { "p": "Aort diseksiyonu yaşamış bir hastada:" },
+        { "ul": [
+          "Ömür boyu yıllık BT/MR takibi zorunlu (kalan aort segmentleri ileride genişleyebilir)",
+          "Sıkı tansiyon kontrolü (hedef < 130/80 mmHg, çoğu hasta için < 120/80 daha iyidir)",
+          "Yoğun fiziksel zorlanmadan kaçınma",
+          "Genetik tarama ailede akraba varsa önerilir"
+        ]},
+        { "h2": "Acil servis vakası — ne zaman düşünmeli?" },
+        { "p": "Ani başlayan, alışılmadık şiddette göğüs/sırt ağrısı varsa kendi kendine tedavi denemek yerine doğrudan acil servise başvurun. Şüphe edilse bile genellikle bir saatlik gecikme bile sonuçları kötüleştirir." },
+        { "h2": "Bir sonraki adım" },
+        { "p": "Daha önce diseksiyon geçirmiş veya bilinen bir aort anevrizması olan akrabanız varsa, kontrol amaçlı EKO ve gerekirse BT ile bir tarama yapılması önerilir. Konsültasyon randevusu için iletişime geçebilirsiniz." }
       ]
     },
-    "atrial-fib-maze": {
-      "title": "MAZE prosedürü: Atriyal fibrilasyona cerrahi cevap",
-      "excerpt": "İlaca ve ablasyona dirençli atriyal fibrilasyonda kalp odacıklarına çizilen yollar nasıl ritmi geri getirir?",
+    "bentall-vs-david": {
+      "title": "Bentall ve David: iki köklü prosedür arasındaki seçim",
+      "excerpt": "Aort kapağı korunmalı mı, kapakla birlikte mi değiştirilmeli? Anatomi ve uzun dönem hedeflerine göre kararı birlikte alıyoruz.",
       "body": [
-        { "p": "MAZE, atriyal fibrilasyonu durdurmak için cerrahi olarak doku üzerinde kontrollü iletim hatları oluşturma tekniğidir. Genellikle başka bir kalp cerrahisiyle birlikte uygulanır." }
+        { "h2": "Aort kökünde iki klasik prosedür" },
+        { "p": "Aort kökü, kalbin hemen üstündeki, aort kapağını ve koroner arterlerin çıktığı bölgeyi içeren karmaşık yapıdır. Bu bölgenin hastalıkları (genişleme, anevrizma) cerrahi onarım gerektirdiğinde iki temel seçenek vardır:" },
+        { "ul": [
+          "Bentall prosedürü: Aort kapağı + kök + asendan aort birlikte değiştirilir.",
+          "David prosedürü: Hastanın kendi aort kapağı korunur; sadece kök ve asendan aort değiştirilir."
+        ]},
+        { "p": "İkisi de geçerli ve kanıta dayalı seçeneklerdir. Hangisinin tercih edileceği hastanın kapak durumuna ve anatomisine bağlıdır." },
+        { "h2": "Bentall prosedürü" },
+        { "p": "1968'de Hugh Bentall tarafından tarif edilen bu prosedürde:" },
+        { "ul": [
+          "Hastalıklı aort kapağı çıkarılır",
+          "Kapakla aynı tüp greft içinde kombine edilmiş yeni bir prostetik kapak yerleştirilir",
+          "Koroner damar ostiumları yeni greft üzerine reimplante edilir"
+        ]},
+        { "p": "Sonuç: kapak + kök + aortun tek seferde değişimi." },
+        { "h3": "Bentall ne zaman tercih edilir?" },
+        { "ul": [
+          "Aort kapağı belirgin yıkımda (kalsifikasyon, romatizmal hasar, endokardit)",
+          "İki yapraklı (biküspit) aort kapağında belirgin yetmezlik",
+          "Aort kapağı tamir edilemeyen bir yapısal sorun gösteriyorsa"
+        ]},
+        { "h3": "Avantajlar" },
+        { "ul": [
+          "Kanıtlanmış teknik: 50+ yıllık deneyim",
+          "Tek aşamalı çözüm: Kapak ve kök birlikte",
+          "Daha kısa cerrahi süresi: David'e göre"
+        ]},
+        { "h3": "Sınırlamalar" },
+        { "ul": [
+          "Mekanik kapak ise: Ömür boyu antikoagülasyon",
+          "Biyolojik kapak ise: 10–15 yıl içinde redo cerrahi gerekebilir",
+          "Kapak ile ilgili her gelecek müdahale (örneğin endokardit) tüm yapıyı etkiler"
+        ]},
+        { "h2": "David prosedürü" },
+        { "p": "1992'de Tirone David tarafından tarif edilen bu teknikte:" },
+        { "ul": [
+          "Aort kapağı yerinde bırakılır (yapraklar sağlam ise)",
+          "Hastalıklı kök ve asendan aort tüp greftle değişir",
+          "Aort kapağı yeni greftin içine yeniden askıya alınır"
+        ]},
+        { "p": "Sonuç: hastanın kendi kapağı korunur, sadece kök yapısı yenilenir." },
+        { "h3": "David ne zaman tercih edilir?" },
+        { "ul": [
+          "Aort kapağı yapraklarının sağlam olduğu kök anevrizmalarında",
+          "Genç hastalarda",
+          "Antikoagülasyondan kaçınılmak istendiğinde",
+          "Marfan sendromu zemininde (ki bu hastaların çoğu gençtir)"
+        ]},
+        { "h3": "Avantajlar" },
+        { "ul": [
+          "Antikoagülasyon yok: Kendi kapağı korunur",
+          "Endokardit riski daha düşük",
+          "Daha iyi hemodinamik: Doğal kapak akış paterni",
+          "Daha uzun yaşam beklentisi: Çalışmalar lehine sonuçlar gösterir"
+        ]},
+        { "h3": "Sınırlamalar" },
+        { "ul": [
+          "Teknik olarak daha zor: Cerrah deneyimi belirleyici",
+          "Daha uzun ameliyat süresi",
+          "Kapak yetmezliği gelişme riski: Yıllar içinde %5–10 hastada tekrar müdahale gerekebilir",
+          "Tüm hastalar için uygun değil: Yapraklar dejenere ise David yapılamaz"
+        ]},
+        { "h2": "Karar nasıl verilir?" },
+        { "p": "Konsültasyonda dikkate alınan başlıca faktörler:" },
+        { "ul": [
+          "Yaş — İleri yaş Bentall lehine · Genç David lehine",
+          "Kapak durumu — Belirgin hasar Bentall lehine · Yapraklar sağlam David lehine",
+          "Antikoagülan uygunluğu — Kullanılabilir Bentall lehine · Kaçınılmak istenir David lehine",
+          "Genetik sendrom — Yok Bentall lehine · Marfan vb. David lehine",
+          "Cerrah deneyimi — Standart Bentall lehine · Yüksek hacimli David lehine"
+        ]},
+        { "p": "Çoğunlukla intraoperatif TEE ile son karar verilir: yapraklar gerçekten sağlam görünüyorsa David'e geçilir; yetersiz tutarsa Bentall yapılır. Bu güvenlik ağı, hastayı her senaryoda korur." },
+        { "h2": "Sonuçlar" },
+        { "p": "Her iki prosedür de deneyimli ellerde mükemmel sonuçlar verir:" },
+        { "ul": [
+          "30 günlük mortalite: %1–3 (her iki prosedürde)",
+          "5 yıllık hayatta kalma: %85–90+",
+          "Reoperasyon: Bentall'da kapak ömrüne bağlı; David'de yıllık ~%1"
+        ]},
+        { "h2": "Bir sonraki adım" },
+        { "p": "Aort kökü hastalığı tanısı aldıysanız ve cerrahi gündemdeyse, mevcut görüntülemenizi (BT anjiyografi, EKO) birlikte değerlendirelim. Yapraklarınızın korunabilir olup olmadığı çoğunlukla net ortaya çıkar — bu, cerrahi planını belirleyen anahtar sorudur." }
       ]
     },
-    "sutureless-valves": {
-      "title": "Sutureless aort kapak: Daha kısa sürede, daha az risk",
-      "excerpt": "Geleneksel dikiş gerektirmeyen kapaklar, ameliyat süresini kısaltır ve özellikle yaşlı hastalarda riskleri azaltır.",
+    "living-with-aneurysm": {
+      "title": "Anevrizma ile yaşamak: takip, yaşam tarzı, kontrol",
+      "excerpt": "Henüz cerrahi gerekmeyen anevrizmalarda kontrol sıklığı, kan basıncı yönetimi ve günlük yaşam önerileri.",
       "body": [
-        { "p": "Sutureless aort kapaklar, bir miktar ön gerilimle yerine yerleşen ve dikişsiz tutunan biyoprotezlerdir. Cross-clamp süresi belirgin ölçüde kısalır." }
+        { "h2": "Cerrahi şart değil — ama disiplin şart" },
+        { "p": "EKO veya BT'de küçük bir aort anevrizması saptanması ilk başta endişe yaratır. İyi haber şu: çoğu küçük anevrizma yıllar boyunca cerrahi gerektirmez. Doğru takip ve yaşam tarzı kararlarıyla tablo yıllarca stabil kalabilir." },
+        { "p": "Bu yazı, henüz cerrahi sınırına gelmemiş anevrizma sahibi hastalar için bir yol haritası." },
+        { "h2": "Takip programı" },
+        { "p": "Anevrizmanın boyutu ve yerine göre kontrol sıklığı değişir:" },
+        { "ul": [
+          "4.0–4.4 cm — Yılda 1 EKO",
+          "4.5–4.9 cm — Yılda 1 EKO veya BT/MR",
+          "5.0–5.4 cm — 6 ayda 1",
+          "5.5 cm üstü — Cerrahi konsültasyon"
+        ]},
+        { "p": "Marfan veya benzer genetik sendromlarda eşik daha düşüktür (5 cm, hatta 4.5 cm). Eğer yıl içinde 0.5 cm üstü büyüme varsa cerrahi öne alınır." },
+        { "h2": "Kan basıncı: her şeyin temeli" },
+        { "p": "Anevrizmaların büyüme hızını belirleyen tek en güçlü faktör tansiyondur. Hedefler:" },
+        { "ul": [
+          "Genel öneri: < 130/80 mmHg",
+          "Marfan veya yüksek riskli: < 120/80 mmHg"
+        ]},
+        { "p": "Tansiyon kontrolü için:" },
+        { "ul": [
+          "Beta-blokerler ilk seçim (kalp atım hızını ve aort duvarındaki stresi azaltır)",
+          "ARB (örneğin losartan) Marfan'da ek koruyucu olabilir",
+          "Diüretikler ve kalsiyum kanal blokerleri yardımcı olabilir"
+        ]},
+        { "p": "Evde tansiyon takibi: haftada birkaç kez sabah ve akşam ölçüm. Tutarlı yüksek değerleri kardiyologunuzla paylaşın." },
+        { "h2": "Egzersiz: yapın, ama doğru türde" },
+        { "p": "Anevrizma sahibi olmak hareketsiz kalmak demek değildir. Aksine, düzenli aerobik egzersiz anevrizmanın büyümesini yavaşlatır." },
+        { "h3": "Önerilen aktiviteler" },
+        { "ul": [
+          "Yürüyüş, doğa yürüyüşü",
+          "Yüzme",
+          "Hafif tempolu bisiklet",
+          "Yoga (nefes tutmadan, valsalva manevrasından kaçınarak)",
+          "Hafif ağırlık + yüksek tekrar (5 kg altı)"
+        ]},
+        { "h3": "Kaçınılması gerekenler" },
+        { "ul": [
+          "Halter, vücut geliştirme (ağır izometrik yük tansiyonu fırlatır)",
+          "Kuvvet sporları: güreş, halter, krosfit ağır kaldırma",
+          "Yüksek temaslı sporlar: boks, judo",
+          "Hızlı patlamalı sporlar: koşulu sprint, ağır tempolu raket sporları",
+          "Dalış (özellikle scuba)"
+        ]},
+        { "p": "Genel kural: nefes tutarak yapılan, aniden basınç değiştiren aktivitelerden uzak durun." },
+        { "h2": "Sigara: kesin bırakılmalı" },
+        { "p": "Sigara, aort duvarının yapısını doğrudan bozar ve büyüme hızını ikiye katlar. Tek başına en güçlü değiştirilebilir faktördür." },
+        { "h2": "Yaşam tarzı" },
+        { "ul": [
+          "Akdeniz tipi diyet: Zeytinyağı, balık, sebze, meyve, kuruyemiş",
+          "Tuz: günde 5 g altında",
+          "Alkol: ölçülü; tansiyonu yükselten alımdan kaçınılmalı",
+          "Stres yönetimi: kronik stres tansiyonu artırır; meditasyon, nefes egzersizleri yardımcıdır",
+          "Uyku: 7–8 saat; uyku apnesi tedavi edilmelidir (anevrizma büyümesini hızlandırır)"
+        ]},
+        { "h2": "Aile taraması" },
+        { "p": "Birinci derece akrabalarda:" },
+        { "ul": [
+          "Ebeveyn, kardeş veya çocuklarda anevrizma öyküsü varsa bir kez EKO önerilir",
+          "Marfan tanısı varsa genetik danışmanlık ve aile taraması zorunlu"
+        ]},
+        { "h2": "Acil bilinçlilik" },
+        { "p": "Aşağıdakilerden biri yaşanırsa gecikme yapmadan acil servise gidin:" },
+        { "ul": [
+          "Ani, \"yırtılır gibi\" şiddetli göğüs ya da sırt ağrısı",
+          "Ani bayılma",
+          "İnme benzeri tablolar (yarım yüzde uyuşma, konuşma bozukluğu)",
+          "Bir kolda ani nabız zayıflığı"
+        ]},
+        { "p": "Bu belirtiler diseksiyonu ya da rüptürü düşündürür. Bilinmesi gereken: acile gidiş kararı tereddütle değil, hızla verilmelidir." },
+        { "h2": "Psikolojik tarafı" },
+        { "p": "Anevrizma tanısıyla yaşamak ilk yıl içinde bir dereceye kadar anksiyete üretir. Çoğu hasta zamanla rutine alışır. İhtiyaç duyduğunuzda:" },
+        { "ul": [
+          "Bir kardiyolog veya kalp cerrahıyla konuşmak (sayılarınızı somut görmek)",
+          "Aort hastaları topluluklarına katılmak (Marfan vakıfları gibi)",
+          "Anksiyete ileri düzeydeyse bir ruh sağlığı uzmanından destek almak"
+        ]},
+        { "h2": "Bir sonraki adım" },
+        { "p": "Aort anevrizmanız tanılı ve düzenli takip ediliyor mu? Mevcut takip programınızı ve son görüntülemenizi getirdiğinizde, bir sonraki adımı birlikte planlayabiliriz. Endişe değil, yapılandırılmış bir takip — fark budur." }
+      ]
+    },
+    "atrial-myxoma": {
+      "title": "Atriyal miksoma: en sık görülen iyi huylu kalp tümörü",
+      "excerpt": "Tanı çoğu zaman tesadüfi konur. Nasıl bulunur, neden mutlaka çıkarılmalıdır?",
+      "body": [
+        { "h2": "En sık görülen iyi huylu kalp tümörü" },
+        { "p": "Kalbe ait iyi huylu primer tümörler oldukça nadirdir. Bunlar arasında en sık görüleni atriyal miksomadır. İsmi \"atriyumda büyüyen miksoid yapıda tümör\" anlamına gelir." },
+        { "p": "Atriyal miksomaların yaklaşık %75'i sol atriyumda, %20'si sağ atriyumda yerleşir. Çoğu zaman tek odaklıdır; ailesel formunda birden fazla yerleşim görülebilir." },
+        { "h2": "Belirtiler" },
+        { "p": "Miksomanın klasik üçlü belirtisi vardır:" },
+        { "h3": "1. Tıkanıklık (obstrüksiyon) belirtileri" },
+        { "p": "Tümör mitral kapak alanında kanı tıkayabilir. Bu durumda:" },
+        { "ul": [
+          "Eforla nefes darlığı",
+          "Pozisyonla değişen senkop",
+          "Pulmoner ödem",
+          "Yatınca rahatlama, ayağa kalkınca belirti"
+        ]},
+        { "p": "Hareket eden bir tümör olduğu için belirtiler pozisyona göre değişebilir — bu, miksomayı çok ayırt edici kılar." },
+        { "h3": "2. Emboli belirtileri" },
+        { "p": "Tümörden kopan parçalar dolaşıma katılır. En sık komplikasyon:" },
+        { "ul": [
+          "İnme (sol atriyal miksomada)",
+          "Periferik arter tıkanıklığı (akut bacak iskemi vb.)",
+          "Pulmoner emboli (sağ atriyal miksomada)"
+        ]},
+        { "h3": "3. Sistemik belirtiler" },
+        { "p": "Tümörden salgılanan sitokinler:" },
+        { "ul": [
+          "Ateş",
+          "Kilo kaybı",
+          "Eklem ağrısı",
+          "Yorgunluk",
+          "Sedimantasyon ve CRP yüksekliği",
+          "Bazen \"viral\" tablo gibi yanlış değerlendirilebilir"
+        ]},
+        { "p": "Çoğu zaman bu üç başlık altıdan yalnızca biri öne çıkar — bu yüzden tanı gecikmesi olabilir." },
+        { "h2": "Tanı" },
+        { "p": "İki adımda kesinleşir:" },
+        { "ul": [
+          "Transtorasik EKO: %95+ vakada tümörü gösterir.",
+          "Transözefajiyal EKO (TEE): Yapışma yerini, sapını ve boyutunu netleştirir."
+        ]},
+        { "p": "Bilgisayarlı tomografi veya MR ek bilgi sağlayabilir, özellikle ileri yaş hastada koroner anatomi de aynı seansta değerlendirilebilir." },
+        { "h2": "Cerrahi: tek seçenek ama mükemmel sonuçlar" },
+        { "p": "Atriyal miksoma tanısı konulan her hastada cerrahi olarak çıkarılması önerilir. Tümörün:" },
+        { "ul": [
+          "Embolizasyon riski (her gün biraz daha)",
+          "Mekanik tıkanıklık riski",
+          "Kötü huylu transformasyon riski (nadir ama mevcut)"
+        ]},
+        { "p": "bekleme stratejisini desteklemez." },
+        { "h3": "Cerrahi planı" },
+        { "ul": [
+          "Standart sternotomi veya minimal invaziv (sağ mini-torakotomi) yaklaşım",
+          "Kalp-akciğer makinesi",
+          "Tümör, sapıyla birlikte ve atriyal duvardan geniş bir doku marjı ile çıkarılır",
+          "Atrial duvar primer onarılır ya da yama ile kapatılır",
+          "Eşlik eden mitral yetmezlik varsa (mekanik tıkanıklık nedeniyle) düzelir"
+        ]},
+        { "h3": "Sonuçlar" },
+        { "ul": [
+          "30 günlük mortalite: %1–2",
+          "Lokal nüks: %1–3 (özellikle ailesel formda yüksek)",
+          "Uzun dönem hayatta kalma: yaş eşleştirilmiş normal popülasyon ile benzer",
+          "Hastane yatışı: 5–7 gün"
+        ]},
+        { "h2": "Cerrahi sonrası" },
+        { "p": "İlk 6–12 ay yıllık EKO ile takip — nüks açısından. Bu süreçten sonra, ailesel form yoksa rutin kalp takibi yeterlidir." },
+        { "h2": "Ailesel form (Carney kompleksi)" },
+        { "p": "Vakaların %5–10'unda görülür. Çoklu lokalizasyon, daha genç başlangıç, deri pigment lekeleri ve diğer endokrin tümörler eşlik edebilir. Bu form:" },
+        { "ul": [
+          "Genetik test gerektirir",
+          "Birinci derece akrabaların taranması zorunludur",
+          "Daha sık takip + erken cerrahi şarttır"
+        ]},
+        { "h2": "Bir sonraki adım" },
+        { "p": "EKO veya başka bir görüntülemede atriyumda kitle saptandıysa, hızla bir kalp cerrahisi konsültasyonu önerilir. Atriyal miksomalar — doğru cerrahi ile — neredeyse kesin tedavi edilebilir tablolardır. Konsültasyon randevusu için iletişime geçin." }
+      ]
+    },
+    "maze-procedure": {
+      "title": "MAZE prosedürü: cerrahi olarak atriyal fibrilasyonu sonlandırmak",
+      "excerpt": "Uzun süredir devam eden ya da diğer kalp ameliyatlarına eşlik eden atriyal fibrilasyonda cerrahi ablasyon seçeneği.",
+      "body": [
+        { "h2": "Atriyal fibrilasyona cerrahi çözüm" },
+        { "p": "Atriyal fibrilasyon (AF) dünyadaki en sık ritim bozukluğudur. Yaşla görülme sıklığı artar; 65 yaş üstünde her on kişiden biri yaşar. Belirtileri çarpıntı, halsizlik, eforla nefes darlığı; en ciddi komplikasyonu sol atriyumda pıhtı oluşumu ve inmedir." },
+        { "p": "Tedavi seçenekleri:" },
+        { "ul": [
+          "İlaçla ritim/hız kontrolü + antikoagülan",
+          "Kateter ablasyonu (girişimsel)",
+          "Cerrahi ablasyon — MAZE prosedürü"
+        ]},
+        { "p": "Bu yazı 3. seçeneği ele alıyor." },
+        { "h2": "MAZE prosedürü nedir?" },
+        { "p": "1987'de Dr. James Cox tarafından geliştirilen MAZE, AF'nin elektriksel kaynağı olan anormal sinyal yollarını cerrahi olarak engelleyen bir tekniktir." },
+        { "p": "Klasik tekniğin adı \"Cox-Maze\" — kelime \"labirent\" anlamına gelir. Atriyumlarda yapılan kesi ve ablasyon hatları, anormal elektriksel sinyalleri sinüs düğümünden AV düğüme yönlendiren tek bir yol bırakır. Geri kalan yolların hepsi kesilir veya ablatize edilir." },
+        { "p": "Modern MAZE varyasyonları:" },
+        { "ul": [
+          "Cox-Maze IV: Kesiler yerine radyofrekans veya kriyoablasyon kullanır.",
+          "Mini-MAZE: Sadece sol atriyumun arka duvarı ve pulmoner venler."
+        ]},
+        { "h2": "Kimler için?" },
+        { "p": "MAZE şu durumlarda öne çıkar:" },
+        { "ul": [
+          "Eş zamanlı kalp ameliyatı geçirecek AF hastaları: Bypass, kapak veya aort cerrahisi sırasında ek 30–45 dk ile MAZE eklenir.",
+          "Kateter ablasyonu başarısız olan AF hastaları",
+          "Uzun süreli persistant AF (ilaç + kateter ablasyonu yeterli olmayan)",
+          "Sol atriyum büyük olduğunda (genellikle > 5–5.5 cm)",
+          "Pıhtı kaynaklı inme öyküsü (özellikle sol atriyal apendiks de aynı seansta kapatılmalı)"
+        ]},
+        { "h2": "Sol atriyal apendiks — bonus iş" },
+        { "p": "MAZE prosedüründe genellikle sol atriyal apendiks (LAA) de cerrahi olarak kapatılır. AF'de pıhtıların %90'ı bu küçük cebcikten kaynaklanır. Apendiks kapatılırsa inme riski belirgin azalır — ablasyondan bağımsız bir kazanç." },
+        { "h2": "İşlem nasıl yapılır?" },
+        { "p": "Eş zamanlı kalp ameliyatı durumunda:" },
+        { "ul": [
+          "Sternotomi veya mini-torakotomi",
+          "Kalp-akciğer makinesi",
+          "Asıl ameliyat (bypass, kapak vb.) yapılırken sol atriyumda ablasyon hatları çekilir",
+          "Sol atriyal apendiks staplelenir veya dikilir",
+          "30–45 dk ek süre"
+        ]},
+        { "p": "İzole MAZE (yalnız AF için) durumunda:" },
+        { "ul": [
+          "Sağ mini-torakotomi (minimal invaziv)",
+          "Kalp-akciğer makinesi (gerekiyorsa)",
+          "2–3 saat süre"
+        ]},
+        { "h2": "Başarı oranları" },
+        { "ul": [
+          "Eş zamanlı MAZE: 1 yılda sinüs ritmi %75–85",
+          "İzole MAZE: 1 yılda %85–90",
+          "Kateter ablasyonu sonrası 5 yıl: ~%50",
+          "MAZE sonrası 5 yıl: ~%75–85"
+        ]},
+        { "p": "Yani MAZE, kateter ablasyonundan belirgin daha kalıcı sonuçlar verir." },
+        { "h2": "Sonrası" },
+        { "p": "Cerrahi sonrası ilk 3 ayda atriyal aritmiler hâlâ görülebilir — bu yara iyileşme dönemidir. 3. aydan sonra ritim değerlendirilir; sinüs ritminde ise antikoagülan kademeli kesilebilir (sol atriyal apendiks de kapatıldıysa)." },
+        { "p": "EKG ve Holter kontrolü 3, 6, 12. aylarda; sonra yıllık." },
+        { "h2": "Riskler" },
+        { "ul": [
+          "Kalp pili ihtiyacı: %5–10 (sinoatrial düğüm yakınında ablasyon nedeniyle)",
+          "Kanama (%2–3)",
+          "İnme (cerrahi sırasında, %1)",
+          "Yara enfeksiyonu"
+        ]},
+        { "h2": "Bir sonraki adım" },
+        { "p": "Kalp ameliyatı planlanan ve AF'si olan bir hastaysanız, MAZE eklenmesi mutlaka gündeme gelmelidir. İlaca yanıtsız uzun süreli AF tablosunda izole MAZE de bir seçenektir. Konsültasyon randevusunda mevcut tedavinizi ve ritim öykünüzü birlikte değerlendiriyoruz." }
+      ]
+    },
+    "pericardiectomy": {
+      "title": "Perikardiyektomi: kısıtlanmış kalbin rahatlatılması",
+      "excerpt": "Konstrüktif perikardit tablosunda nefes darlığı ve ödemden köklü çözüm: kalp zarının cerrahi olarak çıkarılması.",
+      "body": [
+        { "h2": "Sıkışmış kalp: konstrüktif perikardit ne demek?" },
+        { "p": "Kalp, perikard adı verilen ince bir zarla sarılıdır. Normalde esnek ve kayganlık sağlayan bu zar, çeşitli nedenlerle iltihaplanır, kalınlaşır ve sertleşebilir. Bu durum kalbi adeta zırhlı bir kabuğun içine sokar — kalp kasılır ama yeterince doluş yapamaz." },
+        { "p": "Sonuç: konstrüktif perikardit. Kalp yetersizliği görüntüsü verir, ancak kalp kasının kendisi sağlamdır. Sorun dışarıdaki \"zarftan\" gelir." },
+        { "h2": "Neden olur?" },
+        { "p": "En sık nedenler:" },
+        { "ul": [
+          "Tüberküloz perikarditi (gelişmekte olan ülkelerde hâlâ önemli)",
+          "Geçirilmiş kalp ameliyatı (perikardın sonradan kalınlaşması)",
+          "Geçirilmiş radyoterapi (özellikle göğüs bölgesi)",
+          "Otoimmün hastalıklar (romatizma, lupus, vaskülit)",
+          "Üremik perikardit (ileri böbrek yetmezliği)",
+          "İdiyopatik (sebep bulunamayan)"
+        ]},
+        { "p": "Türkiye'de tüberküloz hâlâ ihmal edilemez bir nedendir; özellikle göç almış bölgelerde sıklığı yüksek." },
+        { "h2": "Belirtiler" },
+        { "p": "Tablo yıllar içinde yavaş yerleşir:" },
+        { "ul": [
+          "Eforla nefes darlığı",
+          "Bacak şişmesi, karın şişkinliği (asit)",
+          "Karaciğer büyümesi, ileri vakada sarılık",
+          "Boyun damarlarında belirgin dolgunluk",
+          "Hızlı doyma, iştahsızlık (karaciğer ve dalak konjesyonu nedeniyle)"
+        ]},
+        { "p": "İleri tabloda hasta \"kardiyak kaşeksi\" denilen belirgin kilo kaybına gider — vücutta sıvı tutarken aslında zayıflar. Bu, hastalığın geç evrelerini düşündüren önemli bir bulgudur." },
+        { "h2": "Tanı: çoğu zaman zor" },
+        { "p": "Konstrüktif perikardit tanısı kolay değildir; restriktif kardiyomiyopati (kalp kasının kendi hastalığı) ile sıklıkla karıştırılır. Doğru tanı için:" },
+        { "ul": [
+          "EKO: Perikardın kalınlığı, septum hareket paterni, hızlı doluşun erken kesilmesi",
+          "Kardiyak MR veya BT: Perikardın görüntülenmesi (>4 mm kalınlık tipik)",
+          "Sağ-sol kalp kateterizasyonu: Basınç eğrilerinde \"kare kök\" işareti"
+        ]},
+        { "p": "Tanı belirsiz kalırsa cerrahi sırasında biyopsi de yardımcı olabilir." },
+        { "h2": "Perikardiyektomi: kalbin \"kabuğunun\" çıkarılması" },
+        { "p": "Kesin tedavi cerrahidir. Perikard:" },
+        { "ul": [
+          "Sternotomi ile çıkarılır (klasik)",
+          "Veya sol torakotomi ile (eski tercih)"
+        ]},
+        { "p": "Cerrahi sırasında sertleşmiş, kalsifiye perikard yapraklarının kalp kasından dikkatle ayrılması gerekir. Bu işlem teknik olarak zorludur; kalp kasına yapışmış doku katmanlarının soyulması özen ister." },
+        { "p": "Çıkarma alanı:" },
+        { "ul": [
+          "Anteriyor: sternuma kadar",
+          "İnferiyor: diyafragmaya kadar",
+          "Lateral: sol frenik sinire kadar (sinire saygı gösterilir)",
+          "Sağda: posteriyor olabildiğince"
+        ]},
+        { "h2": "Sonuçlar" },
+        { "ul": [
+          "Hemen rahatlama: Çoğu hasta operasyondan saatler sonra nefes darlığında belirgin iyileşme bildirir",
+          "Asit ve ödem geriler: günler içinde",
+          "30 günlük mortalite: %5–10 (ileri vakalarda yüksek)",
+          "5 yıllık hayatta kalma: %75–85"
+        ]},
+        { "p": "Sonuçların kalitesini en çok etkileyen faktör erken cerrahidir. Hastanın \"kardiyak kaşeksiye\" girmeden, karaciğer ve böbrek henüz ileri etkilenmeden ameliyat olması, sonuçları belirgin iyileştirir." },
+        { "h2": "Cerrahi sonrası" },
+        { "ul": [
+          "7–10 gün hastanede yatış",
+          "6 haftada normal aktivite",
+          "3 ay sonra tam iyileşme",
+          "Diüretik kullanımı kademeli azaltılır",
+          "Ek hastalıklar (TB, romatizmal) varsa ilgili tedavi devam eder"
+        ]},
+        { "h2": "Bir sonraki adım" },
+        { "p": "Aşağıdaki tabloda perikardiyektomi gündeme getirilmelidir:" },
+        { "ul": [
+          "Açıklanmamış kronik bacak şişmesi + asit",
+          "Geçirilmiş kalp ameliyatı sonrası gelişen dispne",
+          "Tüberküloz öyküsü + kalp yetmezliği belirtileri",
+          "Göğüs radyoterapisi sonrası geç dönemde gelişen kalp yetmezliği"
+        ]},
+        { "p": "Bu durumlardan birini yaşıyorsanız mutlaka kalp cerrahisi konsültasyonu önerilir. Görüntüleme ve katater verilerinizle birlikte sizinle birlikte değerlendirelim." }
+      ]
+    },
+    "when-cardiac-surgery": {
+      "title": "Kalp cerrahisi ne zaman gerekli? Hasta için bir yol haritası",
+      "excerpt": "İlaçla yetinilebilen durumlar ile cerrahinin geciktirilmemesi gereken durumlar arasındaki sınırı netleştiriyoruz.",
+      "body": [
+        { "h2": "Cerrahi her zaman gerekli mi?" },
+        { "p": "Hayır. Modern kardiyoloji, çoğu kalp hastalığını ilaçla yönetebiliyor. Kalp cerrahisi, ilaçlar yetmediğinde ya da yapısal bir sorun ortaya çıktığında devreye girer. Bu yazı, hangi durumlarda cerrahinin geciktirilmemesi gerektiğini netleştirmek için." },
+        { "h2": "\"Geciktirme\" neden önemli?" },
+        { "p": "Kalp dokuları zamanla geri dönüşümsüz değişim yaşar. Bir kapak yıllarca yetmezlik içindeyse sol ventrikül büyür ve fonksiyon kaybeder. Ne kadar bekleseniz de cerrahiden sonra kalbiniz \"eski formuna\" tam dönmeyebilir. Bu yüzden zamanlama, cerrahinin başarı kadar önemli bir parçasıdır." },
+        { "h2": "Cerrahinin gündeme gelmesini gerektiren temel tablolar" },
+        { "h3": "1. Koroner damar hastalığı" },
+        { "p": "İlaç + stent yetersiz kaldığında ya da:" },
+        { "ul": [
+          "Sol ana koroner darlığı (özellikle %50 üzerinde)",
+          "Üç damar hastalığı + diyabet",
+          "Kompleks anatomi: uzun, kalsifik, çok sayıda darlık",
+          "İlaç + stent ile semptom kontrolü başarısız"
+        ]},
+        { "p": "bypass cerrahisi (klasik veya MIDCAB) gündeme gelir." },
+        { "h3": "2. Kapak hastalıkları" },
+        { "ul": [
+          "Şiddetli aort darlığı + semptom (eforla bayılma, göğüs ağrısı, dispne) — beklemek değil, ameliyat",
+          "Şiddetli mitral yetmezlik + sol ventrikül dilatasyonu",
+          "Endokardit (özellikle vejetasyon büyük, emboli geçirmiş, kalp yetmezliği gelişen vakalarda)"
+        ]},
+        { "p": "Modern kılavuzlar artık asemptomatik şiddetli aort darlığında bile, sol ventrikül fonksiyonu bozulmaya başlamışsa erken cerrahi öneriyor." },
+        { "h3": "3. Aort hastalıkları" },
+        { "ul": [
+          "Asendan aort anevrizması ≥ 5.5 cm (Marfan'da 5 cm, hatta 4.5 cm)",
+          "Aort diseksiyonu Tip A (acil)",
+          "Hızlı büyüyen anevrizma (yılda > 0.5 cm)"
+        ]},
+        { "h3": "4. Doğumsal kalp hastalıkları" },
+        { "ul": [
+          "Yetişkinlikte fark edilen önemli sol-sağ şant (ASD, VSD)",
+          "Pulmoner hipertansiyon başlamamışsa cerrahi etkilidir"
+        ]},
+        { "h3": "5. Ritim bozuklukları" },
+        { "ul": [
+          "AF uzun süreli ve kateter ablasyonuna yanıtsızsa MAZE",
+          "Eş zamanlı kalp ameliyatı sırasında AF varsa MAZE eklenir"
+        ]},
+        { "h3": "6. Diğer" },
+        { "ul": [
+          "Atriyal miksoma (her durumda cerrahi)",
+          "Konstrüktif perikardit (perikardiyektomi)"
+        ]},
+        { "h2": "Cerrahiyi geciktirmemek için kırmızı bayraklar" },
+        { "p": "Aşağıdakilerden biri varsa bu hafta içinde kalp cerrahisi konsültasyonu önerilir:" },
+        { "ul": [
+          "Eforla bayılma yaşadıysanız",
+          "Yatınca nefes darlığı yaşıyor ve birden fazla yastık kullanıyorsanız",
+          "Ekokardiyografide şiddetli aort darlığı veya kapak yetmezliği saptandıysa",
+          "Anjiyografide sol ana koroner darlığı varsa",
+          "Aortta 5 cm üstü anevrizma saptandıysa",
+          "Daha önce kalp ameliyatı geçirmiş ve yeni belirti gelişmiş bir hastaysanız"
+        ]},
+        { "h2": "Cerrahiye karar verirken sorulması gereken sorular" },
+        { "p": "Doktorunuzla konuşurken şu soruları sormaktan çekinmeyin:" },
+        { "ul": [
+          "Cerrahi olmadan sonuç ne olur?",
+          "Cerrahi olursam hayatta kalma oranı ne?",
+          "Hangi yaklaşım — minimal invaziv mi, klasik mi — bende uygun?",
+          "İkinci görüş alabilir miyim?",
+          "Cerrahi sonrası iyileşme ne kadar sürer?"
+        ]},
+        { "p": "Doğru cerrah net cevap verir, soruları savunmaya geçmez ve ikinci görüş için size yol gösterir." },
+        { "h2": "İkinci görüş — sağlıklı bir adım" },
+        { "p": "Kalp cerrahisi gibi büyük bir karar verirken ikinci görüş almak hak ve aklı selim olandır. Mevcut tedavi planınızla beraber gelen hastalarımızı yargılamadan, eşit dikkatle değerlendiriyoruz. Bu bizim için iletişimin doğal parçasıdır." },
+        { "h2": "Bir sonraki adım" },
+        { "p": "Kalp cerrahisi gündemde mi? Belirsizlik, gecikme nedenidir; net bilgi karar vermenin önünü açar. Anjiyografi ve EKO görüntülemenizle birlikte konsültasyon randevusu alın — sade, doğru ve sayılarla konuşan bir değerlendirme yapalım." }
       ]
     }
   }
