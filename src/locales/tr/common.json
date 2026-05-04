@@ -1,3 +1,44 @@
 {
-  "loading": "Yükleniyor…"
+  "loading": "Yükleniyor…",
+  "nav": {
+    "home": "Anasayfa",
+    "services": "Hizmetler",
+    "tour": "Klinik Turu",
+    "blog": "Blog",
+    "faq": "SSS",
+    "contact": "İletişim"
+  },
+  "cta": {
+    "contact": "İletişime Geç",
+    "appointment": "Randevu Al"
+  },
+  "whatsapp": {
+    "label": "WhatsApp ile yaz"
+  },
+  "footer": {
+    "tagline": "Modern kalp cerrahisi, güvenli eller.",
+    "cols": {
+      "contact": "İletişim",
+      "nav": "Site Haritası",
+      "legal": "Yasal"
+    },
+    "links": {
+      "privacy": "Gizlilik",
+      "terms": "Kullanım Koşulları",
+      "kvkk": "KVKK"
+    },
+    "bottom": "© 2026 Op. Dr. Kaan Işık · Tüm hakları saklıdır.",
+    "attr": "Frontend by Emre Can Karataş"
+  },
+  "popup": {
+    "eyebrow": "PORTFOLYO BİLDİRİMİ",
+    "title": "Bu bir portfolyo örnek sitesidir.",
+    "body": [
+      "Bu site, Emre Can Karataş tarafından geliştirilmiş bir frontend portfolyo projesidir. Op. Dr. Kaan Işık kurgusal bir karakterdir; bu sitede yer alan hiçbir bilgi, istatistik veya kimlik gerçek bir tıp profesyoneline ait değildir.",
+      "Form gönderimi, beğeni sayıları ve görüntülenme verileri görseldir; arka uç bağlantısı yoktur."
+    ],
+    "attr": "Frontend by Emre Can Karataş",
+    "btn": "Anladım, devam et",
+    "closeLabel": "Kapat"
+  }
 }

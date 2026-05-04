@@ -1,3 +1,44 @@
 {
-  "loading": "Loading…"
+  "loading": "Loading…",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "tour": "Clinic Tour",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "cta": {
+    "contact": "Get in touch",
+    "appointment": "Book a visit"
+  },
+  "whatsapp": {
+    "label": "Chat on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Modern cardiac surgery, in trusted hands.",
+    "cols": {
+      "contact": "Contact",
+      "nav": "Site map",
+      "legal": "Legal"
+    },
+    "links": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "kvkk": "Data policy"
+    },
+    "bottom": "© 2026 Op. Dr. Kaan Işık · All rights reserved.",
+    "attr": "Frontend by Emre Can Karataş"
+  },
+  "popup": {
+    "eyebrow": "PORTFOLIO NOTICE",
+    "title": "This is a portfolio sample site.",
+    "body": [
+      "This site is a frontend portfolio project by Emre Can Karataş. Op. Dr. Kaan Işık is a fictional persona; no information, statistic or identity on this site belongs to a real medical professional.",
+      "Form submissions, like counts and view metrics are visual only — there is no backend."
+    ],
+    "attr": "Frontend by Emre Can Karataş",
+    "btn": "I understand, continue",
+    "closeLabel": "Close"
+  }
 }

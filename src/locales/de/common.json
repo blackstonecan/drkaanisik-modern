@@ -1,3 +1,44 @@
 {
-  "loading": "Lädt…"
+  "loading": "Lädt…",
+  "nav": {
+    "home": "Start",
+    "services": "Leistungen",
+    "tour": "Klinik-Tour",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "contact": "Kontakt aufnehmen",
+    "appointment": "Termin buchen"
+  },
+  "whatsapp": {
+    "label": "WhatsApp-Chat"
+  },
+  "footer": {
+    "tagline": "Moderne Herzchirurgie, in sicheren Händen.",
+    "cols": {
+      "contact": "Kontakt",
+      "nav": "Sitemap",
+      "legal": "Rechtliches"
+    },
+    "links": {
+      "privacy": "Datenschutz",
+      "terms": "AGB",
+      "kvkk": "Datenrichtlinie"
+    },
+    "bottom": "© 2026 Op. Dr. Kaan Işık · Alle Rechte vorbehalten.",
+    "attr": "Frontend by Emre Can Karataş"
+  },
+  "popup": {
+    "eyebrow": "PORTFOLIO-HINWEIS",
+    "title": "Dies ist eine Portfolio-Beispielseite.",
+    "body": [
+      "Diese Seite ist ein Frontend-Portfolio-Projekt von Emre Can Karataş. Op. Dr. Kaan Işık ist eine fiktive Person; keine Information, Statistik oder Identität auf dieser Seite gehört zu einer realen medizinischen Fachperson.",
+      "Formulare, Likes und View-Zähler sind rein visuell — es gibt keinen Backend-Anschluss."
+    ],
+    "attr": "Frontend by Emre Can Karataş",
+    "btn": "Verstanden, weiter",
+    "closeLabel": "Schließen"
+  }
 }
