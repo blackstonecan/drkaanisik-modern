@@ -1,1 +1,32 @@
-{}
+{
+  "title": "Klinik-Tour",
+  "pageEyebrow": "INTERAKTIVE KLINIK-TOUR",
+  "backHome": "Zur Startseite",
+  "stepLabel": "Station",
+  "progressLabel": "Fortschritt",
+  "travelingTo": "Auf dem Weg zu",
+  "placeholder": "VIDEO-PLATZHALTER · 360° oder kurzes Walk-in MP4",
+  "transitionTag": "ÜBERGANGSVIDEO",
+  "points": {
+    "entrance": {
+      "title": "Eingang",
+      "desc": "Vom ersten Schritt an: ein ruhiger, heller Empfang. Natürliches Licht, schlichte Materialien — eher Gästehaus als Klinik."
+    },
+    "waiting-area": {
+      "title": "Wartebereich",
+      "desc": "Ein leiser Vorbereitungsraum mit weichem Licht und wenig Menschen. Tee, Print-Zeitschriften, entspannte Sitzgruppen."
+    },
+    "consultation-room": {
+      "title": "Beratungsraum",
+      "desc": "Hier wird die Information geteilt. Dr. Işık geht Ihre Bilder durch und geht den Plan Schritt für Schritt mit Ihnen durch."
+    },
+    "examination-room": {
+      "title": "Untersuchungsraum",
+      "desc": "Steril und modern — ohne dass das Gespräch verloren geht. Klinische Anforderungen voll erfüllt."
+    },
+    "ekg-room": {
+      "title": "EKG / USG-Raum",
+      "desc": "Fortschrittliche kardiale Diagnostik in einem Raum. EKG, Echokardiografie und Ultraschall in einem Termin."
+    }
+  }
+}

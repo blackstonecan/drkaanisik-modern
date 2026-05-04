@@ -1,1 +1,32 @@
-{}
+{
+  "title": "Klinik Turu",
+  "pageEyebrow": "İNTERAKTİF KLİNİK TURU",
+  "backHome": "Ana sayfaya dön",
+  "stepLabel": "Durak",
+  "progressLabel": "İlerleme",
+  "travelingTo": "Geçiş yapılıyor",
+  "placeholder": "VIDEO YERİ · 360 derece veya kısa walk-in mp4",
+  "transitionTag": "GEÇİŞ VİDEOSU",
+  "points": {
+    "entrance": {
+      "title": "Klinik Girişi",
+      "desc": "Kapıdan adım attığınız andan itibaren sıcak ve ferah bir karşılama. Doğal aydınlatma, sade malzemeler — kliniğe değil, bir misafirhaneye geldiğinizi hissedersiniz."
+    },
+    "waiting-area": {
+      "title": "Bekleme Alanı",
+      "desc": "Az kişiyle, yumuşak ışık ve sessizlikte bir hazırlık alanı. Çay servisi, dijital olmayan dergiler ve sakin bir oturma planıyla tasarlandı."
+    },
+    "consultation-room": {
+      "title": "Konsültasyon Odası",
+      "desc": "Bilgi paylaşımının yapıldığı oda. Dr. Işık burada görüntülerinizi inceler, planı sizinle birlikte adım adım gözden geçirir."
+    },
+    "examination-room": {
+      "title": "Muayene Odası",
+      "desc": "Steril ve modern bir ortamda fizik muayene. Hasta-hekim diyalogunu zedelemeden, klinik gereklilikleri eksiksiz karşılar."
+    },
+    "ekg-room": {
+      "title": "EKG / USG Odası",
+      "desc": "Kardiyak değerlendirme için ileri seviye ekipman. EKG, ekokardiyografi ve USG hepsi tek bir odada, kısa sürede tamamlanır."
+    }
+  }
+}

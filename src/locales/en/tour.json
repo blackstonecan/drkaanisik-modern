@@ -1,1 +1,32 @@
-{}
+{
+  "title": "Clinic Tour",
+  "pageEyebrow": "INTERACTIVE CLINIC TOUR",
+  "backHome": "Back to home",
+  "stepLabel": "Stop",
+  "progressLabel": "Progress",
+  "travelingTo": "Walking to",
+  "placeholder": "VIDEO PLACEHOLDER · 360° or short walk-in mp4",
+  "transitionTag": "TRANSITION VIDEO",
+  "points": {
+    "entrance": {
+      "title": "Entrance",
+      "desc": "From the moment you step inside, a calm and bright welcome. Natural light, plain materials — it feels less like a clinic, more like a guest house."
+    },
+    "waiting-area": {
+      "title": "Waiting Area",
+      "desc": "A quiet preparation space with soft lighting and few people. Tea service, paper magazines and unhurried seating."
+    },
+    "consultation-room": {
+      "title": "Consultation Room",
+      "desc": "Where the information is shared. Dr. Işık reviews your imaging here and walks you through the plan together."
+    },
+    "examination-room": {
+      "title": "Examination Room",
+      "desc": "Sterile, modern, but without losing the conversation. Clinical needs handled fully without compromising the patient relationship."
+    },
+    "ekg-room": {
+      "title": "EKG / USG Room",
+      "desc": "Advanced cardiac assessment in one room. EKG, echocardiography and ultrasound completed efficiently in a single visit."
+    }
+  }
+}
