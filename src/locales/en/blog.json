@@ -1,1 +1,123 @@
-{}
+{
+  "title": ["The doorway to", " a", " ", "healthier", " heart."],
+  "lead": "Notes from the surgeon's pen — heart health, surgical journeys and patient stories.",
+  "countLabel": "articles published",
+  "popular": "Popular categories",
+  "popularSub": "Sorted by views",
+  "all": "All",
+  "search": "Search articles…",
+  "sort": "Sort",
+  "sortRecent": "Most recent",
+  "sortPopular": "Most popular",
+  "sortLikes": "Most liked",
+  "showing": "Showing",
+  "of": "of",
+  "posts": "posts",
+  "listHead": ["All", " articles"],
+  "empty": {
+    "title": "No results",
+    "body": "Try a different search or category."
+  },
+  "read": "Read article",
+  "minRead": "min read",
+  "viewShort": "views",
+  "role": "Op. Dr. · Cardiac Surgery",
+  "backToList": "All articles",
+  "relatedHead": "Related articles",
+  "likeBtn": "Like",
+  "likedBtn": "Liked",
+  "share": "Share",
+  "cats": {
+    "coronary-artery-surgery": "Coronary Bypass",
+    "heart-valve-surgery": "Heart Valve",
+    "aortic-surgery": "Aortic Surgery",
+    "other": "Other Adult Surgery",
+    "international": "Health Tourism",
+    "lifestyle": "After Surgery"
+  },
+  "posts_content": {
+    "midcab-explained": {
+      "title": "What is MIDCAB? Bypass without opening the sternum",
+      "excerpt": "Coronary bypass through a small incision under the left breast — how it works, who's a candidate, and how recovery differs.",
+      "body": [
+        { "p": "When most people picture coronary bypass, they imagine a long incision down the middle of the chest. MIDCAB — Minimally Invasive Direct Coronary Artery Bypass — skips that step. The surgeon works through a 6–8 cm cut under the left breast; the sternum stays whole." },
+        { "h2": "Who is it for?" },
+        { "p": "MIDCAB is ideal for patients with single-vessel disease in the LAD. With multi-vessel involvement, a hybrid approach — MIDCAB + percutaneous stent — may be considered." },
+        { "h2": "Recovery" },
+        { "p": "Because the sternum isn't broken, post-op pain is significantly lower. Most patients are discharged in 3–4 days, return to office work in 2 weeks, and to heavy activity in 4–6 weeks." },
+        { "quote": "Reaching the target vessel is the same goal in every bypass technique; what differs is how we get there." },
+        { "h2": "Limits" },
+        { "p": "Not every patient is a candidate. Anatomical position, lung adhesions, prior surgical history all matter at the planning stage." }
+      ]
+    },
+    "tavi-vs-savr": {
+      "title": "TAVI or open aortic valve replacement?",
+      "excerpt": "Choosing between transcatheter and surgical valve replacement in aortic stenosis — risk, age, anatomy, durability.",
+      "body": [
+        { "p": "TAVI has been the most important advance in aortic valve treatment of the last decade. A new valve is delivered through a catheter — usually from the leg — without opening the chest." },
+        { "h2": "Who is TAVI for?" },
+        { "p": "Originally for patients at very high surgical risk. Today it's also used safely in intermediate- and low-risk older patients." },
+        { "h2": "When is open surgery still preferred?" },
+        { "p": "Younger patients, those needing concomitant procedures, complex anatomy, or bicuspid valves — SAVR remains the standard." },
+        { "quote": "TAVI and SAVR aren't rivals; they're two tools for the same goal. Matching patient to tool is the surgeon's job." }
+      ]
+    },
+    "what-is-bentall": {
+      "title": "Bentall procedure: Replacing the aortic root as one",
+      "excerpt": "When aortic root aneurysm and severe valve insufficiency coexist, Bentall solves both in a single operation.",
+      "body": [
+        { "p": "Bentall replaces the aortic valve, root and ascending aorta in one composite graft. Typical candidate: a patient with a dilated root and severe valve insufficiency." },
+        { "h2": "Surgical steps" },
+        { "p": "Diseased tissue removed; a tubular graft containing a mechanical or biological valve is inserted; coronary ostia are reimplanted onto the graft." },
+        { "h2": "Outcomes" },
+        { "p": "Modern series report 30-day mortality below 2%. Long-term survival depends directly on valve choice and patient compliance." }
+      ]
+    },
+    "off-pump-bypass": {
+      "title": "Off-pump bypass: Surgery on the beating heart",
+      "excerpt": "Bypass without the heart-lung machine — advantages, limits, and patient selection.",
+      "body": [
+        { "p": "Off-pump CABG keeps the heart beating during the operation; specialised stabilisers immobilise the target vessel area only." }
+      ]
+    },
+    "patient-journey-de": {
+      "title": "From Munich to Antalya: A patient's journey",
+      "excerpt": "Following our 64-year-old patient through the full TAVI pathway — from first video call to return home.",
+      "body": [
+        { "p": "K., 64, came to us from Munich with severe aortic stenosis. The journey began with a video consultation built around the echo and CT his local cardiologist had sent us." },
+        { "h2": "Planning" },
+        { "p": "Imaging confirmed TAVI eligibility; surgery was scheduled two weeks later. The clinic coordinated everything — hospital, transfer, accommodation." },
+        { "h2": "The hospital days" },
+        { "p": "The procedure took 90 minutes. He stood up the same day and was discharged on day three. A German interpreter joined every consult and patient-education session." }
+      ]
+    },
+    "after-surgery-life": {
+      "title": "Life after open-heart surgery: The first 12 weeks",
+      "excerpt": "A practical week-by-week calendar for the months after discharge — when to walk, when to drive, when to lift.",
+      "body": [
+        { "p": "The hours on the operating table shape the rest of your life — but the result depends just as much on the first twelve weeks after." }
+      ]
+    },
+    "aortic-dissection-101": {
+      "title": "Aortic dissection: Anatomy of an emergency",
+      "excerpt": "Where minutes matter, not hours. Symptoms, types, and modern surgical approaches.",
+      "body": [
+        { "p": "Aortic dissection begins with a tear in the inner layer of the aortic wall." }
+      ]
+    },
+    "atrial-fib-maze": {
+      "title": "MAZE: A surgical answer to atrial fibrillation",
+      "excerpt": "How carefully drawn lines on the heart's chambers can restore rhythm when drugs and ablation fall short.",
+      "body": [
+        { "p": "MAZE creates controlled conduction lines on cardiac tissue to interrupt fibrillation." }
+      ]
+    },
+    "sutureless-valves": {
+      "title": "Sutureless aortic valves: Shorter time, lower risk",
+      "excerpt": "Valves that hold without traditional stitches reduce operating time and risk in older patients.",
+      "body": [
+        { "p": "Sutureless valves are bioprostheses that anchor with radial force rather than sutures." }
+      ]
+    }
+  }
+}

@@ -1,1 +1,134 @@
-{}
+{
+  "title": ["Sağlıklı kalbe", " açılan", " ", "kapı."],
+  "lead": "Hekimin kaleminden, kalp sağlığı, ameliyat süreçleri ve hasta yolculuğu üzerine notlar.",
+  "countLabel": "yazı yayında",
+  "popular": "Popüler kategoriler",
+  "popularSub": "Görüntülenmeye göre",
+  "all": "Tümü",
+  "search": "Yazılarda ara…",
+  "sort": "Sırala",
+  "sortRecent": "En yeni",
+  "sortPopular": "En popüler",
+  "sortLikes": "En beğenilen",
+  "showing": "Gösterilen",
+  "of": "/",
+  "posts": "yazı",
+  "listHead": ["Tüm", " yazılar"],
+  "empty": {
+    "title": "Sonuç bulunamadı",
+    "body": "Aramanızı veya seçili kategoriyi değiştirmeyi deneyin."
+  },
+  "read": "Yazıyı oku",
+  "minRead": "dk okuma",
+  "viewShort": "görüntülenme",
+  "role": "Op. Dr. · Kardiyak Cerrahi",
+  "backToList": "Tüm yazılar",
+  "relatedHead": "Benzer yazılar",
+  "likeBtn": "Beğen",
+  "likedBtn": "Beğenildi",
+  "share": "Paylaş",
+  "cats": {
+    "coronary-artery-surgery": "Koroner Bypass",
+    "heart-valve-surgery": "Kalp Kapağı",
+    "aortic-surgery": "Aort Cerrahisi",
+    "other": "Diğer Eriş. Cerrahi",
+    "international": "Sağlık Turizmi",
+    "lifestyle": "Yaşam Sonrası"
+  },
+  "posts_content": {
+    "midcab-explained": {
+      "title": "MIDCAB nedir? Sternum açılmadan koroner bypass",
+      "excerpt": "Sol meme altından küçük bir kesiyle yapılan bypass; nasıl çalışır, kimler için uygundur ve iyileşme süreci klasikten neyle ayrılır?",
+      "body": [
+        { "p": "Klasik koroner bypass denildiğinde aklımıza önce sternumu (göğüs kemiğini) ortadan açan büyük bir kesi geliyor. MIDCAB — Minimally Invasive Direct Coronary Artery Bypass — bu adımı atlar. Cerrah sol meme altından yaklaşık 6–8 santimetrelik küçük bir kesiyle çalışır; göğüs kemiği bütün kalır." },
+        { "h2": "Kimler için uygundur?" },
+        { "p": "MIDCAB özellikle sol ön inen arterde (LAD) tek damar tıkanıklığı olan hastalar için idealdir. Birden fazla damar tutulumu varsa hibrit bir yaklaşım — MIDCAB + perkütan stent — gündeme gelebilir." },
+        { "h2": "İyileşme süreci" },
+        { "p": "Sternumu kırmadığımız için ağrı belirgin ölçüde daha azdır. Hastaların büyük kısmı 3–4 gün içinde taburcu olur, 2 hafta içinde ofis işlerine, 4–6 hafta içinde ağır fiziksel aktiviteye dönebilir." },
+        { "quote": "Hedef damarın açılması her bypass tekniğinde aynıdır; fark, oraya nasıl ulaştığımızdadır." },
+        { "h2": "Sınırları" },
+        { "p": "Her hasta MIDCAB için uygun değildir. Anatomik konum, akciğer yapışıklığı, geçirilmiş cerrahi öyküsü gibi faktörler ön değerlendirmede kritiktir. Karar, koroner anjiografi ve göğüs BT görüntülerinin ardından verilir." }
+      ]
+    },
+    "tavi-vs-savr": {
+      "title": "TAVI mı, açık aort kapak ameliyatı mı?",
+      "excerpt": "Aort darlığında transkateter (TAVI) ve cerrahi (SAVR) seçimi; risk, yaş, anatomi ve dayanıklılık denklemlerinin ışığında.",
+      "body": [
+        { "p": "Aort darlığı tedavisinde son on yılın en önemli gelişmesi TAVI oldu. Kalp kateterizasyonuyla, çoğunlukla bacaktaki damardan ilerleyen bir kateter aracılığıyla yeni kapak yerine getirilir; göğüs açılmaz." },
+        { "h2": "TAVI kimler için?" },
+        { "p": "Başlangıçta yalnızca açık ameliyatın çok yüksek riskli olduğu hastalar için tasarlandı. Bugün, orta-düşük riskli ileri yaş hastalarda da güvenli sonuçlarla uygulanıyor." },
+        { "h2": "Açık ameliyat ne zaman?" },
+        { "p": "Genç hastalar, başka kalp ameliyatına da ihtiyacı olanlar (örn. eşlik eden bypass), kompleks anatomi veya iki yapraklı aort kapağı olanlar için cerrahi (SAVR) hâlâ standart." },
+        { "quote": "TAVI ile SAVR rakipler değil, aynı amacın iki farklı aracıdır. Hastayı doğru araca yönlendirmek hekimin görevidir." }
+      ]
+    },
+    "what-is-bentall": {
+      "title": "Bentall prosedürü: Aort kökünün toptan değişimi",
+      "excerpt": "Aort kökünde anevrizma ve aort kapağında ileri yetersizlik bir aradaysa, Bentall iki sorunu tek seansta çözer.",
+      "body": [
+        { "p": "Bentall prosedürü, aort kapağı + aort kökü + asendan aortayı tek bir kompozit greftle değiştiren cerrahidir. Tipik aday: aort kökü genişlemiş, kapağında ileri yetersizliği olan hasta." },
+        { "h2": "Cerrahi adımlar" },
+        { "p": "Hastalıklı doku çıkarılır; mekanik ya da biyolojik kapak içeren tübüler bir greft yerleştirilir; koroner damar ağızları greft üzerine yeniden ekilir." },
+        { "h2": "Sonuçlar" },
+        { "p": "Modern Bentall serilerinde 30 gün mortalite %2 altındadır. Uzun dönem sağkalım, kapak seçimine ve hasta uyumuna doğrudan bağlıdır." }
+      ]
+    },
+    "off-pump-bypass": {
+      "title": "Off-pump bypass: Atan kalpte cerrahi",
+      "excerpt": "Kalp-akciğer makinesi olmadan, kalp atmaya devam ederken yapılan bypass; avantajlar, sınırlar ve hasta seçimi.",
+      "body": [
+        { "p": "Off-pump CABG, klasik bypassın ana farkı olarak kalp-akciğer makinesinin devre dışı bırakılmasıdır. Kalp ameliyat sırasında atmaya devam eder; cerrah özel stabilizatörlerle hedef damar bölgesini sabitler." },
+        { "p": "Avantajlar: kan ürünleri kullanımı azalır, böbrek fonksiyonları daha iyi korunur, inme riski seçilmiş hastalarda düşer." },
+        { "p": "Sınırlar: teknik olarak daha zorlayıcıdır, tüm damar bölgelerine eşit ulaşılması güçtür." }
+      ]
+    },
+    "patient-journey-de": {
+      "title": "Almanya'dan Antalya'ya: Bir hasta yolculuğu",
+      "excerpt": "Münih'ten gelen 64 yaşındaki hastamızın TAVI sürecini, ilk video görüşmeden ülkesine dönüşüne kadar baştan sona aktarıyoruz.",
+      "body": [
+        { "p": "K. Bey, ileri aort darlığı tanısıyla Münih'ten Antalya'ya gelen 64 yaşında bir hastamız. Süreç, yerel kardiyoloğunun gönderdiği eko ve BT görüntüleriyle birlikte bir video konsültasyonla başladı." },
+        { "h2": "Planlama" },
+        { "p": "Görüntüler üzerinden TAVI uygunluğu doğrulandı; iki hafta sonrasına ameliyat tarihi verildi. Kliniğimiz, anlaşmalı hastane ve konaklama arasındaki tüm koordinasyonu üstlendi." },
+        { "h2": "Hastanedeki günler" },
+        { "p": "İşlem 90 dakika sürdü; hasta aynı gün ayağa kalktı, üçüncü gün taburcu oldu. Almanca tercüman muayene ve hasta eğitiminin tamamına katıldı." },
+        { "quote": "Hastanın evine döndüğü gün de bizim takibimiz başlıyor — telekonsültasyon ile üç ay düzenli görüşüyoruz." }
+      ]
+    },
+    "after-surgery-life": {
+      "title": "Açık kalp ameliyatından sonra: İlk 12 hafta",
+      "excerpt": "Taburculuktan sonraki günler, haftalar ve ayların pratik bir takvimi: ne zaman yürünür, ne zaman araba kullanılır?",
+      "body": [
+        { "p": "Ameliyat masasında geçirilen birkaç saat, geri kalan ömrünüzü şekillendirir. Ama iyi bir sonuç sadece masaya değil, sonraki ilk 12 haftaya da bağlıdır." },
+        { "h2": "1. hafta" },
+        { "p": "Hastanede ya da yakın kontrol altında. Kısa, sık yürüyüşler. Sternum kemiğini koruyacak hareket eğitimi." },
+        { "h2": "2.–4. hafta" },
+        { "p": "Eve dönüş. Hafif ev içi aktivite. 4. haftadan itibaren genelde araba kullanımına izin verilir." },
+        { "h2": "1.–3. ay" },
+        { "p": "Kardiyak rehabilitasyon programı. Düşük yoğunluklu egzersiz, beslenme danışmanlığı, gerekirse psikolojik destek." }
+      ]
+    },
+    "aortic-dissection-101": {
+      "title": "Aort diseksiyonu: Acil durumun anatomisi",
+      "excerpt": "Saatlerin değil, dakikaların önemli olduğu bir tablo. Belirtiler, tipler ve modern cerrahi yaklaşımlar.",
+      "body": [
+        { "p": "Aort diseksiyonu, aort duvarının iç tabakasının yırtılmasıyla başlar. Yırtık, kanı duvarın katmanları arasına yönlendirir; bu durum dakikalar içinde yaşamı tehdit eder." },
+        { "h2": "Tip A vs Tip B" },
+        { "p": "Tip A asendan aortu kapsar — neredeyse her zaman acil cerrahi gerektirir. Tip B inen aortu etkiler ve seçilmiş vakalarda tıbbi takiple yönetilebilir." }
+      ]
+    },
+    "atrial-fib-maze": {
+      "title": "MAZE prosedürü: Atriyal fibrilasyona cerrahi cevap",
+      "excerpt": "İlaca ve ablasyona dirençli atriyal fibrilasyonda kalp odacıklarına çizilen yollar nasıl ritmi geri getirir?",
+      "body": [
+        { "p": "MAZE, atriyal fibrilasyonu durdurmak için cerrahi olarak doku üzerinde kontrollü iletim hatları oluşturma tekniğidir. Genellikle başka bir kalp cerrahisiyle birlikte uygulanır." }
+      ]
+    },
+    "sutureless-valves": {
+      "title": "Sutureless aort kapak: Daha kısa sürede, daha az risk",
+      "excerpt": "Geleneksel dikiş gerektirmeyen kapaklar, ameliyat süresini kısaltır ve özellikle yaşlı hastalarda riskleri azaltır.",
+      "body": [
+        { "p": "Sutureless aort kapaklar, bir miktar ön gerilimle yerine yerleşen ve dikişsiz tutunan biyoprotezlerdir. Cross-clamp süresi belirgin ölçüde kısalır." }
+      ]
+    }
+  }
+}

@@ -1,1 +1,107 @@
-{}
+{
+  "title": ["Der Eingang zu", " einem", " ", "gesünderen", " Herzen."],
+  "lead": "Notizen aus der Feder des Chirurgen — Herzgesundheit, Operationswege und Patientengeschichten.",
+  "countLabel": "Artikel veröffentlicht",
+  "popular": "Beliebte Kategorien",
+  "popularSub": "Nach Ansichten sortiert",
+  "all": "Alle",
+  "search": "Artikel durchsuchen…",
+  "sort": "Sortieren",
+  "sortRecent": "Neueste",
+  "sortPopular": "Beliebt",
+  "sortLikes": "Most liked",
+  "showing": "Angezeigt",
+  "of": "von",
+  "posts": "Artikel",
+  "listHead": ["Alle", " Artikel"],
+  "empty": {
+    "title": "Keine Treffer",
+    "body": "Versuchen Sie eine andere Suche oder Kategorie."
+  },
+  "read": "Artikel lesen",
+  "minRead": "Min. Lesezeit",
+  "viewShort": "Aufrufe",
+  "role": "Op. Dr. · Herzchirurgie",
+  "backToList": "Alle Artikel",
+  "relatedHead": "Ähnliche Artikel",
+  "likeBtn": "Liken",
+  "likedBtn": "Geliked",
+  "share": "Teilen",
+  "cats": {
+    "coronary-artery-surgery": "Koronarer Bypass",
+    "heart-valve-surgery": "Herzklappe",
+    "aortic-surgery": "Aorten-Chirurgie",
+    "other": "Weitere Eingriffe",
+    "international": "Gesundheitstourismus",
+    "lifestyle": "Nach OP"
+  },
+  "posts_content": {
+    "midcab-explained": {
+      "title": "Was ist MIDCAB? Bypass ohne Sternotomie",
+      "excerpt": "Bypass durch einen kleinen Schnitt unter der linken Brust — wie es funktioniert und wer geeignet ist.",
+      "body": [
+        { "p": "Beim klassischen Bypass denken die meisten an einen langen Schnitt in der Mitte des Brustkorbs. MIDCAB überspringt diesen Schritt. Operiert wird durch einen 6–8 cm kleinen Zugang unter der linken Brust; das Brustbein bleibt unversehrt." },
+        { "h2": "Für wen geeignet?" },
+        { "p": "Ideal bei Eingefäß-Erkrankung der LAD. Bei Mehrgefäß-Befall kommt ein hybrider Ansatz mit Stent in Betracht." },
+        { "h2": "Erholung" },
+        { "p": "Da das Brustbein nicht durchtrennt wird, sind die Schmerzen deutlich geringer. Die meisten Patienten gehen nach 3–4 Tagen nach Hause." }
+      ]
+    },
+    "tavi-vs-savr": {
+      "title": "TAVI oder offener Aortenklappenersatz?",
+      "excerpt": "Die Wahl bei Aortenstenose — Risiko, Alter, Anatomie und Haltbarkeit.",
+      "body": [
+        { "p": "TAVI war der wichtigste Fortschritt der letzten Dekade in der Aortenklappenbehandlung." }
+      ]
+    },
+    "what-is-bentall": {
+      "title": "Bentall: Aortenwurzel als Einheit ersetzen",
+      "excerpt": "Wenn Wurzelaneurysma und schwere Klappeninsuffizienz zusammen auftreten.",
+      "body": [
+        { "p": "Bentall ersetzt Klappe, Wurzel und Aorta ascendens als eine Einheit." }
+      ]
+    },
+    "off-pump-bypass": {
+      "title": "Off-pump Bypass: Operation am schlagenden Herzen",
+      "excerpt": "Bypass ohne Herz-Lungen-Maschine — Vorteile, Grenzen und Patientenauswahl.",
+      "body": [
+        { "p": "Off-pump CABG verzichtet auf die Herz-Lungen-Maschine." }
+      ]
+    },
+    "patient-journey-de": {
+      "title": "Von München nach Antalya: Eine Patientenreise",
+      "excerpt": "Der TAVI-Weg unseres 64-jährigen Patienten — vom ersten Videocall bis zur Rückkehr.",
+      "body": [
+        { "p": "K., 64, kam aus München mit schwerer Aortenstenose." }
+      ]
+    },
+    "after-surgery-life": {
+      "title": "Leben nach der offenen Herz-OP: Die ersten 12 Wochen",
+      "excerpt": "Ein praktischer Wochenkalender — wann gehen, wann fahren, wann heben.",
+      "body": [
+        { "p": "Die Stunden im OP prägen den Rest Ihres Lebens — die ersten zwölf Wochen prägen das Ergebnis." }
+      ]
+    },
+    "aortic-dissection-101": {
+      "title": "Aortendissektion: Anatomie eines Notfalls",
+      "excerpt": "Hier zählen Minuten, nicht Stunden. Symptome, Typen und moderne Verfahren.",
+      "body": [
+        { "p": "Eine Aortendissektion beginnt mit einem Riss in der inneren Schicht der Aortenwand." }
+      ]
+    },
+    "atrial-fib-maze": {
+      "title": "MAZE: Eine chirurgische Antwort auf Vorhofflimmern",
+      "excerpt": "Wie sorgfältig gezogene Linien den Rhythmus wiederherstellen können.",
+      "body": [
+        { "p": "MAZE legt kontrollierte Leitungslinien auf das Herzgewebe." }
+      ]
+    },
+    "sutureless-valves": {
+      "title": "Nahtlose Aortenklappen: Kürzere Zeit, weniger Risiko",
+      "excerpt": "Klappen, die ohne klassische Naht halten, reduzieren OP-Zeit und Risiko.",
+      "body": [
+        { "p": "Nahtlose Klappen sind Bioprothesen, die durch radiale Kraft halten." }
+      ]
+    }
+  }
+}
