@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #faf8f4;
+  --color-bg-warm: #f3ede3;
+  --color-ink: #0f1f2e;
+  --color-ink-2: #2a3a4a;
+  --color-muted: #6b7280;
+  --color-line: rgba(15, 31, 46, 0.1);
+  --color-line-2: rgba(15, 31, 46, 0.06);
+  --color-teal: #0e5e6f;
+  --color-teal-deep: #08424e;
+  --color-coral: #d97757;
+  --color-coral-soft: #f3d9cc;
+  --color-paper: #ffffff;
+
+  --font-serif: 'Fraunces', 'Source Serif Pro', Georgia, serif;
+  --font-sans:
+    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  /* Mirror tokens as plain CSS vars so the prototype CSS keeps working. */
+  --bg: #faf8f4;
+  --bg-warm: #f3ede3;
+  --ink: #0f1f2e;
+  --ink-2: #2a3a4a;
+  --muted: #6b7280;
+  --line: rgba(15, 31, 46, 0.1);
+  --line-2: rgba(15, 31, 46, 0.06);
+  --teal: #0e5e6f;
+  --teal-deep: #08424e;
+  --coral: #d97757;
+  --coral-soft: #f3d9cc;
+  --white: #ffffff;
+  --header-h: 76px;
+  --serif: 'Fraunces', 'Source Serif Pro', Georgia, serif;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  color-scheme: light;
+}
