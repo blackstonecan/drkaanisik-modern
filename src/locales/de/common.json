@@ -1,5 +1,19 @@
 {
   "loading": "Lädt…",
+  "meta": {
+    "home": {
+      "title": "Op. Dr. Kaan Işık — Moderne Herzchirurgie, in sicheren Händen",
+      "description": "Op. Dr. Kaan Işık · In Deutschland ausgebildeter Herzchirurg · Konyaaltı, Antalya. (Portfolio-Beispiel — fiktive Person.)"
+    },
+    "blog": {
+      "title": "Blog — Op. Dr. Kaan Işık",
+      "description": "Notizen zu Herzchirurgie, Patientenwegen und Genesung."
+    },
+    "tour": {
+      "title": "Klinik-Tour — Op. Dr. Kaan Işık",
+      "description": "Interaktive Klinik-Tour — Op. Dr. Kaan Işık · Konyaaltı, Antalya."
+    }
+  },
   "nav": {
     "home": "Start",
     "services": "Leistungen",

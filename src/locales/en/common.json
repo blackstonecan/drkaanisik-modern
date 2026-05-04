@@ -1,5 +1,19 @@
 {
   "loading": "Loading…",
+  "meta": {
+    "home": {
+      "title": "Op. Dr. Kaan Işık — Modern cardiac surgery, in trusted hands",
+      "description": "Op. Dr. Kaan Işık · German-trained cardiac surgeon · Konyaaltı, Antalya. (Portfolio sample — fictional persona.)"
+    },
+    "blog": {
+      "title": "Blog — Op. Dr. Kaan Işık",
+      "description": "Notes on cardiac surgery, patient journeys and recovery."
+    },
+    "tour": {
+      "title": "Clinic Tour — Op. Dr. Kaan Işık",
+      "description": "Interactive clinic tour — Op. Dr. Kaan Işık · Konyaaltı, Antalya."
+    }
+  },
   "nav": {
     "home": "Home",
     "services": "Services",

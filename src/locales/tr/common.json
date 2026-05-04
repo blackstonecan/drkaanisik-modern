@@ -1,5 +1,19 @@
 {
   "loading": "Yükleniyor…",
+  "meta": {
+    "home": {
+      "title": "Op. Dr. Kaan Işık — Modern kalp cerrahisi, güvenli eller",
+      "description": "Op. Dr. Kaan Işık · Almanya eğitimli kardiyak cerrah · Antalya, Konyaaltı. (Portfolyo örneği — kurgusal kişi.)"
+    },
+    "blog": {
+      "title": "Blog — Op. Dr. Kaan Işık",
+      "description": "Kalp cerrahisi, hasta yolculukları ve iyileşme üzerine notlar."
+    },
+    "tour": {
+      "title": "Klinik Turu — Op. Dr. Kaan Işık",
+      "description": "İnteraktif klinik turu — Op. Dr. Kaan Işık · Antalya, Konyaaltı."
+    }
+  },
   "nav": {
     "home": "Anasayfa",
     "services": "Hizmetler",

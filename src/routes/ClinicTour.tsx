@@ -8,18 +8,25 @@ import { Rail } from '@/components/tour/Rail'
 import { TransitionVideo } from '@/components/tour/TransitionVideo'
 import { TourIcon } from '@/components/tour/TourIcon'
 import { TOUR_POINTS, type TourPoint, type TourPointSlug } from '@/data/tourPoints'
+import { useDocumentMeta } from '@/lib/hooks/useDocumentMeta'
 import { useLocaleRoute } from '@/lib/hooks/useLocaleRoute'
 
 type Transition = { from: TourPointSlug; to: TourPointSlug }
 
 export default function ClinicTour() {
   const { t } = useTranslation('tour')
+  const { t: tc } = useTranslation('common')
   const { link } = useLocaleRoute()
 
   const [currentSlug, setCurrentSlug] = useState<TourPointSlug>('entrance')
   const [visited, setVisited] = useState<Set<TourPointSlug>>(new Set(['entrance']))
   const [transition, setTransition] = useState<Transition | null>(null)
   const [infoHidden, setInfoHidden] = useState(false)
+
+  useDocumentMeta({
+    title: tc('meta.tour.title'),
+    description: tc('meta.tour.description'),
+  })
 
   const current = useMemo<TourPoint>(
     () => TOUR_POINTS.find((p) => p.slug === currentSlug)!,

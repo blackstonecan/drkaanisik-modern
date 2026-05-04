@@ -5,6 +5,7 @@ import { Icon } from '@/components/ui/Icon'
 import { BlogCard } from '@/components/blog/BlogCard'
 import { PostBody } from '@/components/blog/PostBody'
 import { BLOG_POSTS } from '@/data/blogPosts'
+import { useDocumentMeta } from '@/lib/hooks/useDocumentMeta'
 import { useLikeStorage } from '@/lib/hooks/useLikeStorage'
 import { useReadProgress } from '@/lib/hooks/useReadProgress'
 import { useLocaleRoute } from '@/lib/hooks/useLocaleRoute'
@@ -32,6 +33,11 @@ export default function BlogPost() {
   const postsContent = t('posts_content', { returnObjects: true }) as Record<string, PostContent>
   const content = post ? postsContent[post.slug] : undefined
   const cats = t('cats', { returnObjects: true }) as Record<string, string>
+
+  useDocumentMeta({
+    title: content ? `${content.title} — Op. Dr. Kaan Işık` : 'Op. Dr. Kaan Işık',
+    description: content?.excerpt,
+  })
 
   const bodyRef = useRef<HTMLDivElement>(null)
   const progress = useReadProgress(bodyRef)
