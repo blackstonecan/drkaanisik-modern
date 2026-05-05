@@ -53,11 +53,12 @@ export function Footer() {
           <span>{t('footer.bottom')}</span>
           <span>
             {t('footer.attr')} ·{' '}
-            <a href="#" onClick={(e) => e.preventDefault()}>
-              github
+            <a href="https://emrecankaratas.com" target="_blank" rel="noreferrer">
+              portfolio
             </a>
           </span>
         </div>
+        <p className="footer__disclaimer">{t('footer.disclaimer')}</p>
       </div>
     </footer>
   )

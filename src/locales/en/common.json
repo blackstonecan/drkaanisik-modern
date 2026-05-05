@@ -46,7 +46,8 @@
       "kvkk": "Data policy"
     },
     "bottom": "© 2026 Op. Dr. Kaan Işık · All rights reserved.",
-    "attr": "Frontend by Emre Can Karataş"
+    "attr": "Created by Emre Can Karataş",
+    "disclaimer": "This is a fictional portfolio site. Op. Dr. Kaan Işık is not a real doctor and nothing on this site represents a real medical practice, statistic, or identity."
   },
   "popup": {
     "eyebrow": "PORTFOLIO NOTICE",
@@ -55,7 +56,7 @@
       "This site is a frontend portfolio project by Emre Can Karataş. Op. Dr. Kaan Işık is a fictional persona; no information, statistic or identity on this site belongs to a real medical professional.",
       "Form submissions, like counts and view metrics are visual only — there is no backend."
     ],
-    "attr": "Frontend by Emre Can Karataş",
+    "attr": "Created by Emre Can Karataş",
     "btn": "I understand, continue",
     "closeLabel": "Close"
   }

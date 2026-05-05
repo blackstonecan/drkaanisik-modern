@@ -734,6 +734,15 @@ section { position: relative; }
 }
 .footer__bottom a { color: var(--ink-2); }
 .footer__bottom a:hover { color: var(--coral); }
+.footer__disclaimer {
+  margin: 16px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--muted);
+  text-align: center;
+}
 @media (max-width: 720px) { .footer__top { grid-template-columns: 1fr 1fr; gap: 32px; } }
 @media (max-width: 480px) {
   .footer__top { grid-template-columns: 1fr; gap: 28px; margin-bottom: 28px; }

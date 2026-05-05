@@ -46,7 +46,8 @@
       "kvkk": "KVKK"
     },
     "bottom": "© 2026 Op. Dr. Kaan Işık · Tüm hakları saklıdır.",
-    "attr": "Frontend by Emre Can Karataş"
+    "attr": "Emre Can Karataş tarafından yapıldı",
+    "disclaimer": "Bu kurgusal bir portfolyo sitesidir. Op. Dr. Kaan Işık gerçek bir doktor değildir; bu sitede yer alan hiçbir bilgi, istatistik veya kimlik gerçek bir tıbbi uygulamayı temsil etmez."
   },
   "popup": {
     "eyebrow": "PORTFOLYO BİLDİRİMİ",
@@ -55,7 +56,7 @@
       "Bu site, Emre Can Karataş tarafından geliştirilmiş bir frontend portfolyo projesidir. Op. Dr. Kaan Işık kurgusal bir karakterdir; bu sitede yer alan hiçbir bilgi, istatistik veya kimlik gerçek bir tıp profesyoneline ait değildir.",
       "Form gönderimi, beğeni sayıları ve görüntülenme verileri görseldir; arka uç bağlantısı yoktur."
     ],
-    "attr": "Frontend by Emre Can Karataş",
+    "attr": "Emre Can Karataş tarafından yapıldı",
     "btn": "Anladım, devam et",
     "closeLabel": "Kapat"
   }
