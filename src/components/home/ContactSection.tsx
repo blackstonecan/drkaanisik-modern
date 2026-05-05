@@ -2,14 +2,22 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/utils'
+import { useLocaleRoute } from '@/lib/hooks/useLocaleRoute'
 
 type Mode = 'phone' | 'email'
 
+const MAP_LAT = 36.8516
+const MAP_LNG = 30.6238
+
 export function ContactSection() {
   const { t } = useTranslation('contact')
+  const { locale } = useLocaleRoute()
   const [mode, setMode] = useState<Mode>('phone')
   const [sent, setSent] = useState(false)
   const [form, setForm] = useState({ name: '', phone: '', email: '', message: '' })
+
+  const mapsUrl = `https://www.google.com/maps?q=${MAP_LAT},${MAP_LNG}`
+  const mapsEmbed = `https://www.google.com/maps?q=${MAP_LAT},${MAP_LNG}&hl=${locale}&z=15&output=embed`
 
   useEffect(() => {
     if (!sent) return
@@ -72,11 +80,21 @@ export function ContactSection() {
                   {t('labels.addressLine')}
                 </div>
                 <div className="map-mini">
-                  <div className="map-mini__open">
+                  <iframe
+                    src={mapsEmbed}
+                    title={t('labels.addressLine')}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="map-mini__frame"
+                  />
+                  <a
+                    href={mapsUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="map-mini__open"
+                  >
                     <Icon name="arrow-right" size={10} stroke={2} /> &nbsp;{t('maps.open')}
-                  </div>
-                  <div className="map-mini__pin" />
-                  <div className="map-mini__label">{t('maps.label')}</div>
+                  </a>
                 </div>
               </div>
             </div>
