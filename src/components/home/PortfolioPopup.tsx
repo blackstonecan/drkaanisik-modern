@@ -67,8 +67,8 @@ export function PortfolioPopup({ open, onClose }: PortfolioPopupProps) {
         <div className="popup__footer">
           <span className="popup__attr">
             {t('popup.attr')} ·{' '}
-            <a href="#" onClick={(e) => e.preventDefault()}>
-              github
+            <a href="https://emrecankaratas.com" target="_blank" rel="noreferrer">
+              portfolio
             </a>
           </span>
           <button className="popup__btn" onClick={dismiss}>
