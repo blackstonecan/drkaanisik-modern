@@ -19,7 +19,7 @@ export type Namespace = (typeof NAMESPACES)[number]
 
 type LocaleModule = { default: ResourceKey }
 
-const localeFiles = import.meta.glob<LocaleModule>('/src/locales/(tr|en|de)/*.json')
+const localeFiles = import.meta.glob<LocaleModule>('/src/locales/{tr,en,de}/*.json')
 
 const viteGlobBackend: BackendModule = {
   type: 'backend',
