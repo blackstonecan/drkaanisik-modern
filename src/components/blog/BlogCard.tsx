@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { motion } from 'motion/react'
 import { Icon } from '@/components/ui/Icon'
 import type { BlogPost } from '@/data/blogPosts'
 import { useLocaleRoute } from '@/lib/hooks/useLocaleRoute'
@@ -23,12 +24,24 @@ export function BlogCard({ post }: BlogCardProps) {
   }
 
   return (
-    <Link to={link(`blog/${post.slug}`)} className="blog-card">
-      <div className="blog-card__image" style={style}>
-        <img src={post.cover} alt="" loading="lazy" />
-        <span className="blog-card__cat">{cats[cat]}</span>
-      </div>
-      <div className="blog-card__body">
+    <motion.div
+      layout
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -8 }}
+      transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+      whileHover={{ y: -4 }}
+    >
+      <Link to={link(`blog/${post.slug}`)} className="blog-card">
+        <motion.div
+          className="blog-card__image"
+          style={style}
+          layoutId={`post-cover-${post.slug}`}
+        >
+          <img src={post.cover} alt="" loading="lazy" />
+          <span className="blog-card__cat">{cats[cat]}</span>
+        </motion.div>
+        <div className="blog-card__body">
         <div className="blog-card__meta">
           {formatDate(post.date, i18n.language)} · {post.read} {t('minRead')}
         </div>
@@ -47,7 +60,8 @@ export function BlogCard({ post }: BlogCardProps) {
             <Icon name="arrow-right" size={12} stroke={2} />
           </span>
         </div>
-      </div>
-    </Link>
+        </div>
+      </Link>
+    </motion.div>
   )
 }

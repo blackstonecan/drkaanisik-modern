@@ -8,12 +8,10 @@ import { TrustSection } from '@/components/home/TrustSection'
 import { FAQSection } from '@/components/home/FAQSection'
 import { ContactSection } from '@/components/home/ContactSection'
 import { useDocumentMeta } from '@/lib/hooks/useDocumentMeta'
-import { useReveal } from '@/lib/hooks/useReveal'
 
 export default function Home() {
   const { t } = useTranslation('common')
   const [popupOpen, setPopupOpen] = useState(true)
-  useReveal()
   useDocumentMeta({
     title: t('meta.home.title'),
     description: t('meta.home.description'),

@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { AnimatePresence, LayoutGroup } from 'motion/react'
 import { Icon } from '@/components/ui/Icon'
+import { Reveal } from '@/components/ui/Reveal'
 import { BlogCard } from '@/components/blog/BlogCard'
 import { BLOG_POSTS, type BlogCategorySlug } from '@/data/blogPosts'
 import { useDebouncedValue } from '@/lib/hooks/useDebouncedValue'
@@ -60,7 +62,7 @@ export function BlogList() {
     <div className="blog-page">
       <section className="blog-hero">
         <div className="container">
-          <div className="blog-hero__inner">
+          <Reveal direction="up" className="blog-hero__inner">
             <div>
               <h1>
                 {title.map((s, i) =>
@@ -73,16 +75,16 @@ export function BlogList() {
               <b>{BLOG_POSTS.length}</b>
               <span>{t('countLabel')}</span>
             </div>
-          </div>
+          </Reveal>
         </div>
       </section>
 
       <section className="popular">
         <div className="container">
-          <div className="popular__head">
+          <Reveal direction="up" delay={0.05} className="popular__head">
             <span className="popular__title">{t('popular')}</span>
             <span className="popular__count">{t('popularSub')}</span>
-          </div>
+          </Reveal>
           <div className="popular__chips">
             <button
               className={cn('cat-chip', cat === 'all' && 'is-active')}
@@ -170,11 +172,15 @@ export function BlogList() {
               <p>{t('empty.body')}</p>
             </div>
           ) : (
-            <div className={cn('blog-grid', view === 'list' && 'blog-grid--list')}>
-              {filtered.map((p) => (
-                <BlogCard key={p.slug} post={p} />
-              ))}
-            </div>
+            <LayoutGroup>
+              <div className={cn('blog-grid', view === 'list' && 'blog-grid--list')}>
+                <AnimatePresence mode="popLayout">
+                  {filtered.map((p) => (
+                    <BlogCard key={p.slug} post={p} />
+                  ))}
+                </AnimatePresence>
+              </div>
+            </LayoutGroup>
           )}
         </section>
       </div>

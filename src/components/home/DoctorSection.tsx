@@ -19,14 +19,14 @@ export function DoctorSection() {
     <section className="section" id="doctor">
       <div className="container">
         <div className="doctor">
-          <div className="doctor__photo reveal">
+          <div className="doctor__photo">
             <img src="/images/home/doctor.jpg" alt="" loading="lazy" />
             <div className="doctor__badge">
               <span>{t('doctor.badgeLabel')}</span>
               <b>2018</b>
             </div>
           </div>
-          <div className="doctor__info reveal">
+          <div className="doctor__info">
             <div className="eyebrow">{t('doctor.eyebrow')}</div>
             <h2>
               {heading.map((s, i) => (i === 1 ? <em key={i}>{s}</em> : <span key={i}>{s}</span>))}

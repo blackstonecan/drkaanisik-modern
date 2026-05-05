@@ -1,8 +1,10 @@
-import { Outlet, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { ScrollToHash } from '@/components/layout/ScrollToHash'
 import { WhatsAppFloat } from '@/components/layout/WhatsAppFloat'
+import { ScrollProgress } from '@/components/ui/ScrollProgress'
+import { PageTransition } from '@/components/ui/PageTransition'
 import { useScrollPastHero } from '@/lib/hooks/useScrollPastHero'
 import { isLocale } from '@/lib/i18n'
 
@@ -26,11 +28,13 @@ export function SiteLayout() {
   // Tour → its own page chrome, no header here (the tour page renders its own).
   const solid = mode === 'page' ? true : scrolled
 
+  const isPost = mode === 'page' && location.pathname.includes('/blog/')
+
   if (mode === 'tour') {
     return (
       <>
         <ScrollToHash />
-        <Outlet />
+        <PageTransition />
       </>
     )
   }
@@ -38,8 +42,9 @@ export function SiteLayout() {
   return (
     <>
       <ScrollToHash />
+      {!isPost && <ScrollProgress />}
       <Header solid={solid} />
-      <Outlet />
+      <PageTransition />
       <Footer />
       <WhatsAppFloat />
     </>
